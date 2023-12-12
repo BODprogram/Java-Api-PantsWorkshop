@@ -1,0 +1,10 @@
+ru\sfedu\pantsworkshop\api\DataProviderTestsAbstract.class
+ru\sfedu\pantsworkshop\api\DataProviderXMLTestNegative.class
+ru\sfedu\pantsworkshop\api\DataProviderJDBCTestNegative.class
+ru\sfedu\pantsworkshop\api\DataProviderTestsAbstractNegative$StringForTests.class
+ru\sfedu\pantsworkshop\api\DataProviderJDBCTest.class
+ru\sfedu\pantsworkshop\api\DataProviderXMLTest.class
+ru\sfedu\pantsworkshop\api\DataProviderTestsAbstract$StringForTests.class
+ru\sfedu\pantsworkshop\api\DataProviderTestsAbstractNegative.class
+ru\sfedu\pantsworkshop\api\DataProviderCsvTest.class
+ru\sfedu\pantsworkshop\api\DataProviderCsvTestNegative.class

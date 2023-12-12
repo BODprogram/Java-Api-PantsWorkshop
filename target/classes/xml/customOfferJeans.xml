@@ -1,0 +1,22 @@
+<Examples>
+   <object class="ru.sfedu.pantsworkshop.beans.CustomOfferJeans">
+      <size>40</size>
+      <id>1</id>
+      <price>303</price>
+      <color>indigo</color>
+      <format>normal</format>
+      <stripe>none</stripe>
+      <Fabric>denim</Fabric>
+      <sewingTime>8</sewingTime>
+   </object>
+   <object class="ru.sfedu.pantsworkshop.beans.CustomOfferJeans">
+      <size>38</size>
+      <id>2</id>
+      <price>363</price>
+      <color>teal</color>
+      <format>normal</format>
+      <stripe>none</stripe>
+      <Fabric>jean</Fabric>
+      <sewingTime>7</sewingTime>
+   </object>
+</Examples>

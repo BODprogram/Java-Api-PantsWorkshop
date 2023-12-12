@@ -1,0 +1,14 @@
+<Examples>
+    <object class="ru.sfedu.pantsworkshop.beans.Components">
+        <id>1</id>
+        <numberOfComponents>105</numberOfComponents>
+        <сomponentName>Denim</сomponentName>
+        <price>10</price>
+    </object>
+    <object class="ru.sfedu.pantsworkshop.beans.Components">
+        <id>2</id>
+        <numberOfComponents>106</numberOfComponents>
+        <сomponentName>Denim</сomponentName>
+        <price>11</price>
+    </object>
+</Examples>

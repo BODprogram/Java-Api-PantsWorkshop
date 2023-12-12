@@ -1,0 +1,35 @@
+@startuml
+'https://plantuml.com/use-case-diagram
+
+:System: as Admin
+
+(Summarize all profit) as (Summarize_all_profit)
+(Calculate jeans cost) as (Calculate_jeans_cost)
+(Get detailed check) as (Get_detailed_check)
+(Get component price) as (Get_component_price)
+(Get profit) as (Get_profit)
+(Get component cost) as (Get_component_cost)
+(Special order) as (Special_order)
+(Get production time) as (Get_production_time)
+
+
+
+
+(Summarize_all_profit) ..> (Calculate_jeans_cost)
+(Special_order) ..> (Calculate_jeans_cost)
+(Calculate_jeans_cost) ..> (Get_component_cost)
+(Calculate_jeans_cost) ..> (Get_production_time)
+(Get_detailed_check)..> (Get_component_price)
+(Get_profit)..> (Get_component_price)
+(Get_profit)..> (Summarize_all_profit)
+(Get_profit)-- Admin
+(Calculate_jeans_cost)-- Admin
+(Summarize_all_profit)--Admin
+(Get_component_price)-- Admin
+(Get_profit)-- User
+(Calculate_jeans_cost)-- User
+(Summarize_all_profit)-- User
+(Get_component_price)-- User
+
+
+@enduml

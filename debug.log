@@ -1,0 +1,1124 @@
+03.27 02.22.07 DEBUG	ru.sfedu.pantsworkshop.TestingClient:249 - sqlrequest = SELECT* FROM customofferjeans
+03.27 02.22.36 DEBUG	ru.sfedu.pantsworkshop.TestingClient:216 - x CustomOfferJeans{color=indigo, format='normal', stripe='none', Fabric=serge, sewingTime=8, size=40, id=1, price=303}
+03.27 02.22.36 DEBUG	ru.sfedu.pantsworkshop.TestingClient:145 - sqlrequest = SELECT* FROM components
+03.27 02.22.46  INFO	ru.sfedu.pantsworkshop.TestingClient:72 - 
+03.27 02.22.47  INFO	ru.sfedu.pantsworkshop.TestingClient:72 - 
+03.27 02.22.47  INFO	ru.sfedu.pantsworkshop.TestingClient:72 - 
+03.27 02.22.47 ERROR	ru.sfedu.pantsworkshop.TestingClient:75 - org.postgresql.util.PSQLException: –û–®–ò–ë–ö–ê: –±–∞–∑–∞ –¥–∞–Ω–Ω—ã—Ö "pantsworkshoptest" —É–∂–µ —Å—É—â–µ—Å—Ç–≤—É–µ—Ç
+03.27 02.22.47 ERROR	ru.sfedu.pantsworkshop.TestingClient:75 - org.postgresql.util.PSQLException: –û–®–ò–ë–ö–ê: –æ—Ç–Ω–æ—à–µ–Ω–∏–µ "components" —É–∂–µ —Å—É—â–µ—Å—Ç–≤—É–µ—Ç
+03.27 02.22.47 ERROR	ru.sfedu.pantsworkshop.TestingClient:75 - org.postgresql.util.PSQLException: –û–®–ò–ë–ö–ê: –æ—Ç–Ω–æ—à–µ–Ω–∏–µ "commonofferjeans" —É–∂–µ —Å—É—â–µ—Å—Ç–≤—É–µ—Ç
+03.27 02.22.47 ERROR	ru.sfedu.pantsworkshop.TestingClient:75 - org.postgresql.util.PSQLException: –û–®–ò–ë–ö–ê: –æ—Ç–Ω–æ—à–µ–Ω–∏–µ "customofferjeans" —É–∂–µ —Å—É—â–µ—Å—Ç–≤—É–µ—Ç
+03.27 02.22.47  INFO	ru.sfedu.pantsworkshop.TestingClient:72 - SQL request accepted
+03.27 02.22.47  INFO	ru.sfedu.pantsworkshop.TestingClient:49 - Components{id=1, numberOfComponents=105, —ÅomponentName='denim', price=12}x
+03.27 02.22.48  INFO	ru.sfedu.pantsworkshop.TestingClient:72 - SQL request accepted
+03.27 02.22.48  INFO	ru.sfedu.pantsworkshop.TestingClient:49 - Components{id=2, numberOfComponents=106, —ÅomponentName='jean', price=11}x
+03.27 02.22.48  INFO	ru.sfedu.pantsworkshop.TestingClient:72 - SQL request accepted
+03.27 02.22.48  INFO	ru.sfedu.pantsworkshop.TestingClient:49 - Components{id=3, numberOfComponents=123, —ÅomponentName='stretch', price=37}x
+03.27 02.22.48  INFO	ru.sfedu.pantsworkshop.TestingClient:72 - SQL request accepted
+03.27 02.22.48  INFO	ru.sfedu.pantsworkshop.TestingClient:49 - Components{id=4, numberOfComponents=136, —ÅomponentName='serge', price=78}x
+03.27 02.22.48  INFO	ru.sfedu.pantsworkshop.TestingClient:72 - SQL request accepted
+03.27 02.22.48  INFO	ru.sfedu.pantsworkshop.TestingClient:49 - Components{id=5, numberOfComponents=86, —ÅomponentName='teal', price=42}x
+03.27 02.22.48  INFO	ru.sfedu.pantsworkshop.TestingClient:72 - SQL request accepted
+03.27 02.22.48  INFO	ru.sfedu.pantsworkshop.TestingClient:49 - Components{id=6, numberOfComponents=96, —ÅomponentName='indigo', price=32}x
+03.27 02.22.49  INFO	ru.sfedu.pantsworkshop.TestingClient:72 - SQL request accepted
+03.27 02.22.49  INFO	ru.sfedu.pantsworkshop.TestingClient:49 - Components{id=7, numberOfComponents=89, —ÅomponentName='blue', price=14}x
+03.27 02.22.49  INFO	ru.sfedu.pantsworkshop.TestingClient:72 - SQL request accepted
+03.27 02.22.49  INFO	ru.sfedu.pantsworkshop.TestingClient:49 - Components{id=8, numberOfComponents=79, —ÅomponentName='black', price=36}x
+03.27 02.22.49  INFO	ru.sfedu.pantsworkshop.TestingClient:72 - SQL request accepted
+03.27 02.22.49  INFO	ru.sfedu.pantsworkshop.TestingClient:53 - CustomOfferJeans{color=indigo, format='normal', stripe='none', Fabric=denim, sewingTime=8, size=40, id=1, price=303}x
+03.27 02.22.49  INFO	ru.sfedu.pantsworkshop.TestingClient:72 - SQL request accepted
+03.27 02.22.49  INFO	ru.sfedu.pantsworkshop.TestingClient:53 - CustomOfferJeans{color=teal, format='normal', stripe='none', Fabric=jean, sewingTime=7, size=38, id=2, price=363}x
+03.27 02.22.49  INFO	ru.sfedu.pantsworkshop.TestingClient:72 - SQL request accepted
+03.27 02.22.49  INFO	ru.sfedu.pantsworkshop.TestingClient:57 - CommonOfferJeans{modelName=blackCat, size=37, id=1, price=950}x
+03.27 02.22.49  INFO	ru.sfedu.pantsworkshop.TestingClient:72 - SQL request accepted
+03.27 02.22.49  INFO	ru.sfedu.pantsworkshop.TestingClient:57 - CommonOfferJeans{modelName=indigoEagle, size=33, id=2, price=900}x
+03.27 02.22.49  INFO	ru.sfedu.pantsworkshop.TestingClient:59 - Test DATABASE loaded
+03.27 02.22.50  INFO	ru.sfedu.pantsworkshop.TestingClient:72 - 
+03.27 02.22.50  INFO	ru.sfedu.pantsworkshop.TestingClient:72 - 
+03.27 02.22.50  INFO	ru.sfedu.pantsworkshop.TestingClient:72 - 
+03.27 02.22.50 ERROR	ru.sfedu.pantsworkshop.TestingClient:75 - org.postgresql.util.PSQLException: –û–®–ò–ë–ö–ê: –±–∞–∑–∞ –¥–∞–Ω–Ω—ã—Ö "pantsworkshoptest" —É–∂–µ —Å—É—â–µ—Å—Ç–≤—É–µ—Ç
+03.27 02.22.50 ERROR	ru.sfedu.pantsworkshop.TestingClient:75 - org.postgresql.util.PSQLException: –û–®–ò–ë–ö–ê: –æ—Ç–Ω–æ—à–µ–Ω–∏–µ "components" —É–∂–µ —Å—É—â–µ—Å—Ç–≤—É–µ—Ç
+03.27 02.22.50 ERROR	ru.sfedu.pantsworkshop.TestingClient:75 - org.postgresql.util.PSQLException: –û–®–ò–ë–ö–ê: –æ—Ç–Ω–æ—à–µ–Ω–∏–µ "commonofferjeans" —É–∂–µ —Å—É—â–µ—Å—Ç–≤—É–µ—Ç
+03.27 02.22.50 ERROR	ru.sfedu.pantsworkshop.TestingClient:75 - org.postgresql.util.PSQLException: –û–®–ò–ë–ö–ê: –æ—Ç–Ω–æ—à–µ–Ω–∏–µ "customofferjeans" —É–∂–µ —Å—É—â–µ—Å—Ç–≤—É–µ—Ç
+03.27 02.22.51  INFO	ru.sfedu.pantsworkshop.TestingClient:72 - SQL request accepted
+03.27 02.22.51  INFO	ru.sfedu.pantsworkshop.TestingClient:49 - Components{id=1, numberOfComponents=105, —ÅomponentName='denim', price=12}x
+03.27 02.22.51  INFO	ru.sfedu.pantsworkshop.TestingClient:72 - SQL request accepted
+03.27 02.22.51  INFO	ru.sfedu.pantsworkshop.TestingClient:49 - Components{id=2, numberOfComponents=106, —ÅomponentName='jean', price=11}x
+03.27 02.22.51  INFO	ru.sfedu.pantsworkshop.TestingClient:72 - SQL request accepted
+03.27 02.22.51  INFO	ru.sfedu.pantsworkshop.TestingClient:49 - Components{id=3, numberOfComponents=123, —ÅomponentName='stretch', price=37}x
+03.27 02.22.51  INFO	ru.sfedu.pantsworkshop.TestingClient:72 - SQL request accepted
+03.27 02.22.51  INFO	ru.sfedu.pantsworkshop.TestingClient:49 - Components{id=4, numberOfComponents=136, —ÅomponentName='serge', price=78}x
+03.27 02.22.51  INFO	ru.sfedu.pantsworkshop.TestingClient:72 - SQL request accepted
+03.27 02.22.51  INFO	ru.sfedu.pantsworkshop.TestingClient:49 - Components{id=5, numberOfComponents=86, —ÅomponentName='teal', price=42}x
+03.27 02.22.52  INFO	ru.sfedu.pantsworkshop.TestingClient:72 - SQL request accepted
+03.27 02.22.52  INFO	ru.sfedu.pantsworkshop.TestingClient:49 - Components{id=6, numberOfComponents=96, —ÅomponentName='indigo', price=32}x
+03.27 02.22.52  INFO	ru.sfedu.pantsworkshop.TestingClient:72 - SQL request accepted
+03.27 02.22.52  INFO	ru.sfedu.pantsworkshop.TestingClient:49 - Components{id=7, numberOfComponents=89, —ÅomponentName='blue', price=14}x
+03.27 02.22.52  INFO	ru.sfedu.pantsworkshop.TestingClient:72 - SQL request accepted
+03.27 02.22.52  INFO	ru.sfedu.pantsworkshop.TestingClient:49 - Components{id=8, numberOfComponents=79, —ÅomponentName='black', price=36}x
+03.27 02.22.52  INFO	ru.sfedu.pantsworkshop.TestingClient:72 - SQL request accepted
+03.27 02.22.52  INFO	ru.sfedu.pantsworkshop.TestingClient:53 - CustomOfferJeans{color=indigo, format='normal', stripe='none', Fabric=denim, sewingTime=8, size=40, id=1, price=303}x
+03.27 02.22.52  INFO	ru.sfedu.pantsworkshop.TestingClient:72 - SQL request accepted
+03.27 02.22.52  INFO	ru.sfedu.pantsworkshop.TestingClient:53 - CustomOfferJeans{color=teal, format='normal', stripe='none', Fabric=jean, sewingTime=7, size=38, id=2, price=363}x
+03.27 02.22.52  INFO	ru.sfedu.pantsworkshop.TestingClient:72 - SQL request accepted
+03.27 02.22.52  INFO	ru.sfedu.pantsworkshop.TestingClient:57 - CommonOfferJeans{modelName=blackCat, size=37, id=1, price=950}x
+03.27 02.22.53  INFO	ru.sfedu.pantsworkshop.TestingClient:72 - SQL request accepted
+03.27 02.22.53  INFO	ru.sfedu.pantsworkshop.TestingClient:57 - CommonOfferJeans{modelName=indigoEagle, size=33, id=2, price=900}x
+03.27 02.22.53  INFO	ru.sfedu.pantsworkshop.TestingClient:59 - Test DATABASE loaded
+03.27 02.22.53 DEBUG	ru.sfedu.pantsworkshop.TestingClient:249 - sqlrequest = SELECT* FROM customofferjeans
+03.27 02.22.53 DEBUG	ru.sfedu.pantsworkshop.TestingClient:216 - x CustomOfferJeans{color=indigo, format='normal', stripe='none', Fabric=denim, sewingTime=8, size=40, id=1, price=303}
+03.27 02.22.53 DEBUG	ru.sfedu.pantsworkshop.TestingClient:145 - sqlrequest = SELECT* FROM components
+03.27 02.22.53 DEBUG	ru.sfedu.pantsworkshop.TestingClient:145 - sqlrequest = SELECT* FROM components
+03.27 02.22.53 DEBUG	ru.sfedu.pantsworkshop.TestingClient:216 - x CustomOfferJeans{color=teal, format='normal', stripe='none', Fabric=jean, sewingTime=7, size=38, id=2, price=363}
+03.27 02.22.53 DEBUG	ru.sfedu.pantsworkshop.TestingClient:145 - sqlrequest = SELECT* FROM components
+03.27 02.22.53 DEBUG	ru.sfedu.pantsworkshop.TestingClient:145 - sqlrequest = SELECT* FROM components
+03.27 02.22.54 DEBUG	ru.sfedu.pantsworkshop.TestingClient:249 - sqlrequest = SELECT* FROM commonofferjeans
+03.27 02.22.54 DEBUG	ru.sfedu.pantsworkshop.TestingClient:222 - x CommonOfferJeans{modelName=blackCat, size=37, id=1, price=950}
+03.27 02.22.54 DEBUG	ru.sfedu.pantsworkshop.TestingClient:222 - x CommonOfferJeans{modelName=indigoEagle, size=33, id=2, price=900}
+03.27 02.22.54  INFO	ru.sfedu.pantsworkshop.TestingClient:227 -  price 9194 work 17 cost 307
+03.27 02.22.54  INFO	ru.sfedu.pantsworkshop.TestingClient:72 - 
+03.27 02.22.54  INFO	ru.sfedu.pantsworkshop.TestingClient:72 - 
+03.27 02.22.54  INFO	ru.sfedu.pantsworkshop.TestingClient:72 - 
+03.27 02.22.54 ERROR	ru.sfedu.pantsworkshop.TestingClient:75 - org.postgresql.util.PSQLException: –û–®–ò–ë–ö–ê: –±–∞–∑–∞ –¥–∞–Ω–Ω—ã—Ö "pantsworkshoptest" —É–∂–µ —Å—É—â–µ—Å—Ç–≤—É–µ—Ç
+03.27 02.22.55 ERROR	ru.sfedu.pantsworkshop.TestingClient:75 - org.postgresql.util.PSQLException: –û–®–ò–ë–ö–ê: –æ—Ç–Ω–æ—à–µ–Ω–∏–µ "components" —É–∂–µ —Å—É—â–µ—Å—Ç–≤—É–µ—Ç
+03.27 02.22.55 ERROR	ru.sfedu.pantsworkshop.TestingClient:75 - org.postgresql.util.PSQLException: –û–®–ò–ë–ö–ê: –æ—Ç–Ω–æ—à–µ–Ω–∏–µ "commonofferjeans" —É–∂–µ —Å—É—â–µ—Å—Ç–≤—É–µ—Ç
+03.27 02.22.55 ERROR	ru.sfedu.pantsworkshop.TestingClient:75 - org.postgresql.util.PSQLException: –û–®–ò–ë–ö–ê: –æ—Ç–Ω–æ—à–µ–Ω–∏–µ "customofferjeans" —É–∂–µ —Å—É—â–µ—Å—Ç–≤—É–µ—Ç
+03.27 02.22.55  INFO	ru.sfedu.pantsworkshop.TestingClient:72 - SQL request accepted
+03.27 02.22.55  INFO	ru.sfedu.pantsworkshop.TestingClient:49 - Components{id=1, numberOfComponents=105, —ÅomponentName='denim', price=12}x
+03.27 02.22.55  INFO	ru.sfedu.pantsworkshop.TestingClient:72 - SQL request accepted
+03.27 02.22.55  INFO	ru.sfedu.pantsworkshop.TestingClient:49 - Components{id=2, numberOfComponents=106, —ÅomponentName='jean', price=11}x
+03.27 02.22.55  INFO	ru.sfedu.pantsworkshop.TestingClient:72 - SQL request accepted
+03.27 02.22.55  INFO	ru.sfedu.pantsworkshop.TestingClient:49 - Components{id=3, numberOfComponents=123, —ÅomponentName='stretch', price=37}x
+03.27 02.22.55  INFO	ru.sfedu.pantsworkshop.TestingClient:72 - SQL request accepted
+03.27 02.22.55  INFO	ru.sfedu.pantsworkshop.TestingClient:49 - Components{id=4, numberOfComponents=136, —ÅomponentName='serge', price=78}x
+03.27 02.22.56  INFO	ru.sfedu.pantsworkshop.TestingClient:72 - SQL request accepted
+03.27 02.22.56  INFO	ru.sfedu.pantsworkshop.TestingClient:49 - Components{id=5, numberOfComponents=86, —ÅomponentName='teal', price=42}x
+03.27 02.22.56  INFO	ru.sfedu.pantsworkshop.TestingClient:72 - SQL request accepted
+03.27 02.22.56  INFO	ru.sfedu.pantsworkshop.TestingClient:49 - Components{id=6, numberOfComponents=96, —ÅomponentName='indigo', price=32}x
+03.27 02.22.56  INFO	ru.sfedu.pantsworkshop.TestingClient:72 - SQL request accepted
+03.27 02.22.56  INFO	ru.sfedu.pantsworkshop.TestingClient:49 - Components{id=7, numberOfComponents=89, —ÅomponentName='blue', price=14}x
+03.27 02.22.56  INFO	ru.sfedu.pantsworkshop.TestingClient:72 - SQL request accepted
+03.27 02.22.56  INFO	ru.sfedu.pantsworkshop.TestingClient:49 - Components{id=8, numberOfComponents=79, —ÅomponentName='black', price=36}x
+03.27 02.22.56  INFO	ru.sfedu.pantsworkshop.TestingClient:72 - SQL request accepted
+03.27 02.22.56  INFO	ru.sfedu.pantsworkshop.TestingClient:53 - CustomOfferJeans{color=indigo, format='normal', stripe='none', Fabric=denim, sewingTime=8, size=40, id=1, price=303}x
+03.27 02.22.57  INFO	ru.sfedu.pantsworkshop.TestingClient:72 - SQL request accepted
+03.27 02.22.57  INFO	ru.sfedu.pantsworkshop.TestingClient:53 - CustomOfferJeans{color=teal, format='normal', stripe='none', Fabric=jean, sewingTime=7, size=38, id=2, price=363}x
+03.27 02.22.57  INFO	ru.sfedu.pantsworkshop.TestingClient:72 - SQL request accepted
+03.27 02.22.57  INFO	ru.sfedu.pantsworkshop.TestingClient:57 - CommonOfferJeans{modelName=blackCat, size=37, id=1, price=950}x
+03.27 02.22.57  INFO	ru.sfedu.pantsworkshop.TestingClient:72 - SQL request accepted
+03.27 02.22.57  INFO	ru.sfedu.pantsworkshop.TestingClient:57 - CommonOfferJeans{modelName=indigoEagle, size=33, id=2, price=900}x
+03.27 02.22.57  INFO	ru.sfedu.pantsworkshop.TestingClient:59 - Test DATABASE loaded
+03.27 02.22.57  INFO	ru.sfedu.pantsworkshop.TestingClient:72 - 
+03.27 02.22.57  INFO	ru.sfedu.pantsworkshop.TestingClient:72 - 
+03.27 02.22.58  INFO	ru.sfedu.pantsworkshop.TestingClient:72 - 
+03.27 02.22.58 ERROR	ru.sfedu.pantsworkshop.TestingClient:75 - org.postgresql.util.PSQLException: –û–®–ò–ë–ö–ê: –±–∞–∑–∞ –¥–∞–Ω–Ω—ã—Ö "pantsworkshoptest" —É–∂–µ —Å—É—â–µ—Å—Ç–≤—É–µ—Ç
+03.27 02.22.58 ERROR	ru.sfedu.pantsworkshop.TestingClient:75 - org.postgresql.util.PSQLException: –û–®–ò–ë–ö–ê: –æ—Ç–Ω–æ—à–µ–Ω–∏–µ "components" —É–∂–µ —Å—É—â–µ—Å—Ç–≤—É–µ—Ç
+03.27 02.22.58 ERROR	ru.sfedu.pantsworkshop.TestingClient:75 - org.postgresql.util.PSQLException: –û–®–ò–ë–ö–ê: –æ—Ç–Ω–æ—à–µ–Ω–∏–µ "commonofferjeans" —É–∂–µ —Å—É—â–µ—Å—Ç–≤—É–µ—Ç
+03.27 02.22.58 ERROR	ru.sfedu.pantsworkshop.TestingClient:75 - org.postgresql.util.PSQLException: –û–®–ò–ë–ö–ê: –æ—Ç–Ω–æ—à–µ–Ω–∏–µ "customofferjeans" —É–∂–µ —Å—É—â–µ—Å—Ç–≤—É–µ—Ç
+03.27 02.22.58  INFO	ru.sfedu.pantsworkshop.TestingClient:72 - SQL request accepted
+03.27 02.22.58  INFO	ru.sfedu.pantsworkshop.TestingClient:49 - Components{id=1, numberOfComponents=105, —ÅomponentName='denim', price=12}x
+03.27 02.22.58  INFO	ru.sfedu.pantsworkshop.TestingClient:72 - SQL request accepted
+03.27 02.22.58  INFO	ru.sfedu.pantsworkshop.TestingClient:49 - Components{id=2, numberOfComponents=106, —ÅomponentName='jean', price=11}x
+03.27 02.22.59  INFO	ru.sfedu.pantsworkshop.TestingClient:72 - SQL request accepted
+03.27 02.22.59  INFO	ru.sfedu.pantsworkshop.TestingClient:49 - Components{id=3, numberOfComponents=123, —ÅomponentName='stretch', price=37}x
+03.27 02.22.59  INFO	ru.sfedu.pantsworkshop.TestingClient:72 - SQL request accepted
+03.27 02.22.59  INFO	ru.sfedu.pantsworkshop.TestingClient:49 - Components{id=4, numberOfComponents=136, —ÅomponentName='serge', price=78}x
+03.27 02.22.59  INFO	ru.sfedu.pantsworkshop.TestingClient:72 - SQL request accepted
+03.27 02.22.59  INFO	ru.sfedu.pantsworkshop.TestingClient:49 - Components{id=5, numberOfComponents=86, —ÅomponentName='teal', price=42}x
+03.27 02.22.59  INFO	ru.sfedu.pantsworkshop.TestingClient:72 - SQL request accepted
+03.27 02.22.59  INFO	ru.sfedu.pantsworkshop.TestingClient:49 - Components{id=6, numberOfComponents=96, —ÅomponentName='indigo', price=32}x
+03.27 02.22.59  INFO	ru.sfedu.pantsworkshop.TestingClient:72 - SQL request accepted
+03.27 02.22.59  INFO	ru.sfedu.pantsworkshop.TestingClient:49 - Components{id=7, numberOfComponents=89, —ÅomponentName='blue', price=14}x
+03.27 02.23.00  INFO	ru.sfedu.pantsworkshop.TestingClient:72 - SQL request accepted
+03.27 02.23.00  INFO	ru.sfedu.pantsworkshop.TestingClient:49 - Components{id=8, numberOfComponents=79, —ÅomponentName='black', price=36}x
+03.27 02.23.00  INFO	ru.sfedu.pantsworkshop.TestingClient:72 - SQL request accepted
+03.27 02.23.00  INFO	ru.sfedu.pantsworkshop.TestingClient:53 - CustomOfferJeans{color=indigo, format='normal', stripe='none', Fabric=denim, sewingTime=8, size=40, id=1, price=303}x
+03.27 02.23.00  INFO	ru.sfedu.pantsworkshop.TestingClient:72 - SQL request accepted
+03.27 02.23.00  INFO	ru.sfedu.pantsworkshop.TestingClient:53 - CustomOfferJeans{color=teal, format='normal', stripe='none', Fabric=jean, sewingTime=7, size=38, id=2, price=363}x
+03.27 02.23.00  INFO	ru.sfedu.pantsworkshop.TestingClient:72 - SQL request accepted
+03.27 02.23.00  INFO	ru.sfedu.pantsworkshop.TestingClient:57 - CommonOfferJeans{modelName=blackCat, size=37, id=1, price=950}x
+03.27 02.23.01  INFO	ru.sfedu.pantsworkshop.TestingClient:72 - SQL request accepted
+03.27 02.23.01  INFO	ru.sfedu.pantsworkshop.TestingClient:57 - CommonOfferJeans{modelName=indigoEagle, size=33, id=2, price=900}x
+03.27 02.23.01  INFO	ru.sfedu.pantsworkshop.TestingClient:59 - Test DATABASE loaded
+03.27 02.23.01 DEBUG	ru.sfedu.pantsworkshop.TestingClient:249 - sqlrequest = SELECT* FROM customofferjeans
+03.27 02.23.01 DEBUG	ru.sfedu.pantsworkshop.TestingClient:216 - x CustomOfferJeans{color=indigo, format='normal', stripe='none', Fabric=denim, sewingTime=8, size=40, id=1, price=303}
+03.27 02.23.01 DEBUG	ru.sfedu.pantsworkshop.TestingClient:145 - sqlrequest = SELECT* FROM components
+03.27 02.23.01 DEBUG	ru.sfedu.pantsworkshop.TestingClient:145 - sqlrequest = SELECT* FROM components
+03.27 02.23.01 DEBUG	ru.sfedu.pantsworkshop.TestingClient:216 - x CustomOfferJeans{color=teal, format='normal', stripe='none', Fabric=jean, sewingTime=7, size=38, id=2, price=363}
+03.27 02.23.01 DEBUG	ru.sfedu.pantsworkshop.TestingClient:145 - sqlrequest = SELECT* FROM components
+03.27 02.23.02 DEBUG	ru.sfedu.pantsworkshop.TestingClient:145 - sqlrequest = SELECT* FROM components
+03.27 02.23.02 DEBUG	ru.sfedu.pantsworkshop.TestingClient:249 - sqlrequest = SELECT* FROM commonofferjeans
+03.27 02.23.02 DEBUG	ru.sfedu.pantsworkshop.TestingClient:222 - x CommonOfferJeans{modelName=blackCat, size=37, id=1, price=950}
+03.27 02.23.02 DEBUG	ru.sfedu.pantsworkshop.TestingClient:222 - x CommonOfferJeans{modelName=indigoEagle, size=33, id=2, price=900}
+03.27 02.23.02  INFO	ru.sfedu.pantsworkshop.TestingClient:227 -  price 9194 work 17 cost 307
+03.27 02.23.02 DEBUG	ru.sfedu.pantsworkshop.TestingClient:145 - sqlrequest = SELECT* FROM components
+03.27 02.23.03  INFO	ru.sfedu.pantsworkshop.TestingClient:72 - 
+03.27 02.23.03  INFO	ru.sfedu.pantsworkshop.TestingClient:72 - 
+03.27 02.23.05  INFO	ru.sfedu.pantsworkshop.TestingClient:72 - 
+03.27 02.23.05 ERROR	ru.sfedu.pantsworkshop.TestingClient:75 - org.postgresql.util.PSQLException: –û–®–ò–ë–ö–ê: –±–∞–∑–∞ –¥–∞–Ω–Ω—ã—Ö "pantsworkshoptest" —É–∂–µ —Å—É—â–µ—Å—Ç–≤—É–µ—Ç
+03.27 02.23.05 ERROR	ru.sfedu.pantsworkshop.TestingClient:75 - org.postgresql.util.PSQLException: –û–®–ò–ë–ö–ê: –æ—Ç–Ω–æ—à–µ–Ω–∏–µ "components" —É–∂–µ —Å—É—â–µ—Å—Ç–≤—É–µ—Ç
+03.27 02.23.06 ERROR	ru.sfedu.pantsworkshop.TestingClient:75 - org.postgresql.util.PSQLException: –û–®–ò–ë–ö–ê: –æ—Ç–Ω–æ—à–µ–Ω–∏–µ "commonofferjeans" —É–∂–µ —Å—É—â–µ—Å—Ç–≤—É–µ—Ç
+03.27 02.23.06 ERROR	ru.sfedu.pantsworkshop.TestingClient:75 - org.postgresql.util.PSQLException: –û–®–ò–ë–ö–ê: –æ—Ç–Ω–æ—à–µ–Ω–∏–µ "customofferjeans" —É–∂–µ —Å—É—â–µ—Å—Ç–≤—É–µ—Ç
+03.27 02.23.06  INFO	ru.sfedu.pantsworkshop.TestingClient:72 - SQL request accepted
+03.27 02.23.06  INFO	ru.sfedu.pantsworkshop.TestingClient:49 - Components{id=1, numberOfComponents=105, —ÅomponentName='denim', price=12}x
+03.27 02.23.06  INFO	ru.sfedu.pantsworkshop.TestingClient:72 - SQL request accepted
+03.27 02.23.06  INFO	ru.sfedu.pantsworkshop.TestingClient:49 - Components{id=2, numberOfComponents=106, —ÅomponentName='jean', price=11}x
+03.27 02.23.06  INFO	ru.sfedu.pantsworkshop.TestingClient:72 - SQL request accepted
+03.27 02.23.06  INFO	ru.sfedu.pantsworkshop.TestingClient:49 - Components{id=3, numberOfComponents=123, —ÅomponentName='stretch', price=37}x
+03.27 02.23.06  INFO	ru.sfedu.pantsworkshop.TestingClient:72 - SQL request accepted
+03.27 02.23.06  INFO	ru.sfedu.pantsworkshop.TestingClient:49 - Components{id=4, numberOfComponents=136, —ÅomponentName='serge', price=78}x
+03.27 02.23.07  INFO	ru.sfedu.pantsworkshop.TestingClient:72 - SQL request accepted
+03.27 02.23.07  INFO	ru.sfedu.pantsworkshop.TestingClient:49 - Components{id=5, numberOfComponents=86, —ÅomponentName='teal', price=42}x
+03.27 02.23.07  INFO	ru.sfedu.pantsworkshop.TestingClient:72 - SQL request accepted
+03.27 02.23.07  INFO	ru.sfedu.pantsworkshop.TestingClient:49 - Components{id=6, numberOfComponents=96, —ÅomponentName='indigo', price=32}x
+03.27 02.23.07  INFO	ru.sfedu.pantsworkshop.TestingClient:72 - SQL request accepted
+03.27 02.23.07  INFO	ru.sfedu.pantsworkshop.TestingClient:49 - Components{id=7, numberOfComponents=89, —ÅomponentName='blue', price=14}x
+03.27 02.23.07  INFO	ru.sfedu.pantsworkshop.TestingClient:72 - SQL request accepted
+03.27 02.23.07  INFO	ru.sfedu.pantsworkshop.TestingClient:49 - Components{id=8, numberOfComponents=79, —ÅomponentName='black', price=36}x
+03.27 02.23.07  INFO	ru.sfedu.pantsworkshop.TestingClient:72 - SQL request accepted
+03.27 02.23.07  INFO	ru.sfedu.pantsworkshop.TestingClient:53 - CustomOfferJeans{color=indigo, format='normal', stripe='none', Fabric=denim, sewingTime=8, size=40, id=1, price=303}x
+03.27 02.23.08  INFO	ru.sfedu.pantsworkshop.TestingClient:72 - SQL request accepted
+03.27 02.23.08  INFO	ru.sfedu.pantsworkshop.TestingClient:53 - CustomOfferJeans{color=teal, format='normal', stripe='none', Fabric=jean, sewingTime=7, size=38, id=2, price=363}x
+03.27 02.23.08  INFO	ru.sfedu.pantsworkshop.TestingClient:72 - SQL request accepted
+03.27 02.23.08  INFO	ru.sfedu.pantsworkshop.TestingClient:57 - CommonOfferJeans{modelName=blackCat, size=37, id=1, price=950}x
+03.27 02.23.08  INFO	ru.sfedu.pantsworkshop.TestingClient:72 - SQL request accepted
+03.27 02.23.08  INFO	ru.sfedu.pantsworkshop.TestingClient:57 - CommonOfferJeans{modelName=indigoEagle, size=33, id=2, price=900}x
+03.27 02.23.08  INFO	ru.sfedu.pantsworkshop.TestingClient:59 - Test DATABASE loaded
+03.27 02.23.08 DEBUG	ru.sfedu.pantsworkshop.TestingClient:145 - sqlrequest = SELECT* FROM components
+03.27 02.23.09  INFO	ru.sfedu.pantsworkshop.TestingClient:72 - 
+03.27 02.23.09  INFO	ru.sfedu.pantsworkshop.TestingClient:72 - 
+03.27 02.23.09  INFO	ru.sfedu.pantsworkshop.TestingClient:72 - 
+03.27 02.23.09 ERROR	ru.sfedu.pantsworkshop.TestingClient:75 - org.postgresql.util.PSQLException: –û–®–ò–ë–ö–ê: –±–∞–∑–∞ –¥–∞–Ω–Ω—ã—Ö "pantsworkshoptest" —É–∂–µ —Å—É—â–µ—Å—Ç–≤—É–µ—Ç
+03.27 02.23.09 ERROR	ru.sfedu.pantsworkshop.TestingClient:75 - org.postgresql.util.PSQLException: –û–®–ò–ë–ö–ê: –æ—Ç–Ω–æ—à–µ–Ω–∏–µ "components" —É–∂–µ —Å—É—â–µ—Å—Ç–≤—É–µ—Ç
+03.27 02.23.09 ERROR	ru.sfedu.pantsworkshop.TestingClient:75 - org.postgresql.util.PSQLException: –û–®–ò–ë–ö–ê: –æ—Ç–Ω–æ—à–µ–Ω–∏–µ "commonofferjeans" —É–∂–µ —Å—É—â–µ—Å—Ç–≤—É–µ—Ç
+03.27 02.23.10 ERROR	ru.sfedu.pantsworkshop.TestingClient:75 - org.postgresql.util.PSQLException: –û–®–ò–ë–ö–ê: –æ—Ç–Ω–æ—à–µ–Ω–∏–µ "customofferjeans" —É–∂–µ —Å—É—â–µ—Å—Ç–≤—É–µ—Ç
+03.27 02.23.10  INFO	ru.sfedu.pantsworkshop.TestingClient:72 - SQL request accepted
+03.27 02.23.10  INFO	ru.sfedu.pantsworkshop.TestingClient:49 - Components{id=1, numberOfComponents=105, —ÅomponentName='denim', price=12}x
+03.27 02.23.10  INFO	ru.sfedu.pantsworkshop.TestingClient:72 - SQL request accepted
+03.27 02.23.10  INFO	ru.sfedu.pantsworkshop.TestingClient:49 - Components{id=2, numberOfComponents=106, —ÅomponentName='jean', price=11}x
+03.27 02.23.11  INFO	ru.sfedu.pantsworkshop.TestingClient:72 - SQL request accepted
+03.27 02.23.11  INFO	ru.sfedu.pantsworkshop.TestingClient:49 - Components{id=3, numberOfComponents=123, —ÅomponentName='stretch', price=37}x
+03.27 02.23.11  INFO	ru.sfedu.pantsworkshop.TestingClient:72 - SQL request accepted
+03.27 02.23.11  INFO	ru.sfedu.pantsworkshop.TestingClient:49 - Components{id=4, numberOfComponents=136, —ÅomponentName='serge', price=78}x
+03.27 02.23.11  INFO	ru.sfedu.pantsworkshop.TestingClient:72 - SQL request accepted
+03.27 02.23.11  INFO	ru.sfedu.pantsworkshop.TestingClient:49 - Components{id=5, numberOfComponents=86, —ÅomponentName='teal', price=42}x
+03.27 02.23.11  INFO	ru.sfedu.pantsworkshop.TestingClient:72 - SQL request accepted
+03.27 02.23.11  INFO	ru.sfedu.pantsworkshop.TestingClient:49 - Components{id=6, numberOfComponents=96, —ÅomponentName='indigo', price=32}x
+03.27 02.23.11  INFO	ru.sfedu.pantsworkshop.TestingClient:72 - SQL request accepted
+03.27 02.23.11  INFO	ru.sfedu.pantsworkshop.TestingClient:49 - Components{id=7, numberOfComponents=89, —ÅomponentName='blue', price=14}x
+03.27 02.23.12  INFO	ru.sfedu.pantsworkshop.TestingClient:72 - SQL request accepted
+03.27 02.23.12  INFO	ru.sfedu.pantsworkshop.TestingClient:49 - Components{id=8, numberOfComponents=79, —ÅomponentName='black', price=36}x
+03.27 02.23.12  INFO	ru.sfedu.pantsworkshop.TestingClient:72 - SQL request accepted
+03.27 02.23.12  INFO	ru.sfedu.pantsworkshop.TestingClient:53 - CustomOfferJeans{color=indigo, format='normal', stripe='none', Fabric=denim, sewingTime=8, size=40, id=1, price=303}x
+03.27 02.23.12  INFO	ru.sfedu.pantsworkshop.TestingClient:72 - SQL request accepted
+03.27 02.23.12  INFO	ru.sfedu.pantsworkshop.TestingClient:53 - CustomOfferJeans{color=teal, format='normal', stripe='none', Fabric=jean, sewingTime=7, size=38, id=2, price=363}x
+03.27 02.23.12  INFO	ru.sfedu.pantsworkshop.TestingClient:72 - SQL request accepted
+03.27 02.23.12  INFO	ru.sfedu.pantsworkshop.TestingClient:57 - CommonOfferJeans{modelName=blackCat, size=37, id=1, price=950}x
+03.27 02.23.13  INFO	ru.sfedu.pantsworkshop.TestingClient:72 - SQL request accepted
+03.27 02.23.13  INFO	ru.sfedu.pantsworkshop.TestingClient:57 - CommonOfferJeans{modelName=indigoEagle, size=33, id=2, price=900}x
+03.27 02.23.13  INFO	ru.sfedu.pantsworkshop.TestingClient:59 - Test DATABASE loaded
+03.27 02.23.13 DEBUG	ru.sfedu.pantsworkshop.TestingClient:145 - sqlrequest = SELECT* FROM components
+03.27 02.23.13  INFO	ru.sfedu.pantsworkshop.TestingClient:72 - 
+03.27 02.23.13  INFO	ru.sfedu.pantsworkshop.TestingClient:72 - 
+03.27 02.23.13  INFO	ru.sfedu.pantsworkshop.TestingClient:72 - 
+03.27 02.23.13 ERROR	ru.sfedu.pantsworkshop.TestingClient:75 - org.postgresql.util.PSQLException: –û–®–ò–ë–ö–ê: –±–∞–∑–∞ –¥–∞–Ω–Ω—ã—Ö "pantsworkshoptest" —É–∂–µ —Å—É—â–µ—Å—Ç–≤—É–µ—Ç
+03.27 02.23.14 ERROR	ru.sfedu.pantsworkshop.TestingClient:75 - org.postgresql.util.PSQLException: –û–®–ò–ë–ö–ê: –æ—Ç–Ω–æ—à–µ–Ω–∏–µ "components" —É–∂–µ —Å—É—â–µ—Å—Ç–≤—É–µ—Ç
+03.27 02.23.14 ERROR	ru.sfedu.pantsworkshop.TestingClient:75 - org.postgresql.util.PSQLException: –û–®–ò–ë–ö–ê: –æ—Ç–Ω–æ—à–µ–Ω–∏–µ "commonofferjeans" —É–∂–µ —Å—É—â–µ—Å—Ç–≤—É–µ—Ç
+03.27 02.23.14 ERROR	ru.sfedu.pantsworkshop.TestingClient:75 - org.postgresql.util.PSQLException: –û–®–ò–ë–ö–ê: –æ—Ç–Ω–æ—à–µ–Ω–∏–µ "customofferjeans" —É–∂–µ —Å—É—â–µ—Å—Ç–≤—É–µ—Ç
+03.27 02.23.14  INFO	ru.sfedu.pantsworkshop.TestingClient:72 - SQL request accepted
+03.27 02.23.14  INFO	ru.sfedu.pantsworkshop.TestingClient:49 - Components{id=1, numberOfComponents=105, —ÅomponentName='denim', price=12}x
+03.27 02.23.14  INFO	ru.sfedu.pantsworkshop.TestingClient:72 - SQL request accepted
+03.27 02.23.14  INFO	ru.sfedu.pantsworkshop.TestingClient:49 - Components{id=2, numberOfComponents=106, —ÅomponentName='jean', price=11}x
+03.27 02.23.14  INFO	ru.sfedu.pantsworkshop.TestingClient:72 - SQL request accepted
+03.27 02.23.14  INFO	ru.sfedu.pantsworkshop.TestingClient:49 - Components{id=3, numberOfComponents=123, —ÅomponentName='stretch', price=37}x
+03.27 02.23.15  INFO	ru.sfedu.pantsworkshop.TestingClient:72 - SQL request accepted
+03.27 02.23.15  INFO	ru.sfedu.pantsworkshop.TestingClient:49 - Components{id=4, numberOfComponents=136, —ÅomponentName='serge', price=78}x
+03.27 02.23.15  INFO	ru.sfedu.pantsworkshop.TestingClient:72 - SQL request accepted
+03.27 02.23.15  INFO	ru.sfedu.pantsworkshop.TestingClient:49 - Components{id=5, numberOfComponents=86, —ÅomponentName='teal', price=42}x
+03.27 02.23.15  INFO	ru.sfedu.pantsworkshop.TestingClient:72 - SQL request accepted
+03.27 02.23.15  INFO	ru.sfedu.pantsworkshop.TestingClient:49 - Components{id=6, numberOfComponents=96, —ÅomponentName='indigo', price=32}x
+03.27 02.23.15  INFO	ru.sfedu.pantsworkshop.TestingClient:72 - SQL request accepted
+03.27 02.23.15  INFO	ru.sfedu.pantsworkshop.TestingClient:49 - Components{id=7, numberOfComponents=89, —ÅomponentName='blue', price=14}x
+03.27 02.23.15  INFO	ru.sfedu.pantsworkshop.TestingClient:72 - SQL request accepted
+03.27 02.23.15  INFO	ru.sfedu.pantsworkshop.TestingClient:49 - Components{id=8, numberOfComponents=79, —ÅomponentName='black', price=36}x
+03.27 02.23.16  INFO	ru.sfedu.pantsworkshop.TestingClient:72 - SQL request accepted
+03.27 02.23.16  INFO	ru.sfedu.pantsworkshop.TestingClient:53 - CustomOfferJeans{color=indigo, format='normal', stripe='none', Fabric=denim, sewingTime=8, size=40, id=1, price=303}x
+03.27 02.23.16  INFO	ru.sfedu.pantsworkshop.TestingClient:72 - SQL request accepted
+03.27 02.23.16  INFO	ru.sfedu.pantsworkshop.TestingClient:53 - CustomOfferJeans{color=teal, format='normal', stripe='none', Fabric=jean, sewingTime=7, size=38, id=2, price=363}x
+03.27 02.23.16  INFO	ru.sfedu.pantsworkshop.TestingClient:72 - SQL request accepted
+03.27 02.23.16  INFO	ru.sfedu.pantsworkshop.TestingClient:57 - CommonOfferJeans{modelName=blackCat, size=37, id=1, price=950}x
+03.27 02.23.16  INFO	ru.sfedu.pantsworkshop.TestingClient:72 - SQL request accepted
+03.27 02.23.16  INFO	ru.sfedu.pantsworkshop.TestingClient:57 - CommonOfferJeans{modelName=indigoEagle, size=33, id=2, price=900}x
+03.27 02.23.16  INFO	ru.sfedu.pantsworkshop.TestingClient:59 - Test DATABASE loaded
+03.27 02.23.16 DEBUG	ru.sfedu.pantsworkshop.TestingClient:145 - sqlrequest = SELECT* FROM components
+03.27 02.23.17  INFO	ru.sfedu.pantsworkshop.TestingClient:72 - 
+03.27 02.23.17  INFO	ru.sfedu.pantsworkshop.TestingClient:72 - 
+03.27 02.23.17  INFO	ru.sfedu.pantsworkshop.TestingClient:72 - 
+03.27 02.23.17 ERROR	ru.sfedu.pantsworkshop.TestingClient:75 - org.postgresql.util.PSQLException: –û–®–ò–ë–ö–ê: –±–∞–∑–∞ –¥–∞–Ω–Ω—ã—Ö "pantsworkshoptest" —É–∂–µ —Å—É—â–µ—Å—Ç–≤—É–µ—Ç
+03.27 02.23.17 ERROR	ru.sfedu.pantsworkshop.TestingClient:75 - org.postgresql.util.PSQLException: –û–®–ò–ë–ö–ê: –æ—Ç–Ω–æ—à–µ–Ω–∏–µ "components" —É–∂–µ —Å—É—â–µ—Å—Ç–≤—É–µ—Ç
+03.27 02.23.17 ERROR	ru.sfedu.pantsworkshop.TestingClient:75 - org.postgresql.util.PSQLException: –û–®–ò–ë–ö–ê: –æ—Ç–Ω–æ—à–µ–Ω–∏–µ "commonofferjeans" —É–∂–µ —Å—É—â–µ—Å—Ç–≤—É–µ—Ç
+03.27 02.23.17 ERROR	ru.sfedu.pantsworkshop.TestingClient:75 - org.postgresql.util.PSQLException: –û–®–ò–ë–ö–ê: –æ—Ç–Ω–æ—à–µ–Ω–∏–µ "customofferjeans" —É–∂–µ —Å—É—â–µ—Å—Ç–≤—É–µ—Ç
+03.27 02.23.18  INFO	ru.sfedu.pantsworkshop.TestingClient:72 - SQL request accepted
+03.27 02.23.18  INFO	ru.sfedu.pantsworkshop.TestingClient:49 - Components{id=1, numberOfComponents=105, —ÅomponentName='denim', price=12}x
+03.27 02.23.18  INFO	ru.sfedu.pantsworkshop.TestingClient:72 - SQL request accepted
+03.27 02.23.18  INFO	ru.sfedu.pantsworkshop.TestingClient:49 - Components{id=2, numberOfComponents=106, —ÅomponentName='jean', price=11}x
+03.27 02.23.18  INFO	ru.sfedu.pantsworkshop.TestingClient:72 - SQL request accepted
+03.27 02.23.18  INFO	ru.sfedu.pantsworkshop.TestingClient:49 - Components{id=3, numberOfComponents=123, —ÅomponentName='stretch', price=37}x
+03.27 02.23.18  INFO	ru.sfedu.pantsworkshop.TestingClient:72 - SQL request accepted
+03.27 02.23.18  INFO	ru.sfedu.pantsworkshop.TestingClient:49 - Components{id=4, numberOfComponents=136, —ÅomponentName='serge', price=78}x
+03.27 02.23.19  INFO	ru.sfedu.pantsworkshop.TestingClient:72 - SQL request accepted
+03.27 02.23.19  INFO	ru.sfedu.pantsworkshop.TestingClient:49 - Components{id=5, numberOfComponents=86, —ÅomponentName='teal', price=42}x
+03.27 02.23.19  INFO	ru.sfedu.pantsworkshop.TestingClient:72 - SQL request accepted
+03.27 02.23.19  INFO	ru.sfedu.pantsworkshop.TestingClient:49 - Components{id=6, numberOfComponents=96, —ÅomponentName='indigo', price=32}x
+03.27 02.23.19  INFO	ru.sfedu.pantsworkshop.TestingClient:72 - SQL request accepted
+03.27 02.23.19  INFO	ru.sfedu.pantsworkshop.TestingClient:49 - Components{id=7, numberOfComponents=89, —ÅomponentName='blue', price=14}x
+03.27 02.23.19  INFO	ru.sfedu.pantsworkshop.TestingClient:72 - SQL request accepted
+03.27 02.23.19  INFO	ru.sfedu.pantsworkshop.TestingClient:49 - Components{id=8, numberOfComponents=79, —ÅomponentName='black', price=36}x
+03.27 02.23.19  INFO	ru.sfedu.pantsworkshop.TestingClient:72 - SQL request accepted
+03.27 02.23.19  INFO	ru.sfedu.pantsworkshop.TestingClient:53 - CustomOfferJeans{color=indigo, format='normal', stripe='none', Fabric=denim, sewingTime=8, size=40, id=1, price=303}x
+03.27 02.23.20  INFO	ru.sfedu.pantsworkshop.TestingClient:72 - SQL request accepted
+03.27 02.23.20  INFO	ru.sfedu.pantsworkshop.TestingClient:53 - CustomOfferJeans{color=teal, format='normal', stripe='none', Fabric=jean, sewingTime=7, size=38, id=2, price=363}x
+03.27 02.23.20  INFO	ru.sfedu.pantsworkshop.TestingClient:72 - SQL request accepted
+03.27 02.23.20  INFO	ru.sfedu.pantsworkshop.TestingClient:57 - CommonOfferJeans{modelName=blackCat, size=37, id=1, price=950}x
+03.27 02.23.20  INFO	ru.sfedu.pantsworkshop.TestingClient:72 - SQL request accepted
+03.27 02.23.20  INFO	ru.sfedu.pantsworkshop.TestingClient:57 - CommonOfferJeans{modelName=indigoEagle, size=33, id=2, price=900}x
+03.27 02.23.20  INFO	ru.sfedu.pantsworkshop.TestingClient:59 - Test DATABASE loaded
+03.27 02.23.20 DEBUG	ru.sfedu.pantsworkshop.TestingClient:145 - sqlrequest = SELECT* FROM components
+03.27 02.26.51  INFO	ru.sfedu.pantsworkshop.TestingClient:72 - 
+03.27 02.26.51  INFO	ru.sfedu.pantsworkshop.TestingClient:72 - 
+03.27 02.26.51  INFO	ru.sfedu.pantsworkshop.TestingClient:72 - 
+03.27 02.26.52 ERROR	ru.sfedu.pantsworkshop.TestingClient:75 - org.postgresql.util.PSQLException: –û–®–ò–ë–ö–ê: –±–∞–∑–∞ –¥–∞–Ω–Ω—ã—Ö "pantsworkshoptest" —É–∂–µ —Å—É—â–µ—Å—Ç–≤—É–µ—Ç
+03.27 02.26.52 ERROR	ru.sfedu.pantsworkshop.TestingClient:75 - org.postgresql.util.PSQLException: –û–®–ò–ë–ö–ê: –æ—Ç–Ω–æ—à–µ–Ω–∏–µ "components" —É–∂–µ —Å—É—â–µ—Å—Ç–≤—É–µ—Ç
+03.27 02.26.52 ERROR	ru.sfedu.pantsworkshop.TestingClient:75 - org.postgresql.util.PSQLException: –û–®–ò–ë–ö–ê: –æ—Ç–Ω–æ—à–µ–Ω–∏–µ "commonofferjeans" —É–∂–µ —Å—É—â–µ—Å—Ç–≤—É–µ—Ç
+03.27 02.26.52 ERROR	ru.sfedu.pantsworkshop.TestingClient:75 - org.postgresql.util.PSQLException: –û–®–ò–ë–ö–ê: –æ—Ç–Ω–æ—à–µ–Ω–∏–µ "customofferjeans" —É–∂–µ —Å—É—â–µ—Å—Ç–≤—É–µ—Ç
+03.27 02.26.52  INFO	ru.sfedu.pantsworkshop.TestingClient:72 - SQL request accepted
+03.27 02.26.52  INFO	ru.sfedu.pantsworkshop.TestingClient:50 - Components{id=1, numberOfComponents=105, —ÅomponentName='denim', price=12}x
+03.27 02.26.52  INFO	ru.sfedu.pantsworkshop.TestingClient:72 - SQL request accepted
+03.27 02.26.52  INFO	ru.sfedu.pantsworkshop.TestingClient:50 - Components{id=2, numberOfComponents=106, —ÅomponentName='jean', price=11}x
+03.27 02.26.52  INFO	ru.sfedu.pantsworkshop.TestingClient:72 - SQL request accepted
+03.27 02.26.52  INFO	ru.sfedu.pantsworkshop.TestingClient:50 - Components{id=3, numberOfComponents=123, —ÅomponentName='stretch', price=37}x
+03.27 02.26.53  INFO	ru.sfedu.pantsworkshop.TestingClient:72 - SQL request accepted
+03.27 02.26.53  INFO	ru.sfedu.pantsworkshop.TestingClient:50 - Components{id=4, numberOfComponents=136, —ÅomponentName='serge', price=78}x
+03.27 02.26.53  INFO	ru.sfedu.pantsworkshop.TestingClient:72 - SQL request accepted
+03.27 02.26.53  INFO	ru.sfedu.pantsworkshop.TestingClient:50 - Components{id=5, numberOfComponents=86, —ÅomponentName='teal', price=42}x
+03.27 02.26.53  INFO	ru.sfedu.pantsworkshop.TestingClient:72 - SQL request accepted
+03.27 02.26.53  INFO	ru.sfedu.pantsworkshop.TestingClient:50 - Components{id=6, numberOfComponents=96, —ÅomponentName='indigo', price=32}x
+03.27 02.26.53  INFO	ru.sfedu.pantsworkshop.TestingClient:72 - SQL request accepted
+03.27 02.26.53  INFO	ru.sfedu.pantsworkshop.TestingClient:50 - Components{id=7, numberOfComponents=89, —ÅomponentName='blue', price=14}x
+03.27 02.26.53  INFO	ru.sfedu.pantsworkshop.TestingClient:72 - SQL request accepted
+03.27 02.26.53  INFO	ru.sfedu.pantsworkshop.TestingClient:50 - Components{id=8, numberOfComponents=79, —ÅomponentName='black', price=36}x
+03.27 02.26.53  INFO	ru.sfedu.pantsworkshop.TestingClient:72 - SQL request accepted
+03.27 02.26.53  INFO	ru.sfedu.pantsworkshop.TestingClient:54 - CustomOfferJeans{color=indigo, format='normal', stripe='none', Fabric=denim, sewingTime=8, size=40, id=1, price=303}x
+03.27 02.26.54  INFO	ru.sfedu.pantsworkshop.TestingClient:72 - SQL request accepted
+03.27 02.26.54  INFO	ru.sfedu.pantsworkshop.TestingClient:54 - CustomOfferJeans{color=teal, format='normal', stripe='none', Fabric=jean, sewingTime=7, size=38, id=2, price=363}x
+03.27 02.26.54  INFO	ru.sfedu.pantsworkshop.TestingClient:72 - SQL request accepted
+03.27 02.26.54  INFO	ru.sfedu.pantsworkshop.TestingClient:58 - CommonOfferJeans{modelName=blackCat, size=37, id=1, price=950}x
+03.27 02.26.54  INFO	ru.sfedu.pantsworkshop.TestingClient:72 - SQL request accepted
+03.27 02.26.54  INFO	ru.sfedu.pantsworkshop.TestingClient:58 - CommonOfferJeans{modelName=indigoEagle, size=33, id=2, price=900}x
+03.27 02.26.54  INFO	ru.sfedu.pantsworkshop.TestingClient:60 - Test DATABASE loaded
+03.27 02.26.54 DEBUG	ru.sfedu.pantsworkshop.TestingClient:145 - sqlrequest = SELECT* FROM components
+03.27 02.26.54  INFO	ru.sfedu.pantsworkshop.TestingClient:72 - 
+03.27 02.26.55  INFO	ru.sfedu.pantsworkshop.TestingClient:72 - 
+03.27 02.26.55  INFO	ru.sfedu.pantsworkshop.TestingClient:72 - 
+03.27 02.26.55 DEBUG	ru.sfedu.pantsworkshop.TestingClient:145 - sqlrequest = SELECT* FROM components
+03.27 02.26.55  INFO	ru.sfedu.pantsworkshop.TestingClient:169 - select empty Error
+03.27 02.26.55  INFO	ru.sfedu.pantsworkshop.TestingClient:72 - SQL request not accepted
+03.27 02.26.55  INFO	ru.sfedu.pantsworkshop.TestingClient:72 - SQL request not accepted
+03.27 02.26.56  INFO	ru.sfedu.pantsworkshop.TestingClient:72 - SQL request not accepted
+03.27 02.26.56 ERROR	ru.sfedu.pantsworkshop.TestingClient:75 - org.postgresql.util.PSQLException: –û–®–ò–ë–ö–ê: –±–∞–∑–∞ –¥–∞–Ω–Ω—ã—Ö "pantsworkshoptest" —É–∂–µ —Å—É—â–µ—Å—Ç–≤—É–µ—Ç
+03.27 02.26.56 ERROR	ru.sfedu.pantsworkshop.TestingClient:75 - org.postgresql.util.PSQLException: –û–®–ò–ë–ö–ê: –æ—Ç–Ω–æ—à–µ–Ω–∏–µ "components" —É–∂–µ —Å—É—â–µ—Å—Ç–≤—É–µ—Ç
+03.27 02.26.56 ERROR	ru.sfedu.pantsworkshop.TestingClient:75 - org.postgresql.util.PSQLException: –û–®–ò–ë–ö–ê: –æ—Ç–Ω–æ—à–µ–Ω–∏–µ "commonofferjeans" —É–∂–µ —Å—É—â–µ—Å—Ç–≤—É–µ—Ç
+03.27 02.26.56 ERROR	ru.sfedu.pantsworkshop.TestingClient:75 - org.postgresql.util.PSQLException: –û–®–ò–ë–ö–ê: –æ—Ç–Ω–æ—à–µ–Ω–∏–µ "customofferjeans" —É–∂–µ —Å—É—â–µ—Å—Ç–≤—É–µ—Ç
+03.27 02.26.56  INFO	ru.sfedu.pantsworkshop.TestingClient:72 - SQL request accepted
+03.27 02.26.56  INFO	ru.sfedu.pantsworkshop.TestingClient:50 - Components{id=1, numberOfComponents=105, —ÅomponentName='denim', price=12}x
+03.27 02.26.56  INFO	ru.sfedu.pantsworkshop.TestingClient:72 - SQL request accepted
+03.27 02.26.56  INFO	ru.sfedu.pantsworkshop.TestingClient:50 - Components{id=2, numberOfComponents=106, —ÅomponentName='jean', price=11}x
+03.27 02.26.56  INFO	ru.sfedu.pantsworkshop.TestingClient:72 - SQL request accepted
+03.27 02.26.56  INFO	ru.sfedu.pantsworkshop.TestingClient:50 - Components{id=3, numberOfComponents=123, —ÅomponentName='stretch', price=37}x
+03.27 02.26.57  INFO	ru.sfedu.pantsworkshop.TestingClient:72 - SQL request accepted
+03.27 02.26.57  INFO	ru.sfedu.pantsworkshop.TestingClient:50 - Components{id=4, numberOfComponents=136, —ÅomponentName='serge', price=78}x
+03.27 02.26.57  INFO	ru.sfedu.pantsworkshop.TestingClient:72 - SQL request accepted
+03.27 02.26.57  INFO	ru.sfedu.pantsworkshop.TestingClient:50 - Components{id=5, numberOfComponents=86, —ÅomponentName='teal', price=42}x
+03.27 02.26.57  INFO	ru.sfedu.pantsworkshop.TestingClient:72 - SQL request accepted
+03.27 02.26.57  INFO	ru.sfedu.pantsworkshop.TestingClient:50 - Components{id=6, numberOfComponents=96, —ÅomponentName='indigo', price=32}x
+03.27 02.26.57  INFO	ru.sfedu.pantsworkshop.TestingClient:72 - SQL request accepted
+03.27 02.26.57  INFO	ru.sfedu.pantsworkshop.TestingClient:50 - Components{id=7, numberOfComponents=89, —ÅomponentName='blue', price=14}x
+03.27 02.26.57  INFO	ru.sfedu.pantsworkshop.TestingClient:72 - SQL request accepted
+03.27 02.26.57  INFO	ru.sfedu.pantsworkshop.TestingClient:50 - Components{id=8, numberOfComponents=79, —ÅomponentName='black', price=36}x
+03.27 02.26.57  INFO	ru.sfedu.pantsworkshop.TestingClient:72 - SQL request accepted
+03.27 02.26.57  INFO	ru.sfedu.pantsworkshop.TestingClient:54 - CustomOfferJeans{color=indigo, format='normal', stripe='none', Fabric=denim, sewingTime=8, size=40, id=1, price=303}x
+03.27 02.26.58  INFO	ru.sfedu.pantsworkshop.TestingClient:72 - SQL request accepted
+03.27 02.26.58  INFO	ru.sfedu.pantsworkshop.TestingClient:54 - CustomOfferJeans{color=teal, format='normal', stripe='none', Fabric=jean, sewingTime=7, size=38, id=2, price=363}x
+03.27 02.26.58  INFO	ru.sfedu.pantsworkshop.TestingClient:72 - SQL request accepted
+03.27 02.26.58  INFO	ru.sfedu.pantsworkshop.TestingClient:58 - CommonOfferJeans{modelName=blackCat, size=37, id=1, price=950}x
+03.27 02.26.58  INFO	ru.sfedu.pantsworkshop.TestingClient:72 - SQL request accepted
+03.27 02.26.58  INFO	ru.sfedu.pantsworkshop.TestingClient:58 - CommonOfferJeans{modelName=indigoEagle, size=33, id=2, price=900}x
+03.27 02.26.58  INFO	ru.sfedu.pantsworkshop.TestingClient:60 - Test DATABASE loaded
+03.27 02.26.58  INFO	ru.sfedu.pantsworkshop.TestingClient:72 - 
+03.27 02.26.59  INFO	ru.sfedu.pantsworkshop.TestingClient:72 - 
+03.27 02.26.59  INFO	ru.sfedu.pantsworkshop.TestingClient:72 - 
+03.27 02.26.59 ERROR	ru.sfedu.pantsworkshop.TestingClient:75 - org.postgresql.util.PSQLException: –û–®–ò–ë–ö–ê: –±–∞–∑–∞ –¥–∞–Ω–Ω—ã—Ö "pantsworkshoptest" —É–∂–µ —Å—É—â–µ—Å—Ç–≤—É–µ—Ç
+03.27 02.26.59 ERROR	ru.sfedu.pantsworkshop.TestingClient:75 - org.postgresql.util.PSQLException: –û–®–ò–ë–ö–ê: –æ—Ç–Ω–æ—à–µ–Ω–∏–µ "components" —É–∂–µ —Å—É—â–µ—Å—Ç–≤—É–µ—Ç
+03.27 02.26.59 ERROR	ru.sfedu.pantsworkshop.TestingClient:75 - org.postgresql.util.PSQLException: –û–®–ò–ë–ö–ê: –æ—Ç–Ω–æ—à–µ–Ω–∏–µ "commonofferjeans" —É–∂–µ —Å—É—â–µ—Å—Ç–≤—É–µ—Ç
+03.27 02.26.59 ERROR	ru.sfedu.pantsworkshop.TestingClient:75 - org.postgresql.util.PSQLException: –û–®–ò–ë–ö–ê: –æ—Ç–Ω–æ—à–µ–Ω–∏–µ "customofferjeans" —É–∂–µ —Å—É—â–µ—Å—Ç–≤—É–µ—Ç
+03.27 02.26.59  INFO	ru.sfedu.pantsworkshop.TestingClient:72 - SQL request accepted
+03.27 02.26.59  INFO	ru.sfedu.pantsworkshop.TestingClient:50 - Components{id=1, numberOfComponents=105, —ÅomponentName='denim', price=12}x
+03.27 02.26.59  INFO	ru.sfedu.pantsworkshop.TestingClient:72 - SQL request accepted
+03.27 02.26.59  INFO	ru.sfedu.pantsworkshop.TestingClient:50 - Components{id=2, numberOfComponents=106, —ÅomponentName='jean', price=11}x
+03.27 02.27.00  INFO	ru.sfedu.pantsworkshop.TestingClient:72 - SQL request accepted
+03.27 02.27.00  INFO	ru.sfedu.pantsworkshop.TestingClient:50 - Components{id=3, numberOfComponents=123, —ÅomponentName='stretch', price=37}x
+03.27 02.27.00  INFO	ru.sfedu.pantsworkshop.TestingClient:72 - SQL request accepted
+03.27 02.27.00  INFO	ru.sfedu.pantsworkshop.TestingClient:50 - Components{id=4, numberOfComponents=136, —ÅomponentName='serge', price=78}x
+03.27 02.27.00  INFO	ru.sfedu.pantsworkshop.TestingClient:72 - SQL request accepted
+03.27 02.27.00  INFO	ru.sfedu.pantsworkshop.TestingClient:50 - Components{id=5, numberOfComponents=86, —ÅomponentName='teal', price=42}x
+03.27 02.27.00  INFO	ru.sfedu.pantsworkshop.TestingClient:72 - SQL request accepted
+03.27 02.27.00  INFO	ru.sfedu.pantsworkshop.TestingClient:50 - Components{id=6, numberOfComponents=96, —ÅomponentName='indigo', price=32}x
+03.27 02.27.01  INFO	ru.sfedu.pantsworkshop.TestingClient:72 - SQL request accepted
+03.27 02.27.01  INFO	ru.sfedu.pantsworkshop.TestingClient:50 - Components{id=7, numberOfComponents=89, —ÅomponentName='blue', price=14}x
+03.27 02.27.01  INFO	ru.sfedu.pantsworkshop.TestingClient:72 - SQL request accepted
+03.27 02.27.01  INFO	ru.sfedu.pantsworkshop.TestingClient:50 - Components{id=8, numberOfComponents=79, —ÅomponentName='black', price=36}x
+03.27 02.27.01  INFO	ru.sfedu.pantsworkshop.TestingClient:72 - SQL request accepted
+03.27 02.27.01  INFO	ru.sfedu.pantsworkshop.TestingClient:54 - CustomOfferJeans{color=indigo, format='normal', stripe='none', Fabric=denim, sewingTime=8, size=40, id=1, price=303}x
+03.27 02.27.01  INFO	ru.sfedu.pantsworkshop.TestingClient:72 - SQL request accepted
+03.27 02.27.01  INFO	ru.sfedu.pantsworkshop.TestingClient:54 - CustomOfferJeans{color=teal, format='normal', stripe='none', Fabric=jean, sewingTime=7, size=38, id=2, price=363}x
+03.27 02.27.01  INFO	ru.sfedu.pantsworkshop.TestingClient:72 - SQL request accepted
+03.27 02.27.01  INFO	ru.sfedu.pantsworkshop.TestingClient:58 - CommonOfferJeans{modelName=blackCat, size=37, id=1, price=950}x
+03.27 02.27.02  INFO	ru.sfedu.pantsworkshop.TestingClient:72 - SQL request accepted
+03.27 02.27.02  INFO	ru.sfedu.pantsworkshop.TestingClient:58 - CommonOfferJeans{modelName=indigoEagle, size=33, id=2, price=900}x
+03.27 02.27.02  INFO	ru.sfedu.pantsworkshop.TestingClient:60 - Test DATABASE loaded
+03.27 02.27.02  INFO	ru.sfedu.pantsworkshop.TestingClient:72 - 
+03.27 02.27.02  INFO	ru.sfedu.pantsworkshop.TestingClient:72 - 
+03.27 02.27.02  INFO	ru.sfedu.pantsworkshop.TestingClient:72 - 
+03.27 02.27.03 ERROR	ru.sfedu.pantsworkshop.TestingClient:75 - org.postgresql.util.PSQLException: –û–®–ò–ë–ö–ê: –±–∞–∑–∞ –¥–∞–Ω–Ω—ã—Ö "pantsworkshoptest" —É–∂–µ —Å—É—â–µ—Å—Ç–≤—É–µ—Ç
+03.27 02.27.03 ERROR	ru.sfedu.pantsworkshop.TestingClient:75 - org.postgresql.util.PSQLException: –û–®–ò–ë–ö–ê: –æ—Ç–Ω–æ—à–µ–Ω–∏–µ "components" —É–∂–µ —Å—É—â–µ—Å—Ç–≤—É–µ—Ç
+03.27 02.27.03 ERROR	ru.sfedu.pantsworkshop.TestingClient:75 - org.postgresql.util.PSQLException: –û–®–ò–ë–ö–ê: –æ—Ç–Ω–æ—à–µ–Ω–∏–µ "commonofferjeans" —É–∂–µ —Å—É—â–µ—Å—Ç–≤—É–µ—Ç
+03.27 02.27.03 ERROR	ru.sfedu.pantsworkshop.TestingClient:75 - org.postgresql.util.PSQLException: –û–®–ò–ë–ö–ê: –æ—Ç–Ω–æ—à–µ–Ω–∏–µ "customofferjeans" —É–∂–µ —Å—É—â–µ—Å—Ç–≤—É–µ—Ç
+03.27 02.27.03  INFO	ru.sfedu.pantsworkshop.TestingClient:72 - SQL request accepted
+03.27 02.27.03  INFO	ru.sfedu.pantsworkshop.TestingClient:50 - Components{id=1, numberOfComponents=105, —ÅomponentName='denim', price=12}x
+03.27 02.27.03  INFO	ru.sfedu.pantsworkshop.TestingClient:72 - SQL request accepted
+03.27 02.27.03  INFO	ru.sfedu.pantsworkshop.TestingClient:50 - Components{id=2, numberOfComponents=106, —ÅomponentName='jean', price=11}x
+03.27 02.27.03  INFO	ru.sfedu.pantsworkshop.TestingClient:72 - SQL request accepted
+03.27 02.27.03  INFO	ru.sfedu.pantsworkshop.TestingClient:50 - Components{id=3, numberOfComponents=123, —ÅomponentName='stretch', price=37}x
+03.27 02.27.04  INFO	ru.sfedu.pantsworkshop.TestingClient:72 - SQL request accepted
+03.27 02.27.04  INFO	ru.sfedu.pantsworkshop.TestingClient:50 - Components{id=4, numberOfComponents=136, —ÅomponentName='serge', price=78}x
+03.27 02.27.04  INFO	ru.sfedu.pantsworkshop.TestingClient:72 - SQL request accepted
+03.27 02.27.04  INFO	ru.sfedu.pantsworkshop.TestingClient:50 - Components{id=5, numberOfComponents=86, —ÅomponentName='teal', price=42}x
+03.27 02.27.04  INFO	ru.sfedu.pantsworkshop.TestingClient:72 - SQL request accepted
+03.27 02.27.04  INFO	ru.sfedu.pantsworkshop.TestingClient:50 - Components{id=6, numberOfComponents=96, —ÅomponentName='indigo', price=32}x
+03.27 02.27.04  INFO	ru.sfedu.pantsworkshop.TestingClient:72 - SQL request accepted
+03.27 02.27.04  INFO	ru.sfedu.pantsworkshop.TestingClient:50 - Components{id=7, numberOfComponents=89, —ÅomponentName='blue', price=14}x
+03.27 02.27.05  INFO	ru.sfedu.pantsworkshop.TestingClient:72 - SQL request accepted
+03.27 02.27.05  INFO	ru.sfedu.pantsworkshop.TestingClient:50 - Components{id=8, numberOfComponents=79, —ÅomponentName='black', price=36}x
+03.27 02.27.05  INFO	ru.sfedu.pantsworkshop.TestingClient:72 - SQL request accepted
+03.27 02.27.05  INFO	ru.sfedu.pantsworkshop.TestingClient:54 - CustomOfferJeans{color=indigo, format='normal', stripe='none', Fabric=denim, sewingTime=8, size=40, id=1, price=303}x
+03.27 02.27.05  INFO	ru.sfedu.pantsworkshop.TestingClient:72 - SQL request accepted
+03.27 02.27.05  INFO	ru.sfedu.pantsworkshop.TestingClient:54 - CustomOfferJeans{color=teal, format='normal', stripe='none', Fabric=jean, sewingTime=7, size=38, id=2, price=363}x
+03.27 02.27.05  INFO	ru.sfedu.pantsworkshop.TestingClient:72 - SQL request accepted
+03.27 02.27.05  INFO	ru.sfedu.pantsworkshop.TestingClient:58 - CommonOfferJeans{modelName=blackCat, size=37, id=1, price=950}x
+03.27 02.27.05  INFO	ru.sfedu.pantsworkshop.TestingClient:72 - SQL request accepted
+03.27 02.27.05  INFO	ru.sfedu.pantsworkshop.TestingClient:58 - CommonOfferJeans{modelName=indigoEagle, size=33, id=2, price=900}x
+03.27 02.27.05  INFO	ru.sfedu.pantsworkshop.TestingClient:60 - Test DATABASE loaded
+03.27 02.27.06  INFO	ru.sfedu.pantsworkshop.TestingClient:72 - 
+03.27 02.27.06  INFO	ru.sfedu.pantsworkshop.TestingClient:72 - 
+03.27 02.27.06  INFO	ru.sfedu.pantsworkshop.TestingClient:72 - 
+03.27 02.27.06 ERROR	ru.sfedu.pantsworkshop.TestingClient:75 - org.postgresql.util.PSQLException: –û–®–ò–ë–ö–ê: –±–∞–∑–∞ –¥–∞–Ω–Ω—ã—Ö "pantsworkshoptest" —É–∂–µ —Å—É—â–µ—Å—Ç–≤—É–µ—Ç
+03.27 02.27.07 ERROR	ru.sfedu.pantsworkshop.TestingClient:75 - org.postgresql.util.PSQLException: –û–®–ò–ë–ö–ê: –æ—Ç–Ω–æ—à–µ–Ω–∏–µ "components" —É–∂–µ —Å—É—â–µ—Å—Ç–≤—É–µ—Ç
+03.27 02.27.07 ERROR	ru.sfedu.pantsworkshop.TestingClient:75 - org.postgresql.util.PSQLException: –û–®–ò–ë–ö–ê: –æ—Ç–Ω–æ—à–µ–Ω–∏–µ "commonofferjeans" —É–∂–µ —Å—É—â–µ—Å—Ç–≤—É–µ—Ç
+03.27 02.27.07 ERROR	ru.sfedu.pantsworkshop.TestingClient:75 - org.postgresql.util.PSQLException: –û–®–ò–ë–ö–ê: –æ—Ç–Ω–æ—à–µ–Ω–∏–µ "customofferjeans" —É–∂–µ —Å—É—â–µ—Å—Ç–≤—É–µ—Ç
+03.27 02.27.07  INFO	ru.sfedu.pantsworkshop.TestingClient:72 - SQL request accepted
+03.27 02.27.07  INFO	ru.sfedu.pantsworkshop.TestingClient:50 - Components{id=1, numberOfComponents=105, —ÅomponentName='denim', price=12}x
+03.27 02.27.07  INFO	ru.sfedu.pantsworkshop.TestingClient:72 - SQL request accepted
+03.27 02.27.07  INFO	ru.sfedu.pantsworkshop.TestingClient:50 - Components{id=2, numberOfComponents=106, —ÅomponentName='jean', price=11}x
+03.27 02.27.07  INFO	ru.sfedu.pantsworkshop.TestingClient:72 - SQL request accepted
+03.27 02.27.07  INFO	ru.sfedu.pantsworkshop.TestingClient:50 - Components{id=3, numberOfComponents=123, —ÅomponentName='stretch', price=37}x
+03.27 02.27.07  INFO	ru.sfedu.pantsworkshop.TestingClient:72 - SQL request accepted
+03.27 02.27.07  INFO	ru.sfedu.pantsworkshop.TestingClient:50 - Components{id=4, numberOfComponents=136, —ÅomponentName='serge', price=78}x
+03.27 02.27.08  INFO	ru.sfedu.pantsworkshop.TestingClient:72 - SQL request accepted
+03.27 02.27.08  INFO	ru.sfedu.pantsworkshop.TestingClient:50 - Components{id=5, numberOfComponents=86, —ÅomponentName='teal', price=42}x
+03.27 02.27.08  INFO	ru.sfedu.pantsworkshop.TestingClient:72 - SQL request accepted
+03.27 02.27.08  INFO	ru.sfedu.pantsworkshop.TestingClient:50 - Components{id=6, numberOfComponents=96, —ÅomponentName='indigo', price=32}x
+03.27 02.27.10  INFO	ru.sfedu.pantsworkshop.TestingClient:72 - SQL request accepted
+03.27 02.27.10  INFO	ru.sfedu.pantsworkshop.TestingClient:50 - Components{id=7, numberOfComponents=89, —ÅomponentName='blue', price=14}x
+03.27 02.27.11  INFO	ru.sfedu.pantsworkshop.TestingClient:72 - SQL request accepted
+03.27 02.27.11  INFO	ru.sfedu.pantsworkshop.TestingClient:50 - Components{id=8, numberOfComponents=79, —ÅomponentName='black', price=36}x
+03.27 02.27.11  INFO	ru.sfedu.pantsworkshop.TestingClient:72 - SQL request accepted
+03.27 02.27.11  INFO	ru.sfedu.pantsworkshop.TestingClient:54 - CustomOfferJeans{color=indigo, format='normal', stripe='none', Fabric=denim, sewingTime=8, size=40, id=1, price=303}x
+03.27 02.27.11  INFO	ru.sfedu.pantsworkshop.TestingClient:72 - SQL request accepted
+03.27 02.27.11  INFO	ru.sfedu.pantsworkshop.TestingClient:54 - CustomOfferJeans{color=teal, format='normal', stripe='none', Fabric=jean, sewingTime=7, size=38, id=2, price=363}x
+03.27 02.27.11  INFO	ru.sfedu.pantsworkshop.TestingClient:72 - SQL request accepted
+03.27 02.27.11  INFO	ru.sfedu.pantsworkshop.TestingClient:58 - CommonOfferJeans{modelName=blackCat, size=37, id=1, price=950}x
+03.27 02.27.11  INFO	ru.sfedu.pantsworkshop.TestingClient:72 - SQL request accepted
+03.27 02.27.11  INFO	ru.sfedu.pantsworkshop.TestingClient:58 - CommonOfferJeans{modelName=indigoEagle, size=33, id=2, price=900}x
+03.27 02.27.11  INFO	ru.sfedu.pantsworkshop.TestingClient:60 - Test DATABASE loaded
+03.27 02.27.12  INFO	ru.sfedu.pantsworkshop.TestingClient:72 - 
+03.27 02.27.12  INFO	ru.sfedu.pantsworkshop.TestingClient:72 - 
+03.27 02.27.12  INFO	ru.sfedu.pantsworkshop.TestingClient:72 - 
+03.27 02.27.12 ERROR	ru.sfedu.pantsworkshop.TestingClient:75 - org.postgresql.util.PSQLException: –û–®–ò–ë–ö–ê: –±–∞–∑–∞ –¥–∞–Ω–Ω—ã—Ö "pantsworkshoptest" —É–∂–µ —Å—É—â–µ—Å—Ç–≤—É–µ—Ç
+03.27 02.27.12 ERROR	ru.sfedu.pantsworkshop.TestingClient:75 - org.postgresql.util.PSQLException: –û–®–ò–ë–ö–ê: –æ—Ç–Ω–æ—à–µ–Ω–∏–µ "components" —É–∂–µ —Å—É—â–µ—Å—Ç–≤—É–µ—Ç
+03.27 02.27.12 ERROR	ru.sfedu.pantsworkshop.TestingClient:75 - org.postgresql.util.PSQLException: –û–®–ò–ë–ö–ê: –æ—Ç–Ω–æ—à–µ–Ω–∏–µ "commonofferjeans" —É–∂–µ —Å—É—â–µ—Å—Ç–≤—É–µ—Ç
+03.27 02.27.12 ERROR	ru.sfedu.pantsworkshop.TestingClient:75 - org.postgresql.util.PSQLException: –û–®–ò–ë–ö–ê: –æ—Ç–Ω–æ—à–µ–Ω–∏–µ "customofferjeans" —É–∂–µ —Å—É—â–µ—Å—Ç–≤—É–µ—Ç
+03.27 02.27.13  INFO	ru.sfedu.pantsworkshop.TestingClient:72 - SQL request accepted
+03.27 02.27.13  INFO	ru.sfedu.pantsworkshop.TestingClient:50 - Components{id=1, numberOfComponents=105, —ÅomponentName='denim', price=12}x
+03.27 02.27.13  INFO	ru.sfedu.pantsworkshop.TestingClient:72 - SQL request accepted
+03.27 02.27.13  INFO	ru.sfedu.pantsworkshop.TestingClient:50 - Components{id=2, numberOfComponents=106, —ÅomponentName='jean', price=11}x
+03.27 02.27.13  INFO	ru.sfedu.pantsworkshop.TestingClient:72 - SQL request accepted
+03.27 02.27.13  INFO	ru.sfedu.pantsworkshop.TestingClient:50 - Components{id=3, numberOfComponents=123, —ÅomponentName='stretch', price=37}x
+03.27 02.27.13  INFO	ru.sfedu.pantsworkshop.TestingClient:72 - SQL request accepted
+03.27 02.27.13  INFO	ru.sfedu.pantsworkshop.TestingClient:50 - Components{id=4, numberOfComponents=136, —ÅomponentName='serge', price=78}x
+03.27 02.27.14  INFO	ru.sfedu.pantsworkshop.TestingClient:72 - SQL request accepted
+03.27 02.27.14  INFO	ru.sfedu.pantsworkshop.TestingClient:50 - Components{id=5, numberOfComponents=86, —ÅomponentName='teal', price=42}x
+03.27 02.27.14  INFO	ru.sfedu.pantsworkshop.TestingClient:72 - SQL request accepted
+03.27 02.27.14  INFO	ru.sfedu.pantsworkshop.TestingClient:50 - Components{id=6, numberOfComponents=96, —ÅomponentName='indigo', price=32}x
+03.27 02.27.14  INFO	ru.sfedu.pantsworkshop.TestingClient:72 - SQL request accepted
+03.27 02.27.14  INFO	ru.sfedu.pantsworkshop.TestingClient:50 - Components{id=7, numberOfComponents=89, —ÅomponentName='blue', price=14}x
+03.27 02.27.15  INFO	ru.sfedu.pantsworkshop.TestingClient:72 - SQL request accepted
+03.27 02.27.15  INFO	ru.sfedu.pantsworkshop.TestingClient:50 - Components{id=8, numberOfComponents=79, —ÅomponentName='black', price=36}x
+03.27 02.27.15  INFO	ru.sfedu.pantsworkshop.TestingClient:72 - SQL request accepted
+03.27 02.27.15  INFO	ru.sfedu.pantsworkshop.TestingClient:54 - CustomOfferJeans{color=indigo, format='normal', stripe='none', Fabric=denim, sewingTime=8, size=40, id=1, price=303}x
+03.27 02.27.15  INFO	ru.sfedu.pantsworkshop.TestingClient:72 - SQL request accepted
+03.27 02.27.15  INFO	ru.sfedu.pantsworkshop.TestingClient:54 - CustomOfferJeans{color=teal, format='normal', stripe='none', Fabric=jean, sewingTime=7, size=38, id=2, price=363}x
+03.27 02.27.16  INFO	ru.sfedu.pantsworkshop.TestingClient:72 - SQL request accepted
+03.27 02.27.16  INFO	ru.sfedu.pantsworkshop.TestingClient:58 - CommonOfferJeans{modelName=blackCat, size=37, id=1, price=950}x
+03.27 02.27.16  INFO	ru.sfedu.pantsworkshop.TestingClient:72 - SQL request accepted
+03.27 02.27.16  INFO	ru.sfedu.pantsworkshop.TestingClient:58 - CommonOfferJeans{modelName=indigoEagle, size=33, id=2, price=900}x
+03.27 02.27.16  INFO	ru.sfedu.pantsworkshop.TestingClient:60 - Test DATABASE loaded
+03.27 02.27.16  INFO	ru.sfedu.pantsworkshop.TestingClient:72 - 
+03.27 02.27.16  INFO	ru.sfedu.pantsworkshop.TestingClient:72 - 
+03.27 02.27.17  INFO	ru.sfedu.pantsworkshop.TestingClient:72 - 
+03.27 02.27.17 ERROR	ru.sfedu.pantsworkshop.TestingClient:75 - org.postgresql.util.PSQLException: –û–®–ò–ë–ö–ê: –±–∞–∑–∞ –¥–∞–Ω–Ω—ã—Ö "pantsworkshoptest" —É–∂–µ —Å—É—â–µ—Å—Ç–≤—É–µ—Ç
+03.27 02.27.17 ERROR	ru.sfedu.pantsworkshop.TestingClient:75 - org.postgresql.util.PSQLException: –û–®–ò–ë–ö–ê: –æ—Ç–Ω–æ—à–µ–Ω–∏–µ "components" —É–∂–µ —Å—É—â–µ—Å—Ç–≤—É–µ—Ç
+03.27 02.27.17 ERROR	ru.sfedu.pantsworkshop.TestingClient:75 - org.postgresql.util.PSQLException: –û–®–ò–ë–ö–ê: –æ—Ç–Ω–æ—à–µ–Ω–∏–µ "commonofferjeans" —É–∂–µ —Å—É—â–µ—Å—Ç–≤—É–µ—Ç
+03.27 02.27.17 ERROR	ru.sfedu.pantsworkshop.TestingClient:75 - org.postgresql.util.PSQLException: –û–®–ò–ë–ö–ê: –æ—Ç–Ω–æ—à–µ–Ω–∏–µ "customofferjeans" —É–∂–µ —Å—É—â–µ—Å—Ç–≤—É–µ—Ç
+03.27 02.27.17  INFO	ru.sfedu.pantsworkshop.TestingClient:72 - SQL request accepted
+03.27 02.27.17  INFO	ru.sfedu.pantsworkshop.TestingClient:50 - Components{id=1, numberOfComponents=105, —ÅomponentName='denim', price=12}x
+03.27 02.27.17  INFO	ru.sfedu.pantsworkshop.TestingClient:72 - SQL request accepted
+03.27 02.27.17  INFO	ru.sfedu.pantsworkshop.TestingClient:50 - Components{id=2, numberOfComponents=106, —ÅomponentName='jean', price=11}x
+03.27 02.27.17  INFO	ru.sfedu.pantsworkshop.TestingClient:72 - SQL request accepted
+03.27 02.27.17  INFO	ru.sfedu.pantsworkshop.TestingClient:50 - Components{id=3, numberOfComponents=123, —ÅomponentName='stretch', price=37}x
+03.27 02.27.18  INFO	ru.sfedu.pantsworkshop.TestingClient:72 - SQL request accepted
+03.27 02.27.18  INFO	ru.sfedu.pantsworkshop.TestingClient:50 - Components{id=4, numberOfComponents=136, —ÅomponentName='serge', price=78}x
+03.27 02.27.18  INFO	ru.sfedu.pantsworkshop.TestingClient:72 - SQL request accepted
+03.27 02.27.18  INFO	ru.sfedu.pantsworkshop.TestingClient:50 - Components{id=5, numberOfComponents=86, —ÅomponentName='teal', price=42}x
+03.27 02.27.18  INFO	ru.sfedu.pantsworkshop.TestingClient:72 - SQL request accepted
+03.27 02.27.18  INFO	ru.sfedu.pantsworkshop.TestingClient:50 - Components{id=6, numberOfComponents=96, —ÅomponentName='indigo', price=32}x
+03.27 02.27.18  INFO	ru.sfedu.pantsworkshop.TestingClient:72 - SQL request accepted
+03.27 02.27.18  INFO	ru.sfedu.pantsworkshop.TestingClient:50 - Components{id=7, numberOfComponents=89, —ÅomponentName='blue', price=14}x
+03.27 02.27.18  INFO	ru.sfedu.pantsworkshop.TestingClient:72 - SQL request accepted
+03.27 02.27.18  INFO	ru.sfedu.pantsworkshop.TestingClient:50 - Components{id=8, numberOfComponents=79, —ÅomponentName='black', price=36}x
+03.27 02.27.19  INFO	ru.sfedu.pantsworkshop.TestingClient:72 - SQL request accepted
+03.27 02.27.19  INFO	ru.sfedu.pantsworkshop.TestingClient:54 - CustomOfferJeans{color=indigo, format='normal', stripe='none', Fabric=denim, sewingTime=8, size=40, id=1, price=303}x
+03.27 02.27.19  INFO	ru.sfedu.pantsworkshop.TestingClient:72 - SQL request accepted
+03.27 02.27.19  INFO	ru.sfedu.pantsworkshop.TestingClient:54 - CustomOfferJeans{color=teal, format='normal', stripe='none', Fabric=jean, sewingTime=7, size=38, id=2, price=363}x
+03.27 02.27.19  INFO	ru.sfedu.pantsworkshop.TestingClient:72 - SQL request accepted
+03.27 02.27.19  INFO	ru.sfedu.pantsworkshop.TestingClient:58 - CommonOfferJeans{modelName=blackCat, size=37, id=1, price=950}x
+03.27 02.27.19  INFO	ru.sfedu.pantsworkshop.TestingClient:72 - SQL request accepted
+03.27 02.27.19  INFO	ru.sfedu.pantsworkshop.TestingClient:58 - CommonOfferJeans{modelName=indigoEagle, size=33, id=2, price=900}x
+03.27 02.27.19  INFO	ru.sfedu.pantsworkshop.TestingClient:60 - Test DATABASE loaded
+03.27 02.27.20  INFO	ru.sfedu.pantsworkshop.TestingClient:72 - 
+03.27 02.27.20  INFO	ru.sfedu.pantsworkshop.TestingClient:72 - 
+03.27 02.27.20  INFO	ru.sfedu.pantsworkshop.TestingClient:72 - 
+03.27 02.27.20 ERROR	ru.sfedu.pantsworkshop.TestingClient:75 - org.postgresql.util.PSQLException: –û–®–ò–ë–ö–ê: –±–∞–∑–∞ –¥–∞–Ω–Ω—ã—Ö "pantsworkshoptest" —É–∂–µ —Å—É—â–µ—Å—Ç–≤—É–µ—Ç
+03.27 02.27.20 ERROR	ru.sfedu.pantsworkshop.TestingClient:75 - org.postgresql.util.PSQLException: –û–®–ò–ë–ö–ê: –æ—Ç–Ω–æ—à–µ–Ω–∏–µ "components" —É–∂–µ —Å—É—â–µ—Å—Ç–≤—É–µ—Ç
+03.27 02.27.20 ERROR	ru.sfedu.pantsworkshop.TestingClient:75 - org.postgresql.util.PSQLException: –û–®–ò–ë–ö–ê: –æ—Ç–Ω–æ—à–µ–Ω–∏–µ "commonofferjeans" —É–∂–µ —Å—É—â–µ—Å—Ç–≤—É–µ—Ç
+03.27 02.27.20 ERROR	ru.sfedu.pantsworkshop.TestingClient:75 - org.postgresql.util.PSQLException: –û–®–ò–ë–ö–ê: –æ—Ç–Ω–æ—à–µ–Ω–∏–µ "customofferjeans" —É–∂–µ —Å—É—â–µ—Å—Ç–≤—É–µ—Ç
+03.27 02.27.21  INFO	ru.sfedu.pantsworkshop.TestingClient:72 - SQL request accepted
+03.27 02.27.21  INFO	ru.sfedu.pantsworkshop.TestingClient:50 - Components{id=1, numberOfComponents=105, —ÅomponentName='denim', price=12}x
+03.27 02.27.21  INFO	ru.sfedu.pantsworkshop.TestingClient:72 - SQL request accepted
+03.27 02.27.21  INFO	ru.sfedu.pantsworkshop.TestingClient:50 - Components{id=2, numberOfComponents=106, —ÅomponentName='jean', price=11}x
+03.27 02.27.21  INFO	ru.sfedu.pantsworkshop.TestingClient:72 - SQL request accepted
+03.27 02.27.21  INFO	ru.sfedu.pantsworkshop.TestingClient:50 - Components{id=3, numberOfComponents=123, —ÅomponentName='stretch', price=37}x
+03.27 02.27.21  INFO	ru.sfedu.pantsworkshop.TestingClient:72 - SQL request accepted
+03.27 02.27.21  INFO	ru.sfedu.pantsworkshop.TestingClient:50 - Components{id=4, numberOfComponents=136, —ÅomponentName='serge', price=78}x
+03.27 02.27.21  INFO	ru.sfedu.pantsworkshop.TestingClient:72 - SQL request accepted
+03.27 02.27.21  INFO	ru.sfedu.pantsworkshop.TestingClient:50 - Components{id=5, numberOfComponents=86, —ÅomponentName='teal', price=42}x
+03.27 02.27.22  INFO	ru.sfedu.pantsworkshop.TestingClient:72 - SQL request accepted
+03.27 02.27.22  INFO	ru.sfedu.pantsworkshop.TestingClient:50 - Components{id=6, numberOfComponents=96, —ÅomponentName='indigo', price=32}x
+03.27 02.27.22  INFO	ru.sfedu.pantsworkshop.TestingClient:72 - SQL request accepted
+03.27 02.27.22  INFO	ru.sfedu.pantsworkshop.TestingClient:50 - Components{id=7, numberOfComponents=89, —ÅomponentName='blue', price=14}x
+03.27 02.27.22  INFO	ru.sfedu.pantsworkshop.TestingClient:72 - SQL request accepted
+03.27 02.27.22  INFO	ru.sfedu.pantsworkshop.TestingClient:50 - Components{id=8, numberOfComponents=79, —ÅomponentName='black', price=36}x
+03.27 02.27.22  INFO	ru.sfedu.pantsworkshop.TestingClient:72 - SQL request accepted
+03.27 02.27.22  INFO	ru.sfedu.pantsworkshop.TestingClient:54 - CustomOfferJeans{color=indigo, format='normal', stripe='none', Fabric=denim, sewingTime=8, size=40, id=1, price=303}x
+03.27 02.27.22  INFO	ru.sfedu.pantsworkshop.TestingClient:72 - SQL request accepted
+03.27 02.27.22  INFO	ru.sfedu.pantsworkshop.TestingClient:54 - CustomOfferJeans{color=teal, format='normal', stripe='none', Fabric=jean, sewingTime=7, size=38, id=2, price=363}x
+03.27 02.27.23  INFO	ru.sfedu.pantsworkshop.TestingClient:72 - SQL request accepted
+03.27 02.27.23  INFO	ru.sfedu.pantsworkshop.TestingClient:58 - CommonOfferJeans{modelName=blackCat, size=37, id=1, price=950}x
+03.27 02.27.23  INFO	ru.sfedu.pantsworkshop.TestingClient:72 - SQL request accepted
+03.27 02.27.23  INFO	ru.sfedu.pantsworkshop.TestingClient:58 - CommonOfferJeans{modelName=indigoEagle, size=33, id=2, price=900}x
+03.27 02.27.23  INFO	ru.sfedu.pantsworkshop.TestingClient:60 - Test DATABASE loaded
+03.27 02.27.23 DEBUG	ru.sfedu.pantsworkshop.TestingClient:145 - sqlrequest = SELECT* FROM components
+03.27 07.39.04 DEBUG	ru.sfedu.pantsworkshop.TestingClient:54 - ./src/main/resources/csv/
+03.27 07.39.04 DEBUG	ru.sfedu.pantsworkshop.TestingClient:54 - ./src/main/resources/csv/
+03.27 07.39.04 DEBUG	ru.sfedu.pantsworkshop.TestingClient:54 - ./src/main/resources/csv/
+03.27 07.39.04 DEBUG	ru.sfedu.pantsworkshop.TestingClient:54 - ./src/main/resources/csv/
+03.27 07.39.04 DEBUG	ru.sfedu.pantsworkshop.TestingClient:122 - x CustomOfferJeans{color=indigo, format='normal', stripe='none', Fabric=denim, sewingTime=8, size=40, id=1, price=303}
+03.27 07.39.04 DEBUG	ru.sfedu.pantsworkshop.TestingClient:122 - x CustomOfferJeans{color=teal, format='normal', stripe='none', Fabric=jean, sewingTime=7, size=38, id=2, price=363}
+03.27 07.39.04 DEBUG	ru.sfedu.pantsworkshop.TestingClient:128 - x CommonOfferJeans{modelName=blackCat, size=37, id=1, price=950}
+03.27 07.39.04 DEBUG	ru.sfedu.pantsworkshop.TestingClient:128 - x CommonOfferJeans{modelName=indigoEagle, size=33, id=2, price=900}
+03.27 07.39.04  INFO	ru.sfedu.pantsworkshop.TestingClient:134 -  price 9194 work 5100 cost 307
+03.27 07.39.04 DEBUG	ru.sfedu.pantsworkshop.TestingClient:54 - ./src/main/resources/csv/
+03.27 07.39.04 DEBUG	ru.sfedu.pantsworkshop.TestingClient:54 - ./src/main/resources/csv/
+03.27 07.39.04 DEBUG	ru.sfedu.pantsworkshop.TestingClient:54 - ./src/main/resources/csv/
+03.27 07.39.04 DEBUG	ru.sfedu.pantsworkshop.TestingClient:54 - ./src/main/resources/csv/
+03.27 07.39.04 DEBUG	ru.sfedu.pantsworkshop.TestingClient:122 - x CustomOfferJeans{color=indigo, format='normal', stripe='none', Fabric=denim, sewingTime=8, size=40, id=1, price=303}
+03.27 07.39.04 DEBUG	ru.sfedu.pantsworkshop.TestingClient:122 - x CustomOfferJeans{color=teal, format='normal', stripe='none', Fabric=jean, sewingTime=7, size=38, id=2, price=363}
+03.27 07.39.05 DEBUG	ru.sfedu.pantsworkshop.TestingClient:128 - x CommonOfferJeans{modelName=blackCat, size=37, id=1, price=950}
+03.27 07.39.05 DEBUG	ru.sfedu.pantsworkshop.TestingClient:128 - x CommonOfferJeans{modelName=indigoEagle, size=33, id=2, price=900}
+03.27 07.39.05  INFO	ru.sfedu.pantsworkshop.TestingClient:134 -  price 9194 work 5100 cost 307
+03.27 07.39.05 DEBUG	ru.sfedu.pantsworkshop.TestingClient:54 - ./src/main/resources/csv/
+03.27 07.39.05 DEBUG	ru.sfedu.pantsworkshop.TestingClient:54 - ./src/main/resources/csv/
+03.27 07.39.05 DEBUG	ru.sfedu.pantsworkshop.TestingClient:54 - ./src/main/resources/csv/
+03.27 07.39.05 DEBUG	ru.sfedu.pantsworkshop.TestingClient:54 - ./src/main/resources/csv/
+03.27 07.39.05 DEBUG	ru.sfedu.pantsworkshop.TestingClient:54 - ./src/main/resources/csv/
+03.27 07.39.05 DEBUG	ru.sfedu.pantsworkshop.TestingClient:54 - ./src/main/resources/csv/
+03.27 07.39.05 DEBUG	ru.sfedu.pantsworkshop.TestingClient:54 - ./src/main/resources/csv/
+03.27 07.39.05 DEBUG	ru.sfedu.pantsworkshop.TestingClient:54 - ./src/main/resources/csv/
+03.27 07.39.06  INFO	ru.sfedu.pantsworkshop.TestingClient:71 - 
+03.27 07.39.06  INFO	ru.sfedu.pantsworkshop.TestingClient:71 - 
+03.27 07.39.07  INFO	ru.sfedu.pantsworkshop.TestingClient:71 - 
+03.27 07.39.07 ERROR	ru.sfedu.pantsworkshop.TestingClient:74 - org.postgresql.util.PSQLException: Œÿ»¡ ¿: ·‡Á‡ ‰‡ÌÌ˚ı "pantsworkshoptest" ÛÊÂ ÒÛ˘ÂÒÚ‚ÛÂÚ
+03.27 07.39.07 ERROR	ru.sfedu.pantsworkshop.TestingClient:74 - org.postgresql.util.PSQLException: Œÿ»¡ ¿: ÓÚÌÓ¯ÂÌËÂ "components" ÛÊÂ ÒÛ˘ÂÒÚ‚ÛÂÚ
+03.27 07.39.07 ERROR	ru.sfedu.pantsworkshop.TestingClient:74 - org.postgresql.util.PSQLException: Œÿ»¡ ¿: ÓÚÌÓ¯ÂÌËÂ "commonofferjeans" ÛÊÂ ÒÛ˘ÂÒÚ‚ÛÂÚ
+03.27 07.39.07 ERROR	ru.sfedu.pantsworkshop.TestingClient:74 - org.postgresql.util.PSQLException: Œÿ»¡ ¿: ÓÚÌÓ¯ÂÌËÂ "customofferjeans" ÛÊÂ ÒÛ˘ÂÒÚ‚ÛÂÚ
+03.27 07.39.08  INFO	ru.sfedu.pantsworkshop.TestingClient:71 - SQL request accepted
+03.27 07.39.08  INFO	ru.sfedu.pantsworkshop.TestingClient:49 - Components{id=1, numberOfComponents=105, ÒomponentName='denim', price=12}x
+03.27 07.39.08  INFO	ru.sfedu.pantsworkshop.TestingClient:71 - SQL request accepted
+03.27 07.39.08  INFO	ru.sfedu.pantsworkshop.TestingClient:49 - Components{id=2, numberOfComponents=106, ÒomponentName='jean', price=11}x
+03.27 07.39.08  INFO	ru.sfedu.pantsworkshop.TestingClient:71 - SQL request accepted
+03.27 07.39.08  INFO	ru.sfedu.pantsworkshop.TestingClient:49 - Components{id=3, numberOfComponents=123, ÒomponentName='stretch', price=37}x
+03.27 07.39.08  INFO	ru.sfedu.pantsworkshop.TestingClient:71 - SQL request accepted
+03.27 07.39.08  INFO	ru.sfedu.pantsworkshop.TestingClient:49 - Components{id=4, numberOfComponents=136, ÒomponentName='serge', price=78}x
+03.27 07.39.08  INFO	ru.sfedu.pantsworkshop.TestingClient:71 - SQL request accepted
+03.27 07.39.08  INFO	ru.sfedu.pantsworkshop.TestingClient:49 - Components{id=5, numberOfComponents=86, ÒomponentName='teal', price=42}x
+03.27 07.39.09  INFO	ru.sfedu.pantsworkshop.TestingClient:71 - SQL request accepted
+03.27 07.39.09  INFO	ru.sfedu.pantsworkshop.TestingClient:49 - Components{id=6, numberOfComponents=96, ÒomponentName='indigo', price=32}x
+03.27 07.39.09  INFO	ru.sfedu.pantsworkshop.TestingClient:71 - SQL request accepted
+03.27 07.39.09  INFO	ru.sfedu.pantsworkshop.TestingClient:49 - Components{id=7, numberOfComponents=89, ÒomponentName='blue', price=14}x
+03.27 07.39.09  INFO	ru.sfedu.pantsworkshop.TestingClient:71 - SQL request accepted
+03.27 07.39.09  INFO	ru.sfedu.pantsworkshop.TestingClient:49 - Components{id=8, numberOfComponents=79, ÒomponentName='black', price=36}x
+03.27 07.39.09  INFO	ru.sfedu.pantsworkshop.TestingClient:71 - SQL request accepted
+03.27 07.39.09  INFO	ru.sfedu.pantsworkshop.TestingClient:53 - CustomOfferJeans{color=indigo, format='normal', stripe='none', Fabric=denim, sewingTime=8, size=40, id=1, price=303}x
+03.27 07.39.10  INFO	ru.sfedu.pantsworkshop.TestingClient:71 - SQL request accepted
+03.27 07.39.10  INFO	ru.sfedu.pantsworkshop.TestingClient:53 - CustomOfferJeans{color=teal, format='normal', stripe='none', Fabric=jean, sewingTime=7, size=38, id=2, price=363}x
+03.27 07.39.10  INFO	ru.sfedu.pantsworkshop.TestingClient:71 - SQL request accepted
+03.27 07.39.10  INFO	ru.sfedu.pantsworkshop.TestingClient:57 - CommonOfferJeans{modelName=blackCat, size=37, id=1, price=950}x
+03.27 07.39.10  INFO	ru.sfedu.pantsworkshop.TestingClient:71 - SQL request accepted
+03.27 07.39.10  INFO	ru.sfedu.pantsworkshop.TestingClient:57 - CommonOfferJeans{modelName=indigoEagle, size=33, id=2, price=900}x
+03.27 07.39.10  INFO	ru.sfedu.pantsworkshop.TestingClient:59 - Test DATABASE loaded
+03.27 07.39.10  INFO	ru.sfedu.pantsworkshop.TestingClient:71 - 
+03.27 07.39.10  INFO	ru.sfedu.pantsworkshop.TestingClient:71 - 
+03.27 07.39.11  INFO	ru.sfedu.pantsworkshop.TestingClient:71 - 
+03.27 07.39.11 ERROR	ru.sfedu.pantsworkshop.TestingClient:74 - org.postgresql.util.PSQLException: Œÿ»¡ ¿: ·‡Á‡ ‰‡ÌÌ˚ı "pantsworkshoptest" ÛÊÂ ÒÛ˘ÂÒÚ‚ÛÂÚ
+03.27 07.39.11 ERROR	ru.sfedu.pantsworkshop.TestingClient:74 - org.postgresql.util.PSQLException: Œÿ»¡ ¿: ÓÚÌÓ¯ÂÌËÂ "components" ÛÊÂ ÒÛ˘ÂÒÚ‚ÛÂÚ
+03.27 07.39.11 ERROR	ru.sfedu.pantsworkshop.TestingClient:74 - org.postgresql.util.PSQLException: Œÿ»¡ ¿: ÓÚÌÓ¯ÂÌËÂ "commonofferjeans" ÛÊÂ ÒÛ˘ÂÒÚ‚ÛÂÚ
+03.27 07.39.11 ERROR	ru.sfedu.pantsworkshop.TestingClient:74 - org.postgresql.util.PSQLException: Œÿ»¡ ¿: ÓÚÌÓ¯ÂÌËÂ "customofferjeans" ÛÊÂ ÒÛ˘ÂÒÚ‚ÛÂÚ
+03.27 07.39.11  INFO	ru.sfedu.pantsworkshop.TestingClient:71 - SQL request accepted
+03.27 07.39.11  INFO	ru.sfedu.pantsworkshop.TestingClient:49 - Components{id=1, numberOfComponents=105, ÒomponentName='denim', price=12}x
+03.27 07.39.11  INFO	ru.sfedu.pantsworkshop.TestingClient:71 - SQL request accepted
+03.27 07.39.11  INFO	ru.sfedu.pantsworkshop.TestingClient:49 - Components{id=2, numberOfComponents=106, ÒomponentName='jean', price=11}x
+03.27 07.39.12  INFO	ru.sfedu.pantsworkshop.TestingClient:71 - SQL request accepted
+03.27 07.39.12  INFO	ru.sfedu.pantsworkshop.TestingClient:49 - Components{id=3, numberOfComponents=123, ÒomponentName='stretch', price=37}x
+03.27 07.39.12  INFO	ru.sfedu.pantsworkshop.TestingClient:71 - SQL request accepted
+03.27 07.39.12  INFO	ru.sfedu.pantsworkshop.TestingClient:49 - Components{id=4, numberOfComponents=136, ÒomponentName='serge', price=78}x
+03.27 07.39.12  INFO	ru.sfedu.pantsworkshop.TestingClient:71 - SQL request accepted
+03.27 07.39.12  INFO	ru.sfedu.pantsworkshop.TestingClient:49 - Components{id=5, numberOfComponents=86, ÒomponentName='teal', price=42}x
+03.27 07.39.12  INFO	ru.sfedu.pantsworkshop.TestingClient:71 - SQL request accepted
+03.27 07.39.12  INFO	ru.sfedu.pantsworkshop.TestingClient:49 - Components{id=6, numberOfComponents=96, ÒomponentName='indigo', price=32}x
+03.27 07.39.13  INFO	ru.sfedu.pantsworkshop.TestingClient:71 - SQL request accepted
+03.27 07.39.13  INFO	ru.sfedu.pantsworkshop.TestingClient:49 - Components{id=7, numberOfComponents=89, ÒomponentName='blue', price=14}x
+03.27 07.39.13  INFO	ru.sfedu.pantsworkshop.TestingClient:71 - SQL request accepted
+03.27 07.39.13  INFO	ru.sfedu.pantsworkshop.TestingClient:49 - Components{id=8, numberOfComponents=79, ÒomponentName='black', price=36}x
+03.27 07.39.13  INFO	ru.sfedu.pantsworkshop.TestingClient:71 - SQL request accepted
+03.27 07.39.13  INFO	ru.sfedu.pantsworkshop.TestingClient:53 - CustomOfferJeans{color=indigo, format='normal', stripe='none', Fabric=denim, sewingTime=8, size=40, id=1, price=303}x
+03.27 07.39.13  INFO	ru.sfedu.pantsworkshop.TestingClient:71 - SQL request accepted
+03.27 07.39.13  INFO	ru.sfedu.pantsworkshop.TestingClient:53 - CustomOfferJeans{color=teal, format='normal', stripe='none', Fabric=jean, sewingTime=7, size=38, id=2, price=363}x
+03.27 07.39.13  INFO	ru.sfedu.pantsworkshop.TestingClient:71 - SQL request accepted
+03.27 07.39.13  INFO	ru.sfedu.pantsworkshop.TestingClient:57 - CommonOfferJeans{modelName=blackCat, size=37, id=1, price=950}x
+03.27 07.39.14  INFO	ru.sfedu.pantsworkshop.TestingClient:71 - SQL request accepted
+03.27 07.39.14  INFO	ru.sfedu.pantsworkshop.TestingClient:57 - CommonOfferJeans{modelName=indigoEagle, size=33, id=2, price=900}x
+03.27 07.39.14  INFO	ru.sfedu.pantsworkshop.TestingClient:59 - Test DATABASE loaded
+03.27 07.39.14 DEBUG	ru.sfedu.pantsworkshop.TestingClient:250 - sqlrequest = SELECT* FROM customofferjeans
+03.27 07.39.14 DEBUG	ru.sfedu.pantsworkshop.TestingClient:215 - x CustomOfferJeans{color=indigo, format='normal', stripe='none', Fabric=denim, sewingTime=8, size=40, id=1, price=303}
+03.27 07.39.14 DEBUG	ru.sfedu.pantsworkshop.TestingClient:144 - sqlrequest = SELECT* FROM components
+03.27 07.39.14 DEBUG	ru.sfedu.pantsworkshop.TestingClient:144 - sqlrequest = SELECT* FROM components
+03.27 07.39.14 DEBUG	ru.sfedu.pantsworkshop.TestingClient:215 - x CustomOfferJeans{color=teal, format='normal', stripe='none', Fabric=jean, sewingTime=7, size=38, id=2, price=363}
+03.27 07.39.14 DEBUG	ru.sfedu.pantsworkshop.TestingClient:144 - sqlrequest = SELECT* FROM components
+03.27 07.39.14 DEBUG	ru.sfedu.pantsworkshop.TestingClient:144 - sqlrequest = SELECT* FROM components
+03.27 07.39.15 DEBUG	ru.sfedu.pantsworkshop.TestingClient:250 - sqlrequest = SELECT* FROM commonofferjeans
+03.27 07.39.15 DEBUG	ru.sfedu.pantsworkshop.TestingClient:221 - x CommonOfferJeans{modelName=blackCat, size=37, id=1, price=950}
+03.27 07.39.15 DEBUG	ru.sfedu.pantsworkshop.TestingClient:221 - x CommonOfferJeans{modelName=indigoEagle, size=33, id=2, price=900}
+03.27 07.39.15  INFO	ru.sfedu.pantsworkshop.TestingClient:226 -  price 9194 work 17 cost 307
+03.27 07.39.15  INFO	ru.sfedu.pantsworkshop.TestingClient:71 - 
+03.27 07.39.15  INFO	ru.sfedu.pantsworkshop.TestingClient:71 - 
+03.27 07.39.16  INFO	ru.sfedu.pantsworkshop.TestingClient:71 - 
+03.27 07.39.16 ERROR	ru.sfedu.pantsworkshop.TestingClient:74 - org.postgresql.util.PSQLException: Œÿ»¡ ¿: ·‡Á‡ ‰‡ÌÌ˚ı "pantsworkshoptest" ÛÊÂ ÒÛ˘ÂÒÚ‚ÛÂÚ
+03.27 07.39.16 ERROR	ru.sfedu.pantsworkshop.TestingClient:74 - org.postgresql.util.PSQLException: Œÿ»¡ ¿: ÓÚÌÓ¯ÂÌËÂ "components" ÛÊÂ ÒÛ˘ÂÒÚ‚ÛÂÚ
+03.27 07.39.16 ERROR	ru.sfedu.pantsworkshop.TestingClient:74 - org.postgresql.util.PSQLException: Œÿ»¡ ¿: ÓÚÌÓ¯ÂÌËÂ "commonofferjeans" ÛÊÂ ÒÛ˘ÂÒÚ‚ÛÂÚ
+03.27 07.39.16 ERROR	ru.sfedu.pantsworkshop.TestingClient:74 - org.postgresql.util.PSQLException: Œÿ»¡ ¿: ÓÚÌÓ¯ÂÌËÂ "customofferjeans" ÛÊÂ ÒÛ˘ÂÒÚ‚ÛÂÚ
+03.27 07.39.16  INFO	ru.sfedu.pantsworkshop.TestingClient:71 - SQL request accepted
+03.27 07.39.16  INFO	ru.sfedu.pantsworkshop.TestingClient:49 - Components{id=1, numberOfComponents=105, ÒomponentName='denim', price=12}x
+03.27 07.39.16  INFO	ru.sfedu.pantsworkshop.TestingClient:71 - SQL request accepted
+03.27 07.39.16  INFO	ru.sfedu.pantsworkshop.TestingClient:49 - Components{id=2, numberOfComponents=106, ÒomponentName='jean', price=11}x
+03.27 07.39.17  INFO	ru.sfedu.pantsworkshop.TestingClient:71 - SQL request accepted
+03.27 07.39.17  INFO	ru.sfedu.pantsworkshop.TestingClient:49 - Components{id=3, numberOfComponents=123, ÒomponentName='stretch', price=37}x
+03.27 07.39.17  INFO	ru.sfedu.pantsworkshop.TestingClient:71 - SQL request accepted
+03.27 07.39.17  INFO	ru.sfedu.pantsworkshop.TestingClient:49 - Components{id=4, numberOfComponents=136, ÒomponentName='serge', price=78}x
+03.27 07.39.17  INFO	ru.sfedu.pantsworkshop.TestingClient:71 - SQL request accepted
+03.27 07.39.17  INFO	ru.sfedu.pantsworkshop.TestingClient:49 - Components{id=5, numberOfComponents=86, ÒomponentName='teal', price=42}x
+03.27 07.39.17  INFO	ru.sfedu.pantsworkshop.TestingClient:71 - SQL request accepted
+03.27 07.39.17  INFO	ru.sfedu.pantsworkshop.TestingClient:49 - Components{id=6, numberOfComponents=96, ÒomponentName='indigo', price=32}x
+03.27 07.39.17  INFO	ru.sfedu.pantsworkshop.TestingClient:71 - SQL request accepted
+03.27 07.39.17  INFO	ru.sfedu.pantsworkshop.TestingClient:49 - Components{id=7, numberOfComponents=89, ÒomponentName='blue', price=14}x
+03.27 07.39.18  INFO	ru.sfedu.pantsworkshop.TestingClient:71 - SQL request accepted
+03.27 07.39.18  INFO	ru.sfedu.pantsworkshop.TestingClient:49 - Components{id=8, numberOfComponents=79, ÒomponentName='black', price=36}x
+03.27 07.39.18  INFO	ru.sfedu.pantsworkshop.TestingClient:71 - SQL request accepted
+03.27 07.39.18  INFO	ru.sfedu.pantsworkshop.TestingClient:53 - CustomOfferJeans{color=indigo, format='normal', stripe='none', Fabric=denim, sewingTime=8, size=40, id=1, price=303}x
+03.27 07.39.18  INFO	ru.sfedu.pantsworkshop.TestingClient:71 - SQL request accepted
+03.27 07.39.18  INFO	ru.sfedu.pantsworkshop.TestingClient:53 - CustomOfferJeans{color=teal, format='normal', stripe='none', Fabric=jean, sewingTime=7, size=38, id=2, price=363}x
+03.27 07.39.18  INFO	ru.sfedu.pantsworkshop.TestingClient:71 - SQL request accepted
+03.27 07.39.18  INFO	ru.sfedu.pantsworkshop.TestingClient:57 - CommonOfferJeans{modelName=blackCat, size=37, id=1, price=950}x
+03.27 07.39.18  INFO	ru.sfedu.pantsworkshop.TestingClient:71 - SQL request accepted
+03.27 07.39.18  INFO	ru.sfedu.pantsworkshop.TestingClient:57 - CommonOfferJeans{modelName=indigoEagle, size=33, id=2, price=900}x
+03.27 07.39.18  INFO	ru.sfedu.pantsworkshop.TestingClient:59 - Test DATABASE loaded
+03.27 07.39.19  INFO	ru.sfedu.pantsworkshop.TestingClient:71 - 
+03.27 07.39.19  INFO	ru.sfedu.pantsworkshop.TestingClient:71 - 
+03.27 07.39.19  INFO	ru.sfedu.pantsworkshop.TestingClient:71 - 
+03.27 07.39.19 ERROR	ru.sfedu.pantsworkshop.TestingClient:74 - org.postgresql.util.PSQLException: Œÿ»¡ ¿: ·‡Á‡ ‰‡ÌÌ˚ı "pantsworkshoptest" ÛÊÂ ÒÛ˘ÂÒÚ‚ÛÂÚ
+03.27 07.39.19 ERROR	ru.sfedu.pantsworkshop.TestingClient:74 - org.postgresql.util.PSQLException: Œÿ»¡ ¿: ÓÚÌÓ¯ÂÌËÂ "components" ÛÊÂ ÒÛ˘ÂÒÚ‚ÛÂÚ
+03.27 07.39.19 ERROR	ru.sfedu.pantsworkshop.TestingClient:74 - org.postgresql.util.PSQLException: Œÿ»¡ ¿: ÓÚÌÓ¯ÂÌËÂ "commonofferjeans" ÛÊÂ ÒÛ˘ÂÒÚ‚ÛÂÚ
+03.27 07.39.20 ERROR	ru.sfedu.pantsworkshop.TestingClient:74 - org.postgresql.util.PSQLException: Œÿ»¡ ¿: ÓÚÌÓ¯ÂÌËÂ "customofferjeans" ÛÊÂ ÒÛ˘ÂÒÚ‚ÛÂÚ
+03.27 07.39.20  INFO	ru.sfedu.pantsworkshop.TestingClient:71 - SQL request accepted
+03.27 07.39.20  INFO	ru.sfedu.pantsworkshop.TestingClient:49 - Components{id=1, numberOfComponents=105, ÒomponentName='denim', price=12}x
+03.27 07.39.20  INFO	ru.sfedu.pantsworkshop.TestingClient:71 - SQL request accepted
+03.27 07.39.20  INFO	ru.sfedu.pantsworkshop.TestingClient:49 - Components{id=2, numberOfComponents=106, ÒomponentName='jean', price=11}x
+03.27 07.39.20  INFO	ru.sfedu.pantsworkshop.TestingClient:71 - SQL request accepted
+03.27 07.39.20  INFO	ru.sfedu.pantsworkshop.TestingClient:49 - Components{id=3, numberOfComponents=123, ÒomponentName='stretch', price=37}x
+03.27 07.39.20  INFO	ru.sfedu.pantsworkshop.TestingClient:71 - SQL request accepted
+03.27 07.39.20  INFO	ru.sfedu.pantsworkshop.TestingClient:49 - Components{id=4, numberOfComponents=136, ÒomponentName='serge', price=78}x
+03.27 07.39.21  INFO	ru.sfedu.pantsworkshop.TestingClient:71 - SQL request accepted
+03.27 07.39.21  INFO	ru.sfedu.pantsworkshop.TestingClient:49 - Components{id=5, numberOfComponents=86, ÒomponentName='teal', price=42}x
+03.27 07.39.21  INFO	ru.sfedu.pantsworkshop.TestingClient:71 - SQL request accepted
+03.27 07.39.21  INFO	ru.sfedu.pantsworkshop.TestingClient:49 - Components{id=6, numberOfComponents=96, ÒomponentName='indigo', price=32}x
+03.27 07.39.21  INFO	ru.sfedu.pantsworkshop.TestingClient:71 - SQL request accepted
+03.27 07.39.21  INFO	ru.sfedu.pantsworkshop.TestingClient:49 - Components{id=7, numberOfComponents=89, ÒomponentName='blue', price=14}x
+03.27 07.39.21  INFO	ru.sfedu.pantsworkshop.TestingClient:71 - SQL request accepted
+03.27 07.39.21  INFO	ru.sfedu.pantsworkshop.TestingClient:49 - Components{id=8, numberOfComponents=79, ÒomponentName='black', price=36}x
+03.27 07.39.21  INFO	ru.sfedu.pantsworkshop.TestingClient:71 - SQL request accepted
+03.27 07.39.21  INFO	ru.sfedu.pantsworkshop.TestingClient:53 - CustomOfferJeans{color=indigo, format='normal', stripe='none', Fabric=denim, sewingTime=8, size=40, id=1, price=303}x
+03.27 07.39.22  INFO	ru.sfedu.pantsworkshop.TestingClient:71 - SQL request accepted
+03.27 07.39.22  INFO	ru.sfedu.pantsworkshop.TestingClient:53 - CustomOfferJeans{color=teal, format='normal', stripe='none', Fabric=jean, sewingTime=7, size=38, id=2, price=363}x
+03.27 07.39.22  INFO	ru.sfedu.pantsworkshop.TestingClient:71 - SQL request accepted
+03.27 07.39.22  INFO	ru.sfedu.pantsworkshop.TestingClient:57 - CommonOfferJeans{modelName=blackCat, size=37, id=1, price=950}x
+03.27 07.39.22  INFO	ru.sfedu.pantsworkshop.TestingClient:71 - SQL request accepted
+03.27 07.39.22  INFO	ru.sfedu.pantsworkshop.TestingClient:57 - CommonOfferJeans{modelName=indigoEagle, size=33, id=2, price=900}x
+03.27 07.39.22  INFO	ru.sfedu.pantsworkshop.TestingClient:59 - Test DATABASE loaded
+03.27 07.39.22 DEBUG	ru.sfedu.pantsworkshop.TestingClient:250 - sqlrequest = SELECT* FROM customofferjeans
+03.27 07.39.22 DEBUG	ru.sfedu.pantsworkshop.TestingClient:215 - x CustomOfferJeans{color=indigo, format='normal', stripe='none', Fabric=denim, sewingTime=8, size=40, id=1, price=303}
+03.27 07.39.22 DEBUG	ru.sfedu.pantsworkshop.TestingClient:144 - sqlrequest = SELECT* FROM components
+03.27 07.39.23 DEBUG	ru.sfedu.pantsworkshop.TestingClient:144 - sqlrequest = SELECT* FROM components
+03.27 07.39.23 DEBUG	ru.sfedu.pantsworkshop.TestingClient:215 - x CustomOfferJeans{color=teal, format='normal', stripe='none', Fabric=jean, sewingTime=7, size=38, id=2, price=363}
+03.27 07.39.23 DEBUG	ru.sfedu.pantsworkshop.TestingClient:144 - sqlrequest = SELECT* FROM components
+03.27 07.39.23 DEBUG	ru.sfedu.pantsworkshop.TestingClient:144 - sqlrequest = SELECT* FROM components
+03.27 07.39.23 DEBUG	ru.sfedu.pantsworkshop.TestingClient:250 - sqlrequest = SELECT* FROM commonofferjeans
+03.27 07.39.24 DEBUG	ru.sfedu.pantsworkshop.TestingClient:221 - x CommonOfferJeans{modelName=blackCat, size=37, id=1, price=950}
+03.27 07.39.24 DEBUG	ru.sfedu.pantsworkshop.TestingClient:221 - x CommonOfferJeans{modelName=indigoEagle, size=33, id=2, price=900}
+03.27 07.39.24  INFO	ru.sfedu.pantsworkshop.TestingClient:226 -  price 9194 work 17 cost 307
+03.27 07.39.24 DEBUG	ru.sfedu.pantsworkshop.TestingClient:144 - sqlrequest = SELECT* FROM components
+03.27 07.39.24  INFO	ru.sfedu.pantsworkshop.TestingClient:71 - 
+03.27 07.39.25  INFO	ru.sfedu.pantsworkshop.TestingClient:71 - 
+03.27 07.39.25  INFO	ru.sfedu.pantsworkshop.TestingClient:71 - 
+03.27 07.39.25 ERROR	ru.sfedu.pantsworkshop.TestingClient:74 - org.postgresql.util.PSQLException: Œÿ»¡ ¿: ·‡Á‡ ‰‡ÌÌ˚ı "pantsworkshoptest" ÛÊÂ ÒÛ˘ÂÒÚ‚ÛÂÚ
+03.27 07.39.25 ERROR	ru.sfedu.pantsworkshop.TestingClient:74 - org.postgresql.util.PSQLException: Œÿ»¡ ¿: ÓÚÌÓ¯ÂÌËÂ "components" ÛÊÂ ÒÛ˘ÂÒÚ‚ÛÂÚ
+03.27 07.39.25 ERROR	ru.sfedu.pantsworkshop.TestingClient:74 - org.postgresql.util.PSQLException: Œÿ»¡ ¿: ÓÚÌÓ¯ÂÌËÂ "commonofferjeans" ÛÊÂ ÒÛ˘ÂÒÚ‚ÛÂÚ
+03.27 07.39.25 ERROR	ru.sfedu.pantsworkshop.TestingClient:74 - org.postgresql.util.PSQLException: Œÿ»¡ ¿: ÓÚÌÓ¯ÂÌËÂ "customofferjeans" ÛÊÂ ÒÛ˘ÂÒÚ‚ÛÂÚ
+03.27 07.39.25  INFO	ru.sfedu.pantsworkshop.TestingClient:71 - SQL request accepted
+03.27 07.39.25  INFO	ru.sfedu.pantsworkshop.TestingClient:49 - Components{id=1, numberOfComponents=105, ÒomponentName='denim', price=12}x
+03.27 07.39.26  INFO	ru.sfedu.pantsworkshop.TestingClient:71 - SQL request accepted
+03.27 07.39.26  INFO	ru.sfedu.pantsworkshop.TestingClient:49 - Components{id=2, numberOfComponents=106, ÒomponentName='jean', price=11}x
+03.27 07.39.26  INFO	ru.sfedu.pantsworkshop.TestingClient:71 - SQL request accepted
+03.27 07.39.26  INFO	ru.sfedu.pantsworkshop.TestingClient:49 - Components{id=3, numberOfComponents=123, ÒomponentName='stretch', price=37}x
+03.27 07.39.26 ERROR	ru.sfedu.pantsworkshop.TestingClient:74 - org.postgresql.util.PSQLException: ?????: ????????, ??? ??????? ????? ????????
+03.27 07.39.26  INFO	ru.sfedu.pantsworkshop.TestingClient:49 - Components{id=4, numberOfComponents=136, ÒomponentName='serge', price=78}x
+03.27 07.39.26 ERROR	ru.sfedu.pantsworkshop.TestingClient:74 - org.postgresql.util.PSQLException: ?????: ????????, ??? ??????? ????? ????????
+03.27 07.39.26  INFO	ru.sfedu.pantsworkshop.TestingClient:49 - Components{id=5, numberOfComponents=86, ÒomponentName='teal', price=42}x
+03.27 07.39.26 ERROR	ru.sfedu.pantsworkshop.TestingClient:74 - org.postgresql.util.PSQLException: ?????: ????????, ??? ??????? ????? ????????
+03.27 07.39.26  INFO	ru.sfedu.pantsworkshop.TestingClient:49 - Components{id=6, numberOfComponents=96, ÒomponentName='indigo', price=32}x
+03.27 07.39.27 ERROR	ru.sfedu.pantsworkshop.TestingClient:74 - org.postgresql.util.PSQLException: ?????: ????????, ??? ??????? ????? ????????
+03.27 07.39.27  INFO	ru.sfedu.pantsworkshop.TestingClient:49 - Components{id=7, numberOfComponents=89, ÒomponentName='blue', price=14}x
+03.27 07.39.27 ERROR	ru.sfedu.pantsworkshop.TestingClient:74 - org.postgresql.util.PSQLException: ?????: ????????, ??? ??????? ????? ????????
+03.27 07.39.27  INFO	ru.sfedu.pantsworkshop.TestingClient:49 - Components{id=8, numberOfComponents=79, ÒomponentName='black', price=36}x
+03.27 07.39.27 ERROR	ru.sfedu.pantsworkshop.TestingClient:74 - org.postgresql.util.PSQLException: ?????: ????????, ??? ??????? ????? ????????
+03.27 07.39.27  INFO	ru.sfedu.pantsworkshop.TestingClient:53 - CustomOfferJeans{color=indigo, format='normal', stripe='none', Fabric=denim, sewingTime=8, size=40, id=1, price=303}x
+03.27 07.39.27 ERROR	ru.sfedu.pantsworkshop.TestingClient:74 - org.postgresql.util.PSQLException: ?????: ????????, ??? ??????? ????? ????????
+03.27 07.39.27  INFO	ru.sfedu.pantsworkshop.TestingClient:53 - CustomOfferJeans{color=teal, format='normal', stripe='none', Fabric=jean, sewingTime=7, size=38, id=2, price=363}x
+03.27 07.39.27 ERROR	ru.sfedu.pantsworkshop.TestingClient:74 - org.postgresql.util.PSQLException: ?????: ????????, ??? ??????? ????? ????????
+03.27 07.39.27  INFO	ru.sfedu.pantsworkshop.TestingClient:57 - CommonOfferJeans{modelName=blackCat, size=37, id=1, price=950}x
+03.27 07.39.27 ERROR	ru.sfedu.pantsworkshop.TestingClient:74 - org.postgresql.util.PSQLException: ?????: ????????, ??? ??????? ????? ????????
+03.27 07.39.27  INFO	ru.sfedu.pantsworkshop.TestingClient:57 - CommonOfferJeans{modelName=indigoEagle, size=33, id=2, price=900}x
+03.27 07.39.27  INFO	ru.sfedu.pantsworkshop.TestingClient:59 - Test DATABASE loaded
+03.27 07.39.27 DEBUG	ru.sfedu.pantsworkshop.TestingClient:144 - sqlrequest = SELECT* FROM components
+03.27 07.39.27 ERROR	ru.sfedu.pantsworkshop.TestingClient:120 - org.postgresql.util.PSQLException: ?????: ????????, ??? ??????? ????? ????????
+03.27 07.39.27  INFO	ru.sfedu.pantsworkshop.TestingClient:168 - select empty Error
+03.27 07.39.27 ERROR	ru.sfedu.pantsworkshop.TestingClient:74 - org.postgresql.util.PSQLException: ?????: ????????, ??? ??????? ????? ????????
+03.27 07.39.28 ERROR	ru.sfedu.pantsworkshop.TestingClient:74 - org.postgresql.util.PSQLException: ?????: ????????, ??? ??????? ????? ????????
+03.27 07.39.28 ERROR	ru.sfedu.pantsworkshop.TestingClient:74 - org.postgresql.util.PSQLException: ?????: ????????, ??? ??????? ????? ????????
+03.27 07.39.28 ERROR	ru.sfedu.pantsworkshop.TestingClient:74 - org.postgresql.util.PSQLException: ?????: ????????, ??? ??????? ????? ????????
+03.27 07.39.28 ERROR	ru.sfedu.pantsworkshop.TestingClient:74 - org.postgresql.util.PSQLException: ?????: ????????, ??? ??????? ????? ????????
+03.27 07.39.28 ERROR	ru.sfedu.pantsworkshop.TestingClient:74 - org.postgresql.util.PSQLException: ?????: ????????, ??? ??????? ????? ????????
+03.27 07.39.28 ERROR	ru.sfedu.pantsworkshop.TestingClient:74 - org.postgresql.util.PSQLException: ?????: ????????, ??? ??????? ????? ????????
+03.27 07.39.28 ERROR	ru.sfedu.pantsworkshop.TestingClient:74 - org.postgresql.util.PSQLException: ?????: ????????, ??? ??????? ????? ????????
+03.27 07.39.28  INFO	ru.sfedu.pantsworkshop.TestingClient:49 - Components{id=1, numberOfComponents=105, ÒomponentName='denim', price=12}x
+03.27 07.39.29 ERROR	ru.sfedu.pantsworkshop.TestingClient:74 - org.postgresql.util.PSQLException: ?????: ????????, ??? ??????? ????? ????????
+03.27 07.39.29  INFO	ru.sfedu.pantsworkshop.TestingClient:49 - Components{id=2, numberOfComponents=106, ÒomponentName='jean', price=11}x
+03.27 07.39.29 ERROR	ru.sfedu.pantsworkshop.TestingClient:74 - org.postgresql.util.PSQLException: ?????: ????????, ??? ??????? ????? ????????
+03.27 07.39.29  INFO	ru.sfedu.pantsworkshop.TestingClient:49 - Components{id=3, numberOfComponents=123, ÒomponentName='stretch', price=37}x
+03.27 07.39.29 ERROR	ru.sfedu.pantsworkshop.TestingClient:74 - org.postgresql.util.PSQLException: ?????: ????????, ??? ??????? ????? ????????
+03.27 07.39.29  INFO	ru.sfedu.pantsworkshop.TestingClient:49 - Components{id=4, numberOfComponents=136, ÒomponentName='serge', price=78}x
+03.27 07.39.29 ERROR	ru.sfedu.pantsworkshop.TestingClient:74 - org.postgresql.util.PSQLException: ?????: ????????, ??? ??????? ????? ????????
+03.27 07.39.29  INFO	ru.sfedu.pantsworkshop.TestingClient:49 - Components{id=5, numberOfComponents=86, ÒomponentName='teal', price=42}x
+03.27 07.39.29 ERROR	ru.sfedu.pantsworkshop.TestingClient:74 - org.postgresql.util.PSQLException: ?????: ????????, ??? ??????? ????? ????????
+03.27 07.39.29  INFO	ru.sfedu.pantsworkshop.TestingClient:49 - Components{id=6, numberOfComponents=96, ÒomponentName='indigo', price=32}x
+03.27 07.39.29 ERROR	ru.sfedu.pantsworkshop.TestingClient:74 - org.postgresql.util.PSQLException: ?????: ????????, ??? ??????? ????? ????????
+03.27 07.39.29  INFO	ru.sfedu.pantsworkshop.TestingClient:49 - Components{id=7, numberOfComponents=89, ÒomponentName='blue', price=14}x
+03.27 07.39.29 ERROR	ru.sfedu.pantsworkshop.TestingClient:74 - org.postgresql.util.PSQLException: ?????: ????????, ??? ??????? ????? ????????
+03.27 07.39.29  INFO	ru.sfedu.pantsworkshop.TestingClient:49 - Components{id=8, numberOfComponents=79, ÒomponentName='black', price=36}x
+03.27 07.39.30 ERROR	ru.sfedu.pantsworkshop.TestingClient:74 - org.postgresql.util.PSQLException: ?????: ????????, ??? ??????? ????? ????????
+03.27 07.39.30  INFO	ru.sfedu.pantsworkshop.TestingClient:53 - CustomOfferJeans{color=indigo, format='normal', stripe='none', Fabric=denim, sewingTime=8, size=40, id=1, price=303}x
+03.27 07.39.30 ERROR	ru.sfedu.pantsworkshop.TestingClient:74 - org.postgresql.util.PSQLException: ?????: ????????, ??? ??????? ????? ????????
+03.27 07.39.30  INFO	ru.sfedu.pantsworkshop.TestingClient:53 - CustomOfferJeans{color=teal, format='normal', stripe='none', Fabric=jean, sewingTime=7, size=38, id=2, price=363}x
+03.27 07.39.30 ERROR	ru.sfedu.pantsworkshop.TestingClient:74 - org.postgresql.util.PSQLException: ?????: ????????, ??? ??????? ????? ????????
+03.27 07.39.30  INFO	ru.sfedu.pantsworkshop.TestingClient:57 - CommonOfferJeans{modelName=blackCat, size=37, id=1, price=950}x
+03.27 07.39.30 ERROR	ru.sfedu.pantsworkshop.TestingClient:74 - org.postgresql.util.PSQLException: ?????: ????????, ??? ??????? ????? ????????
+03.27 07.39.30  INFO	ru.sfedu.pantsworkshop.TestingClient:57 - CommonOfferJeans{modelName=indigoEagle, size=33, id=2, price=900}x
+03.27 07.39.30  INFO	ru.sfedu.pantsworkshop.TestingClient:59 - Test DATABASE loaded
+03.27 07.39.30 DEBUG	ru.sfedu.pantsworkshop.TestingClient:144 - sqlrequest = SELECT* FROM components
+03.27 07.39.30 ERROR	ru.sfedu.pantsworkshop.TestingClient:120 - org.postgresql.util.PSQLException: ?????: ????????, ??? ??????? ????? ????????
+03.27 07.39.30  INFO	ru.sfedu.pantsworkshop.TestingClient:168 - select empty Error
+03.27 07.39.30 ERROR	ru.sfedu.pantsworkshop.TestingClient:74 - org.postgresql.util.PSQLException: ?????: ????????, ??? ??????? ????? ????????
+03.27 07.39.30 ERROR	ru.sfedu.pantsworkshop.TestingClient:74 - org.postgresql.util.PSQLException: ?????: ????????, ??? ??????? ????? ????????
+03.27 07.39.31 ERROR	ru.sfedu.pantsworkshop.TestingClient:74 - org.postgresql.util.PSQLException: ?????: ????????, ??? ??????? ????? ????????
+03.27 07.39.31 ERROR	ru.sfedu.pantsworkshop.TestingClient:74 - org.postgresql.util.PSQLException: ?????: ????????, ??? ??????? ????? ????????
+03.27 07.39.31 ERROR	ru.sfedu.pantsworkshop.TestingClient:74 - org.postgresql.util.PSQLException: ?????: ????????, ??? ??????? ????? ????????
+03.27 07.39.31 ERROR	ru.sfedu.pantsworkshop.TestingClient:74 - org.postgresql.util.PSQLException: ?????: ????????, ??? ??????? ????? ????????
+03.27 07.39.31 ERROR	ru.sfedu.pantsworkshop.TestingClient:74 - org.postgresql.util.PSQLException: ?????: ????????, ??? ??????? ????? ????????
+03.27 07.39.31 ERROR	ru.sfedu.pantsworkshop.TestingClient:74 - org.postgresql.util.PSQLException: ?????: ????????, ??? ??????? ????? ????????
+03.27 07.39.31  INFO	ru.sfedu.pantsworkshop.TestingClient:49 - Components{id=1, numberOfComponents=105, ÒomponentName='denim', price=12}x
+03.27 07.39.31 ERROR	ru.sfedu.pantsworkshop.TestingClient:74 - org.postgresql.util.PSQLException: ?????: ????????, ??? ??????? ????? ????????
+03.27 07.39.31  INFO	ru.sfedu.pantsworkshop.TestingClient:49 - Components{id=2, numberOfComponents=106, ÒomponentName='jean', price=11}x
+03.27 07.39.31 ERROR	ru.sfedu.pantsworkshop.TestingClient:74 - org.postgresql.util.PSQLException: ?????: ????????, ??? ??????? ????? ????????
+03.27 07.39.31  INFO	ru.sfedu.pantsworkshop.TestingClient:49 - Components{id=3, numberOfComponents=123, ÒomponentName='stretch', price=37}x
+03.27 07.39.31 ERROR	ru.sfedu.pantsworkshop.TestingClient:74 - org.postgresql.util.PSQLException: ?????: ????????, ??? ??????? ????? ????????
+03.27 07.39.31  INFO	ru.sfedu.pantsworkshop.TestingClient:49 - Components{id=4, numberOfComponents=136, ÒomponentName='serge', price=78}x
+03.27 07.39.32 ERROR	ru.sfedu.pantsworkshop.TestingClient:74 - org.postgresql.util.PSQLException: ?????: ????????, ??? ??????? ????? ????????
+03.27 07.39.32  INFO	ru.sfedu.pantsworkshop.TestingClient:49 - Components{id=5, numberOfComponents=86, ÒomponentName='teal', price=42}x
+03.27 07.39.32 ERROR	ru.sfedu.pantsworkshop.TestingClient:74 - org.postgresql.util.PSQLException: ?????: ????????, ??? ??????? ????? ????????
+03.27 07.39.32  INFO	ru.sfedu.pantsworkshop.TestingClient:49 - Components{id=6, numberOfComponents=96, ÒomponentName='indigo', price=32}x
+03.27 07.39.32 ERROR	ru.sfedu.pantsworkshop.TestingClient:74 - org.postgresql.util.PSQLException: ?????: ????????, ??? ??????? ????? ????????
+03.27 07.39.32  INFO	ru.sfedu.pantsworkshop.TestingClient:49 - Components{id=7, numberOfComponents=89, ÒomponentName='blue', price=14}x
+03.27 07.39.32 ERROR	ru.sfedu.pantsworkshop.TestingClient:74 - org.postgresql.util.PSQLException: ?????: ????????, ??? ??????? ????? ????????
+03.27 07.39.32  INFO	ru.sfedu.pantsworkshop.TestingClient:49 - Components{id=8, numberOfComponents=79, ÒomponentName='black', price=36}x
+03.27 07.39.32 ERROR	ru.sfedu.pantsworkshop.TestingClient:74 - org.postgresql.util.PSQLException: ?????: ????????, ??? ??????? ????? ????????
+03.27 07.39.32  INFO	ru.sfedu.pantsworkshop.TestingClient:53 - CustomOfferJeans{color=indigo, format='normal', stripe='none', Fabric=denim, sewingTime=8, size=40, id=1, price=303}x
+03.27 07.39.32 ERROR	ru.sfedu.pantsworkshop.TestingClient:74 - org.postgresql.util.PSQLException: ?????: ????????, ??? ??????? ????? ????????
+03.27 07.39.32  INFO	ru.sfedu.pantsworkshop.TestingClient:53 - CustomOfferJeans{color=teal, format='normal', stripe='none', Fabric=jean, sewingTime=7, size=38, id=2, price=363}x
+03.27 07.39.32 ERROR	ru.sfedu.pantsworkshop.TestingClient:74 - org.postgresql.util.PSQLException: ?????: ????????, ??? ??????? ????? ????????
+03.27 07.39.32  INFO	ru.sfedu.pantsworkshop.TestingClient:57 - CommonOfferJeans{modelName=blackCat, size=37, id=1, price=950}x
+03.27 07.39.33 ERROR	ru.sfedu.pantsworkshop.TestingClient:74 - org.postgresql.util.PSQLException: ?????: ????????, ??? ??????? ????? ????????
+03.27 07.39.33  INFO	ru.sfedu.pantsworkshop.TestingClient:57 - CommonOfferJeans{modelName=indigoEagle, size=33, id=2, price=900}x
+03.27 07.39.33  INFO	ru.sfedu.pantsworkshop.TestingClient:59 - Test DATABASE loaded
+03.27 07.39.33 DEBUG	ru.sfedu.pantsworkshop.TestingClient:144 - sqlrequest = SELECT* FROM components
+03.27 07.39.33 ERROR	ru.sfedu.pantsworkshop.TestingClient:120 - org.postgresql.util.PSQLException: ?????: ????????, ??? ??????? ????? ????????
+03.27 07.39.33  INFO	ru.sfedu.pantsworkshop.TestingClient:168 - select empty Error
+03.27 07.39.33 ERROR	ru.sfedu.pantsworkshop.TestingClient:74 - org.postgresql.util.PSQLException: ?????: ????????, ??? ??????? ????? ????????
+03.27 07.39.33 ERROR	ru.sfedu.pantsworkshop.TestingClient:74 - org.postgresql.util.PSQLException: ?????: ????????, ??? ??????? ????? ????????
+03.27 07.39.33 ERROR	ru.sfedu.pantsworkshop.TestingClient:74 - org.postgresql.util.PSQLException: ?????: ????????, ??? ??????? ????? ????????
+03.27 07.39.33 ERROR	ru.sfedu.pantsworkshop.TestingClient:74 - org.postgresql.util.PSQLException: ?????: ????????, ??? ??????? ????? ????????
+03.27 07.39.33 ERROR	ru.sfedu.pantsworkshop.TestingClient:74 - org.postgresql.util.PSQLException: ?????: ????????, ??? ??????? ????? ????????
+03.27 07.39.33 ERROR	ru.sfedu.pantsworkshop.TestingClient:74 - org.postgresql.util.PSQLException: ?????: ????????, ??? ??????? ????? ????????
+03.27 07.39.33 ERROR	ru.sfedu.pantsworkshop.TestingClient:74 - org.postgresql.util.PSQLException: ?????: ????????, ??? ??????? ????? ????????
+03.27 07.39.34 ERROR	ru.sfedu.pantsworkshop.TestingClient:74 - org.postgresql.util.PSQLException: ?????: ????????, ??? ??????? ????? ????????
+03.27 07.39.34  INFO	ru.sfedu.pantsworkshop.TestingClient:49 - Components{id=1, numberOfComponents=105, ÒomponentName='denim', price=12}x
+03.27 07.39.34 ERROR	ru.sfedu.pantsworkshop.TestingClient:74 - org.postgresql.util.PSQLException: ?????: ????????, ??? ??????? ????? ????????
+03.27 07.39.34  INFO	ru.sfedu.pantsworkshop.TestingClient:49 - Components{id=2, numberOfComponents=106, ÒomponentName='jean', price=11}x
+03.27 07.39.34 ERROR	ru.sfedu.pantsworkshop.TestingClient:74 - org.postgresql.util.PSQLException: ?????: ????????, ??? ??????? ????? ????????
+03.27 07.39.34  INFO	ru.sfedu.pantsworkshop.TestingClient:49 - Components{id=3, numberOfComponents=123, ÒomponentName='stretch', price=37}x
+03.27 07.39.34 ERROR	ru.sfedu.pantsworkshop.TestingClient:74 - org.postgresql.util.PSQLException: ?????: ????????, ??? ??????? ????? ????????
+03.27 07.39.34  INFO	ru.sfedu.pantsworkshop.TestingClient:49 - Components{id=4, numberOfComponents=136, ÒomponentName='serge', price=78}x
+03.27 07.39.34 ERROR	ru.sfedu.pantsworkshop.TestingClient:74 - org.postgresql.util.PSQLException: ?????: ????????, ??? ??????? ????? ????????
+03.27 07.39.34  INFO	ru.sfedu.pantsworkshop.TestingClient:49 - Components{id=5, numberOfComponents=86, ÒomponentName='teal', price=42}x
+03.27 07.39.34 ERROR	ru.sfedu.pantsworkshop.TestingClient:74 - org.postgresql.util.PSQLException: ?????: ????????, ??? ??????? ????? ????????
+03.27 07.39.34  INFO	ru.sfedu.pantsworkshop.TestingClient:49 - Components{id=6, numberOfComponents=96, ÒomponentName='indigo', price=32}x
+03.27 07.39.34 ERROR	ru.sfedu.pantsworkshop.TestingClient:74 - org.postgresql.util.PSQLException: ?????: ????????, ??? ??????? ????? ????????
+03.27 07.39.34  INFO	ru.sfedu.pantsworkshop.TestingClient:49 - Components{id=7, numberOfComponents=89, ÒomponentName='blue', price=14}x
+03.27 07.39.34 ERROR	ru.sfedu.pantsworkshop.TestingClient:74 - org.postgresql.util.PSQLException: ?????: ????????, ??? ??????? ????? ????????
+03.27 07.39.34  INFO	ru.sfedu.pantsworkshop.TestingClient:49 - Components{id=8, numberOfComponents=79, ÒomponentName='black', price=36}x
+03.27 07.39.34 ERROR	ru.sfedu.pantsworkshop.TestingClient:74 - org.postgresql.util.PSQLException: ?????: ????????, ??? ??????? ????? ????????
+03.27 07.39.34  INFO	ru.sfedu.pantsworkshop.TestingClient:53 - CustomOfferJeans{color=indigo, format='normal', stripe='none', Fabric=denim, sewingTime=8, size=40, id=1, price=303}x
+03.27 07.39.35 ERROR	ru.sfedu.pantsworkshop.TestingClient:74 - org.postgresql.util.PSQLException: ?????: ????????, ??? ??????? ????? ????????
+03.27 07.39.35  INFO	ru.sfedu.pantsworkshop.TestingClient:53 - CustomOfferJeans{color=teal, format='normal', stripe='none', Fabric=jean, sewingTime=7, size=38, id=2, price=363}x
+03.27 07.39.35 ERROR	ru.sfedu.pantsworkshop.TestingClient:74 - org.postgresql.util.PSQLException: ?????: ????????, ??? ??????? ????? ????????
+03.27 07.39.35  INFO	ru.sfedu.pantsworkshop.TestingClient:57 - CommonOfferJeans{modelName=blackCat, size=37, id=1, price=950}x
+03.27 07.39.35 ERROR	ru.sfedu.pantsworkshop.TestingClient:74 - org.postgresql.util.PSQLException: ?????: ????????, ??? ??????? ????? ????????
+03.27 07.39.35  INFO	ru.sfedu.pantsworkshop.TestingClient:57 - CommonOfferJeans{modelName=indigoEagle, size=33, id=2, price=900}x
+03.27 07.39.35  INFO	ru.sfedu.pantsworkshop.TestingClient:59 - Test DATABASE loaded
+03.27 07.39.35 DEBUG	ru.sfedu.pantsworkshop.TestingClient:144 - sqlrequest = SELECT* FROM components
+03.27 07.39.35 ERROR	ru.sfedu.pantsworkshop.TestingClient:120 - org.postgresql.util.PSQLException: ?????: ????????, ??? ??????? ????? ????????
+03.27 07.39.35  INFO	ru.sfedu.pantsworkshop.TestingClient:168 - select empty Error
+03.27 07.39.36  INFO	ru.sfedu.pantsworkshop.TestingClient:94 - writer is working
+03.27 07.39.36  INFO	ru.sfedu.pantsworkshop.TestingClient:236 - writer is working
+03.27 07.39.37  INFO	ru.sfedu.pantsworkshop.TestingClient:211 - writer is working
+03.27 07.39.38  INFO	ru.sfedu.pantsworkshop.TestingClient:94 - writer is working
+03.27 07.39.38  INFO	ru.sfedu.pantsworkshop.TestingClient:236 - writer is working
+03.27 07.39.38  INFO	ru.sfedu.pantsworkshop.TestingClient:211 - writer is working
+03.27 07.39.38  INFO	ru.sfedu.pantsworkshop.TestingClient:149 - xml = {, container=[CustomOfferJeans{color=indigo, format='normal', stripe='none', Fabric=denim, sewingTime=8, size=40, id=1, price=303}, CustomOfferJeans{color=teal, format='normal', stripe='none', Fabric=jean, sewingTime=7, size=38, id=2, price=363}]}
+03.27 07.39.38  INFO	ru.sfedu.pantsworkshop.TestingClient:156 - loaded = [CustomOfferJeans{color=indigo, format='normal', stripe='none', Fabric=denim, sewingTime=8, size=40, id=1, price=303}, CustomOfferJeans{color=teal, format='normal', stripe='none', Fabric=jean, sewingTime=7, size=38, id=2, price=363}]
+03.27 07.39.38 DEBUG	ru.sfedu.pantsworkshop.TestingClient:266 - x CustomOfferJeans{color=indigo, format='normal', stripe='none', Fabric=denim, sewingTime=8, size=40, id=1, price=303}
+03.27 07.39.38  INFO	ru.sfedu.pantsworkshop.TestingClient:53 - xml = {, container=[Components{id=1, numberOfComponents=105, ÒomponentName='denim', price=12}, Components{id=2, numberOfComponents=106, ÒomponentName='jean', price=11}, Components{id=3, numberOfComponents=123, ÒomponentName='stretch', price=37}, Components{id=4, numberOfComponents=136, ÒomponentName='serge', price=78}, Components{id=5, numberOfComponents=86, ÒomponentName='teal', price=42}, Components{id=6, numberOfComponents=96, ÒomponentName='indigo', price=32}, Components{id=7, numberOfComponents=89, ÒomponentName='blue', price=14}, Components{id=8, numberOfComponents=79, ÒomponentName='black', price=36}]}
+03.27 07.39.38  INFO	ru.sfedu.pantsworkshop.TestingClient:60 - loaded = [Components{id=1, numberOfComponents=105, ÒomponentName='denim', price=12}, Components{id=2, numberOfComponents=106, ÒomponentName='jean', price=11}, Components{id=3, numberOfComponents=123, ÒomponentName='stretch', price=37}, Components{id=4, numberOfComponents=136, ÒomponentName='serge', price=78}, Components{id=5, numberOfComponents=86, ÒomponentName='teal', price=42}, Components{id=6, numberOfComponents=96, ÒomponentName='indigo', price=32}, Components{id=7, numberOfComponents=89, ÒomponentName='blue', price=14}, Components{id=8, numberOfComponents=79, ÒomponentName='black', price=36}]
+03.27 07.39.38  INFO	ru.sfedu.pantsworkshop.TestingClient:53 - xml = {, container=[Components{id=1, numberOfComponents=105, ÒomponentName='denim', price=12}, Components{id=2, numberOfComponents=106, ÒomponentName='jean', price=11}, Components{id=3, numberOfComponents=123, ÒomponentName='stretch', price=37}, Components{id=4, numberOfComponents=136, ÒomponentName='serge', price=78}, Components{id=5, numberOfComponents=86, ÒomponentName='teal', price=42}, Components{id=6, numberOfComponents=96, ÒomponentName='indigo', price=32}, Components{id=7, numberOfComponents=89, ÒomponentName='blue', price=14}, Components{id=8, numberOfComponents=79, ÒomponentName='black', price=36}]}
+03.27 07.39.38  INFO	ru.sfedu.pantsworkshop.TestingClient:60 - loaded = [Components{id=1, numberOfComponents=105, ÒomponentName='denim', price=12}, Components{id=2, numberOfComponents=106, ÒomponentName='jean', price=11}, Components{id=3, numberOfComponents=123, ÒomponentName='stretch', price=37}, Components{id=4, numberOfComponents=136, ÒomponentName='serge', price=78}, Components{id=5, numberOfComponents=86, ÒomponentName='teal', price=42}, Components{id=6, numberOfComponents=96, ÒomponentName='indigo', price=32}, Components{id=7, numberOfComponents=89, ÒomponentName='blue', price=14}, Components{id=8, numberOfComponents=79, ÒomponentName='black', price=36}]
+03.27 07.39.38 DEBUG	ru.sfedu.pantsworkshop.TestingClient:266 - x CustomOfferJeans{color=teal, format='normal', stripe='none', Fabric=jean, sewingTime=7, size=38, id=2, price=363}
+03.27 07.39.38  INFO	ru.sfedu.pantsworkshop.TestingClient:53 - xml = {, container=[Components{id=1, numberOfComponents=105, ÒomponentName='denim', price=12}, Components{id=2, numberOfComponents=106, ÒomponentName='jean', price=11}, Components{id=3, numberOfComponents=123, ÒomponentName='stretch', price=37}, Components{id=4, numberOfComponents=136, ÒomponentName='serge', price=78}, Components{id=5, numberOfComponents=86, ÒomponentName='teal', price=42}, Components{id=6, numberOfComponents=96, ÒomponentName='indigo', price=32}, Components{id=7, numberOfComponents=89, ÒomponentName='blue', price=14}, Components{id=8, numberOfComponents=79, ÒomponentName='black', price=36}]}
+03.27 07.39.38  INFO	ru.sfedu.pantsworkshop.TestingClient:60 - loaded = [Components{id=1, numberOfComponents=105, ÒomponentName='denim', price=12}, Components{id=2, numberOfComponents=106, ÒomponentName='jean', price=11}, Components{id=3, numberOfComponents=123, ÒomponentName='stretch', price=37}, Components{id=4, numberOfComponents=136, ÒomponentName='serge', price=78}, Components{id=5, numberOfComponents=86, ÒomponentName='teal', price=42}, Components{id=6, numberOfComponents=96, ÒomponentName='indigo', price=32}, Components{id=7, numberOfComponents=89, ÒomponentName='blue', price=14}, Components{id=8, numberOfComponents=79, ÒomponentName='black', price=36}]
+03.27 07.39.38  INFO	ru.sfedu.pantsworkshop.TestingClient:53 - xml = {, container=[Components{id=1, numberOfComponents=105, ÒomponentName='denim', price=12}, Components{id=2, numberOfComponents=106, ÒomponentName='jean', price=11}, Components{id=3, numberOfComponents=123, ÒomponentName='stretch', price=37}, Components{id=4, numberOfComponents=136, ÒomponentName='serge', price=78}, Components{id=5, numberOfComponents=86, ÒomponentName='teal', price=42}, Components{id=6, numberOfComponents=96, ÒomponentName='indigo', price=32}, Components{id=7, numberOfComponents=89, ÒomponentName='blue', price=14}, Components{id=8, numberOfComponents=79, ÒomponentName='black', price=36}]}
+03.27 07.39.38  INFO	ru.sfedu.pantsworkshop.TestingClient:60 - loaded = [Components{id=1, numberOfComponents=105, ÒomponentName='denim', price=12}, Components{id=2, numberOfComponents=106, ÒomponentName='jean', price=11}, Components{id=3, numberOfComponents=123, ÒomponentName='stretch', price=37}, Components{id=4, numberOfComponents=136, ÒomponentName='serge', price=78}, Components{id=5, numberOfComponents=86, ÒomponentName='teal', price=42}, Components{id=6, numberOfComponents=96, ÒomponentName='indigo', price=32}, Components{id=7, numberOfComponents=89, ÒomponentName='blue', price=14}, Components{id=8, numberOfComponents=79, ÒomponentName='black', price=36}]
+03.27 07.39.38  INFO	ru.sfedu.pantsworkshop.TestingClient:132 - xml = {, container=[CommonOfferJeans{modelName=blackCat, size=37, id=1, price=950}, CommonOfferJeans{modelName=indigoEagle, size=33, id=2, price=900}]}
+03.27 07.39.38  INFO	ru.sfedu.pantsworkshop.TestingClient:139 - loaded = [CommonOfferJeans{modelName=blackCat, size=37, id=1, price=950}, CommonOfferJeans{modelName=indigoEagle, size=33, id=2, price=900}]
+03.27 07.39.38 DEBUG	ru.sfedu.pantsworkshop.TestingClient:272 - x CommonOfferJeans{modelName=blackCat, size=37, id=1, price=950}
+03.27 07.39.38 DEBUG	ru.sfedu.pantsworkshop.TestingClient:272 - x CommonOfferJeans{modelName=indigoEagle, size=33, id=2, price=900}
+03.27 07.39.38  INFO	ru.sfedu.pantsworkshop.TestingClient:278 -  price 9194 work 5100 cost 307
+03.27 07.39.38  INFO	ru.sfedu.pantsworkshop.TestingClient:94 - writer is working
+03.27 07.39.38  INFO	ru.sfedu.pantsworkshop.TestingClient:236 - writer is working
+03.27 07.39.38  INFO	ru.sfedu.pantsworkshop.TestingClient:211 - writer is working
+03.27 07.39.38  INFO	ru.sfedu.pantsworkshop.TestingClient:94 - writer is working
+03.27 07.39.38  INFO	ru.sfedu.pantsworkshop.TestingClient:236 - writer is working
+03.27 07.39.38  INFO	ru.sfedu.pantsworkshop.TestingClient:211 - writer is working
+03.27 07.39.38  INFO	ru.sfedu.pantsworkshop.TestingClient:149 - xml = {, container=[CustomOfferJeans{color=indigo, format='normal', stripe='none', Fabric=denim, sewingTime=8, size=40, id=1, price=303}, CustomOfferJeans{color=teal, format='normal', stripe='none', Fabric=jean, sewingTime=7, size=38, id=2, price=363}]}
+03.27 07.39.38  INFO	ru.sfedu.pantsworkshop.TestingClient:156 - loaded = [CustomOfferJeans{color=indigo, format='normal', stripe='none', Fabric=denim, sewingTime=8, size=40, id=1, price=303}, CustomOfferJeans{color=teal, format='normal', stripe='none', Fabric=jean, sewingTime=7, size=38, id=2, price=363}]
+03.27 07.39.38 DEBUG	ru.sfedu.pantsworkshop.TestingClient:266 - x CustomOfferJeans{color=indigo, format='normal', stripe='none', Fabric=denim, sewingTime=8, size=40, id=1, price=303}
+03.27 07.39.38  INFO	ru.sfedu.pantsworkshop.TestingClient:53 - xml = {, container=[Components{id=1, numberOfComponents=105, ÒomponentName='denim', price=12}, Components{id=2, numberOfComponents=106, ÒomponentName='jean', price=11}, Components{id=3, numberOfComponents=123, ÒomponentName='stretch', price=37}, Components{id=4, numberOfComponents=136, ÒomponentName='serge', price=78}, Components{id=5, numberOfComponents=86, ÒomponentName='teal', price=42}, Components{id=6, numberOfComponents=96, ÒomponentName='indigo', price=32}, Components{id=7, numberOfComponents=89, ÒomponentName='blue', price=14}, Components{id=8, numberOfComponents=79, ÒomponentName='black', price=36}]}
+03.27 07.39.38  INFO	ru.sfedu.pantsworkshop.TestingClient:60 - loaded = [Components{id=1, numberOfComponents=105, ÒomponentName='denim', price=12}, Components{id=2, numberOfComponents=106, ÒomponentName='jean', price=11}, Components{id=3, numberOfComponents=123, ÒomponentName='stretch', price=37}, Components{id=4, numberOfComponents=136, ÒomponentName='serge', price=78}, Components{id=5, numberOfComponents=86, ÒomponentName='teal', price=42}, Components{id=6, numberOfComponents=96, ÒomponentName='indigo', price=32}, Components{id=7, numberOfComponents=89, ÒomponentName='blue', price=14}, Components{id=8, numberOfComponents=79, ÒomponentName='black', price=36}]
+03.27 07.39.38  INFO	ru.sfedu.pantsworkshop.TestingClient:53 - xml = {, container=[Components{id=1, numberOfComponents=105, ÒomponentName='denim', price=12}, Components{id=2, numberOfComponents=106, ÒomponentName='jean', price=11}, Components{id=3, numberOfComponents=123, ÒomponentName='stretch', price=37}, Components{id=4, numberOfComponents=136, ÒomponentName='serge', price=78}, Components{id=5, numberOfComponents=86, ÒomponentName='teal', price=42}, Components{id=6, numberOfComponents=96, ÒomponentName='indigo', price=32}, Components{id=7, numberOfComponents=89, ÒomponentName='blue', price=14}, Components{id=8, numberOfComponents=79, ÒomponentName='black', price=36}]}
+03.27 07.39.38  INFO	ru.sfedu.pantsworkshop.TestingClient:60 - loaded = [Components{id=1, numberOfComponents=105, ÒomponentName='denim', price=12}, Components{id=2, numberOfComponents=106, ÒomponentName='jean', price=11}, Components{id=3, numberOfComponents=123, ÒomponentName='stretch', price=37}, Components{id=4, numberOfComponents=136, ÒomponentName='serge', price=78}, Components{id=5, numberOfComponents=86, ÒomponentName='teal', price=42}, Components{id=6, numberOfComponents=96, ÒomponentName='indigo', price=32}, Components{id=7, numberOfComponents=89, ÒomponentName='blue', price=14}, Components{id=8, numberOfComponents=79, ÒomponentName='black', price=36}]
+03.27 07.39.38 DEBUG	ru.sfedu.pantsworkshop.TestingClient:266 - x CustomOfferJeans{color=teal, format='normal', stripe='none', Fabric=jean, sewingTime=7, size=38, id=2, price=363}
+03.27 07.39.38  INFO	ru.sfedu.pantsworkshop.TestingClient:53 - xml = {, container=[Components{id=1, numberOfComponents=105, ÒomponentName='denim', price=12}, Components{id=2, numberOfComponents=106, ÒomponentName='jean', price=11}, Components{id=3, numberOfComponents=123, ÒomponentName='stretch', price=37}, Components{id=4, numberOfComponents=136, ÒomponentName='serge', price=78}, Components{id=5, numberOfComponents=86, ÒomponentName='teal', price=42}, Components{id=6, numberOfComponents=96, ÒomponentName='indigo', price=32}, Components{id=7, numberOfComponents=89, ÒomponentName='blue', price=14}, Components{id=8, numberOfComponents=79, ÒomponentName='black', price=36}]}
+03.27 07.39.38  INFO	ru.sfedu.pantsworkshop.TestingClient:60 - loaded = [Components{id=1, numberOfComponents=105, ÒomponentName='denim', price=12}, Components{id=2, numberOfComponents=106, ÒomponentName='jean', price=11}, Components{id=3, numberOfComponents=123, ÒomponentName='stretch', price=37}, Components{id=4, numberOfComponents=136, ÒomponentName='serge', price=78}, Components{id=5, numberOfComponents=86, ÒomponentName='teal', price=42}, Components{id=6, numberOfComponents=96, ÒomponentName='indigo', price=32}, Components{id=7, numberOfComponents=89, ÒomponentName='blue', price=14}, Components{id=8, numberOfComponents=79, ÒomponentName='black', price=36}]
+03.27 07.39.39  INFO	ru.sfedu.pantsworkshop.TestingClient:53 - xml = {, container=[Components{id=1, numberOfComponents=105, ÒomponentName='denim', price=12}, Components{id=2, numberOfComponents=106, ÒomponentName='jean', price=11}, Components{id=3, numberOfComponents=123, ÒomponentName='stretch', price=37}, Components{id=4, numberOfComponents=136, ÒomponentName='serge', price=78}, Components{id=5, numberOfComponents=86, ÒomponentName='teal', price=42}, Components{id=6, numberOfComponents=96, ÒomponentName='indigo', price=32}, Components{id=7, numberOfComponents=89, ÒomponentName='blue', price=14}, Components{id=8, numberOfComponents=79, ÒomponentName='black', price=36}]}
+03.27 07.39.39  INFO	ru.sfedu.pantsworkshop.TestingClient:60 - loaded = [Components{id=1, numberOfComponents=105, ÒomponentName='denim', price=12}, Components{id=2, numberOfComponents=106, ÒomponentName='jean', price=11}, Components{id=3, numberOfComponents=123, ÒomponentName='stretch', price=37}, Components{id=4, numberOfComponents=136, ÒomponentName='serge', price=78}, Components{id=5, numberOfComponents=86, ÒomponentName='teal', price=42}, Components{id=6, numberOfComponents=96, ÒomponentName='indigo', price=32}, Components{id=7, numberOfComponents=89, ÒomponentName='blue', price=14}, Components{id=8, numberOfComponents=79, ÒomponentName='black', price=36}]
+03.27 07.39.39  INFO	ru.sfedu.pantsworkshop.TestingClient:132 - xml = {, container=[CommonOfferJeans{modelName=blackCat, size=37, id=1, price=950}, CommonOfferJeans{modelName=indigoEagle, size=33, id=2, price=900}]}
+03.27 07.39.39  INFO	ru.sfedu.pantsworkshop.TestingClient:139 - loaded = [CommonOfferJeans{modelName=blackCat, size=37, id=1, price=950}, CommonOfferJeans{modelName=indigoEagle, size=33, id=2, price=900}]
+03.27 07.39.39 DEBUG	ru.sfedu.pantsworkshop.TestingClient:272 - x CommonOfferJeans{modelName=blackCat, size=37, id=1, price=950}
+03.27 07.39.39 DEBUG	ru.sfedu.pantsworkshop.TestingClient:272 - x CommonOfferJeans{modelName=indigoEagle, size=33, id=2, price=900}
+03.27 07.39.39  INFO	ru.sfedu.pantsworkshop.TestingClient:278 -  price 9194 work 5100 cost 307
+03.27 07.39.39  INFO	ru.sfedu.pantsworkshop.TestingClient:53 - xml = {, container=[Components{id=1, numberOfComponents=105, ÒomponentName='denim', price=12}, Components{id=2, numberOfComponents=106, ÒomponentName='jean', price=11}, Components{id=3, numberOfComponents=123, ÒomponentName='stretch', price=37}, Components{id=4, numberOfComponents=136, ÒomponentName='serge', price=78}, Components{id=5, numberOfComponents=86, ÒomponentName='teal', price=42}, Components{id=6, numberOfComponents=96, ÒomponentName='indigo', price=32}, Components{id=7, numberOfComponents=89, ÒomponentName='blue', price=14}, Components{id=8, numberOfComponents=79, ÒomponentName='black', price=36}]}
+03.27 07.39.39  INFO	ru.sfedu.pantsworkshop.TestingClient:60 - loaded = [Components{id=1, numberOfComponents=105, ÒomponentName='denim', price=12}, Components{id=2, numberOfComponents=106, ÒomponentName='jean', price=11}, Components{id=3, numberOfComponents=123, ÒomponentName='stretch', price=37}, Components{id=4, numberOfComponents=136, ÒomponentName='serge', price=78}, Components{id=5, numberOfComponents=86, ÒomponentName='teal', price=42}, Components{id=6, numberOfComponents=96, ÒomponentName='indigo', price=32}, Components{id=7, numberOfComponents=89, ÒomponentName='blue', price=14}, Components{id=8, numberOfComponents=79, ÒomponentName='black', price=36}]
+03.27 07.39.39  INFO	ru.sfedu.pantsworkshop.TestingClient:94 - writer is working
+03.27 07.39.39  INFO	ru.sfedu.pantsworkshop.TestingClient:236 - writer is working
+03.27 07.39.39  INFO	ru.sfedu.pantsworkshop.TestingClient:211 - writer is working
+03.27 07.39.39  INFO	ru.sfedu.pantsworkshop.TestingClient:53 - xml = {, container=[Components{id=1, numberOfComponents=105, ÒomponentName='denim', price=12}, Components{id=2, numberOfComponents=106, ÒomponentName='jean', price=11}, Components{id=3, numberOfComponents=123, ÒomponentName='stretch', price=37}, Components{id=4, numberOfComponents=136, ÒomponentName='serge', price=78}, Components{id=5, numberOfComponents=86, ÒomponentName='teal', price=42}, Components{id=6, numberOfComponents=96, ÒomponentName='indigo', price=32}, Components{id=7, numberOfComponents=89, ÒomponentName='blue', price=14}, Components{id=8, numberOfComponents=79, ÒomponentName='black', price=36}]}
+03.27 07.39.39  INFO	ru.sfedu.pantsworkshop.TestingClient:60 - loaded = [Components{id=1, numberOfComponents=105, ÒomponentName='denim', price=12}, Components{id=2, numberOfComponents=106, ÒomponentName='jean', price=11}, Components{id=3, numberOfComponents=123, ÒomponentName='stretch', price=37}, Components{id=4, numberOfComponents=136, ÒomponentName='serge', price=78}, Components{id=5, numberOfComponents=86, ÒomponentName='teal', price=42}, Components{id=6, numberOfComponents=96, ÒomponentName='indigo', price=32}, Components{id=7, numberOfComponents=89, ÒomponentName='blue', price=14}, Components{id=8, numberOfComponents=79, ÒomponentName='black', price=36}]
+03.27 07.39.39  INFO	ru.sfedu.pantsworkshop.TestingClient:94 - writer is working
+03.27 07.39.39  INFO	ru.sfedu.pantsworkshop.TestingClient:236 - writer is working
+03.27 07.39.39  INFO	ru.sfedu.pantsworkshop.TestingClient:211 - writer is working
+03.27 07.39.39  INFO	ru.sfedu.pantsworkshop.TestingClient:53 - xml = {, container=[Components{id=1, numberOfComponents=105, ÒomponentName='denim', price=12}, Components{id=2, numberOfComponents=106, ÒomponentName='jean', price=11}, Components{id=3, numberOfComponents=123, ÒomponentName='stretch', price=37}, Components{id=4, numberOfComponents=136, ÒomponentName='serge', price=78}, Components{id=5, numberOfComponents=86, ÒomponentName='teal', price=42}, Components{id=6, numberOfComponents=96, ÒomponentName='indigo', price=32}, Components{id=7, numberOfComponents=89, ÒomponentName='blue', price=14}, Components{id=8, numberOfComponents=79, ÒomponentName='black', price=36}]}
+03.27 07.39.39  INFO	ru.sfedu.pantsworkshop.TestingClient:60 - loaded = [Components{id=1, numberOfComponents=105, ÒomponentName='denim', price=12}, Components{id=2, numberOfComponents=106, ÒomponentName='jean', price=11}, Components{id=3, numberOfComponents=123, ÒomponentName='stretch', price=37}, Components{id=4, numberOfComponents=136, ÒomponentName='serge', price=78}, Components{id=5, numberOfComponents=86, ÒomponentName='teal', price=42}, Components{id=6, numberOfComponents=96, ÒomponentName='indigo', price=32}, Components{id=7, numberOfComponents=89, ÒomponentName='blue', price=14}, Components{id=8, numberOfComponents=79, ÒomponentName='black', price=36}]
+03.27 07.39.39  INFO	ru.sfedu.pantsworkshop.TestingClient:94 - writer is working
+03.27 07.39.39  INFO	ru.sfedu.pantsworkshop.TestingClient:236 - writer is working
+03.27 07.39.39  INFO	ru.sfedu.pantsworkshop.TestingClient:211 - writer is working
+03.27 07.39.39  INFO	ru.sfedu.pantsworkshop.TestingClient:53 - xml = {, container=[Components{id=1, numberOfComponents=105, ÒomponentName='denim', price=12}, Components{id=2, numberOfComponents=106, ÒomponentName='jean', price=11}, Components{id=3, numberOfComponents=123, ÒomponentName='stretch', price=37}, Components{id=4, numberOfComponents=136, ÒomponentName='serge', price=78}, Components{id=5, numberOfComponents=86, ÒomponentName='teal', price=42}, Components{id=6, numberOfComponents=96, ÒomponentName='indigo', price=32}, Components{id=7, numberOfComponents=89, ÒomponentName='blue', price=14}, Components{id=8, numberOfComponents=79, ÒomponentName='black', price=36}]}
+03.27 07.39.39  INFO	ru.sfedu.pantsworkshop.TestingClient:60 - loaded = [Components{id=1, numberOfComponents=105, ÒomponentName='denim', price=12}, Components{id=2, numberOfComponents=106, ÒomponentName='jean', price=11}, Components{id=3, numberOfComponents=123, ÒomponentName='stretch', price=37}, Components{id=4, numberOfComponents=136, ÒomponentName='serge', price=78}, Components{id=5, numberOfComponents=86, ÒomponentName='teal', price=42}, Components{id=6, numberOfComponents=96, ÒomponentName='indigo', price=32}, Components{id=7, numberOfComponents=89, ÒomponentName='blue', price=14}, Components{id=8, numberOfComponents=79, ÒomponentName='black', price=36}]
+03.27 07.39.39  INFO	ru.sfedu.pantsworkshop.TestingClient:94 - writer is working
+03.27 07.39.39  INFO	ru.sfedu.pantsworkshop.TestingClient:236 - writer is working
+03.27 07.39.39  INFO	ru.sfedu.pantsworkshop.TestingClient:211 - writer is working
+03.27 07.39.39  INFO	ru.sfedu.pantsworkshop.TestingClient:53 - xml = {, container=[Components{id=1, numberOfComponents=105, ÒomponentName='denim', price=12}, Components{id=2, numberOfComponents=106, ÒomponentName='jean', price=11}, Components{id=3, numberOfComponents=123, ÒomponentName='stretch', price=37}, Components{id=4, numberOfComponents=136, ÒomponentName='serge', price=78}, Components{id=5, numberOfComponents=86, ÒomponentName='teal', price=42}, Components{id=6, numberOfComponents=96, ÒomponentName='indigo', price=32}, Components{id=7, numberOfComponents=89, ÒomponentName='blue', price=14}, Components{id=8, numberOfComponents=79, ÒomponentName='black', price=36}]}
+03.27 07.39.39  INFO	ru.sfedu.pantsworkshop.TestingClient:60 - loaded = [Components{id=1, numberOfComponents=105, ÒomponentName='denim', price=12}, Components{id=2, numberOfComponents=106, ÒomponentName='jean', price=11}, Components{id=3, numberOfComponents=123, ÒomponentName='stretch', price=37}, Components{id=4, numberOfComponents=136, ÒomponentName='serge', price=78}, Components{id=5, numberOfComponents=86, ÒomponentName='teal', price=42}, Components{id=6, numberOfComponents=96, ÒomponentName='indigo', price=32}, Components{id=7, numberOfComponents=89, ÒomponentName='blue', price=14}, Components{id=8, numberOfComponents=79, ÒomponentName='black', price=36}]
+03.27 13.05.48  INFO	ru.sfedu.pantsworkshop.TestingClient:72 - Launching the application...
+03.27 13.05.48  INFO	ru.sfedu.pantsworkshop.TestingClient:73 - Operating System: Windows 8.1 6.3
+03.27 13.05.48  INFO	ru.sfedu.pantsworkshop.TestingClient:77 - JRE: 17.0.6
+03.27 13.05.48  INFO	ru.sfedu.pantsworkshop.TestingClient:78 - Java Launched From: C:\Program Files\Java\jdk-17
+03.27 13.05.48  INFO	ru.sfedu.pantsworkshop.TestingClient:79 - Class Path: target/pantsworkshop-1.0-SNAPSHOT-jar-with-dependencies.jar
+03.27 13.05.48  INFO	ru.sfedu.pantsworkshop.TestingClient:80 - Library Path: C:\Program Files\Java\jdk-17\bin;C:\Windows\Sun\Java\bin;C:\Windows\system32;C:\Windows;C:\Program Files\Common Files\Oracle\Java\javapath;C:\Program Files (x86)\Common Files\Oracle\Java\javapath;C:\ProgramData\Oracle\Java\javapath;C:\Windows\system32;C:\Windows;C:\Windows\System32\Wbem;C:\Windows\System32\WindowsPowerShell\v1.0\;C:\Program Files\Intel\WiFi\bin\;C:\Program Files\Common Files\Intel\WirelessCommon\;C:\Program Files\Microsoft SQL Server\130\Tools\Binn\;C:\Program Files\Intel\WiFi\bin\;C:\Program Files\Common Files\Intel\WirelessCommon\;D:\Programms\IntelliJ IDEA Community Edition 2021.2.3\bin;;D:\Programms\PyCharm Community Edition 2021.2.3\bin;;C:\Users\ƒÓ·Ó\AppData\Local\GitHubDesktop\bin;D:\Programms\Mongoshell\;.
+03.27 13.05.48  INFO	ru.sfedu.pantsworkshop.TestingClient:81 - User Home Directory: C:\Users\ƒÓ·Ó
+03.27 13.05.48  INFO	ru.sfedu.pantsworkshop.TestingClient:82 - User Working Directory: D:\Programms\Javaprogramms\pantsworkshop
+03.27 13.05.48  WARN	ru.sfedu.pantsworkshop.TestingClient:83 - Test INFO logging.
+03.27 13.05.48 ERROR	ru.sfedu.pantsworkshop.TestingClient:51 - Wrong data provider.
+03.27 13.06.56  INFO	ru.sfedu.pantsworkshop.TestingClient:72 - Launching the application...
+03.27 13.06.56  INFO	ru.sfedu.pantsworkshop.TestingClient:73 - Operating System: Windows 8.1 6.3
+03.27 13.06.56  INFO	ru.sfedu.pantsworkshop.TestingClient:77 - JRE: 17.0.6
+03.27 13.06.56  INFO	ru.sfedu.pantsworkshop.TestingClient:78 - Java Launched From: C:\Program Files\Java\jdk-17
+03.27 13.06.56  INFO	ru.sfedu.pantsworkshop.TestingClient:79 - Class Path: target/pantsworkshop-1.0-SNAPSHOT-jar-with-dependencies.jar
+03.27 13.06.56  INFO	ru.sfedu.pantsworkshop.TestingClient:80 - Library Path: C:\Program Files\Java\jdk-17\bin;C:\Windows\Sun\Java\bin;C:\Windows\system32;C:\Windows;C:\Program Files\Common Files\Oracle\Java\javapath;C:\Program Files (x86)\Common Files\Oracle\Java\javapath;C:\ProgramData\Oracle\Java\javapath;C:\Windows\system32;C:\Windows;C:\Windows\System32\Wbem;C:\Windows\System32\WindowsPowerShell\v1.0\;C:\Program Files\Intel\WiFi\bin\;C:\Program Files\Common Files\Intel\WirelessCommon\;C:\Program Files\Microsoft SQL Server\130\Tools\Binn\;C:\Program Files\Intel\WiFi\bin\;C:\Program Files\Common Files\Intel\WirelessCommon\;D:\Programms\IntelliJ IDEA Community Edition 2021.2.3\bin;;D:\Programms\PyCharm Community Edition 2021.2.3\bin;;C:\Users\ƒÓ·Ó\AppData\Local\GitHubDesktop\bin;D:\Programms\Mongoshell\;.
+03.27 13.06.56  INFO	ru.sfedu.pantsworkshop.TestingClient:81 - User Home Directory: C:\Users\ƒÓ·Ó
+03.27 13.06.56  INFO	ru.sfedu.pantsworkshop.TestingClient:82 - User Working Directory: D:\Programms\Javaprogramms\pantsworkshop
+03.27 13.06.56  WARN	ru.sfedu.pantsworkshop.TestingClient:83 - Test INFO logging.
+03.27 13.06.56 DEBUG	ru.sfedu.pantsworkshop.TestingClient:69 - ./src/main/resources/csv/
+03.27 13.06.56  INFO	ru.sfedu.pantsworkshop.TestingClient:107 - SUCCESS
+03.27 13.06.56  INFO	ru.sfedu.pantsworkshop.TestingClient:108 - cÚÓËÏÓÒÚ¸ ‰ÊËÌÒ
+03.27 13.06.56  INFO	ru.sfedu.pantsworkshop.TestingClient:109 - 950
+03.27 13.07.01  INFO	ru.sfedu.pantsworkshop.TestingClient:72 - Launching the application...
+03.27 13.07.01  INFO	ru.sfedu.pantsworkshop.TestingClient:73 - Operating System: Windows 8.1 6.3
+03.27 13.07.01  INFO	ru.sfedu.pantsworkshop.TestingClient:77 - JRE: 17.0.6
+03.27 13.07.01  INFO	ru.sfedu.pantsworkshop.TestingClient:78 - Java Launched From: C:\Program Files\Java\jdk-17
+03.27 13.07.01  INFO	ru.sfedu.pantsworkshop.TestingClient:79 - Class Path: target/pantsworkshop-1.0-SNAPSHOT-jar-with-dependencies.jar
+03.27 13.07.01  INFO	ru.sfedu.pantsworkshop.TestingClient:80 - Library Path: C:\Program Files\Java\jdk-17\bin;C:\Windows\Sun\Java\bin;C:\Windows\system32;C:\Windows;C:\Program Files\Common Files\Oracle\Java\javapath;C:\Program Files (x86)\Common Files\Oracle\Java\javapath;C:\ProgramData\Oracle\Java\javapath;C:\Windows\system32;C:\Windows;C:\Windows\System32\Wbem;C:\Windows\System32\WindowsPowerShell\v1.0\;C:\Program Files\Intel\WiFi\bin\;C:\Program Files\Common Files\Intel\WirelessCommon\;C:\Program Files\Microsoft SQL Server\130\Tools\Binn\;C:\Program Files\Intel\WiFi\bin\;C:\Program Files\Common Files\Intel\WirelessCommon\;D:\Programms\IntelliJ IDEA Community Edition 2021.2.3\bin;;D:\Programms\PyCharm Community Edition 2021.2.3\bin;;C:\Users\ƒÓ·Ó\AppData\Local\GitHubDesktop\bin;D:\Programms\Mongoshell\;.
+03.27 13.07.01  INFO	ru.sfedu.pantsworkshop.TestingClient:81 - User Home Directory: C:\Users\ƒÓ·Ó
+03.27 13.07.01  INFO	ru.sfedu.pantsworkshop.TestingClient:82 - User Working Directory: D:\Programms\Javaprogramms\pantsworkshop
+03.27 13.07.01  WARN	ru.sfedu.pantsworkshop.TestingClient:83 - Test INFO logging.
+03.27 13.07.01 DEBUG	ru.sfedu.pantsworkshop.TestingClient:69 - ./src/main/resources/csv/
+03.27 13.07.01  INFO	ru.sfedu.pantsworkshop.TestingClient:107 - SUCCESS
+03.27 13.07.01  INFO	ru.sfedu.pantsworkshop.TestingClient:108 - cÚÓËÏÓÒÚ¸ ‰ÊËÌÒ
+03.27 13.07.01  INFO	ru.sfedu.pantsworkshop.TestingClient:109 - 950
+03.27 14.21.14  INFO	ru.sfedu.pantsworkshop.TestingClient:69 - Launching the application...
+03.27 14.21.14  INFO	ru.sfedu.pantsworkshop.TestingClient:70 - Operating System: Windows 8.1 6.3
+03.27 14.21.14  INFO	ru.sfedu.pantsworkshop.TestingClient:74 - JRE: 17.0.6
+03.27 14.21.14  INFO	ru.sfedu.pantsworkshop.TestingClient:75 - Java Launched From: C:\Program Files\Java\jdk-17
+03.27 14.21.14  INFO	ru.sfedu.pantsworkshop.TestingClient:76 - Class Path: target/pantsworkshop-1.0-SNAPSHOT-jar-with-dependencies.jar
+03.27 14.21.14  INFO	ru.sfedu.pantsworkshop.TestingClient:77 - Library Path: C:\Program Files\Java\jdk-17\bin;C:\Windows\Sun\Java\bin;C:\Windows\system32;C:\Windows;C:\Program Files\Common Files\Oracle\Java\javapath;C:\Program Files (x86)\Common Files\Oracle\Java\javapath;C:\ProgramData\Oracle\Java\javapath;C:\Windows\system32;C:\Windows;C:\Windows\System32\Wbem;C:\Windows\System32\WindowsPowerShell\v1.0\;C:\Program Files\Intel\WiFi\bin\;C:\Program Files\Common Files\Intel\WirelessCommon\;C:\Program Files\Microsoft SQL Server\130\Tools\Binn\;C:\Program Files\Intel\WiFi\bin\;C:\Program Files\Common Files\Intel\WirelessCommon\;D:\Programms\IntelliJ IDEA Community Edition 2021.2.3\bin;;D:\Programms\PyCharm Community Edition 2021.2.3\bin;;C:\Users\ƒÓ·Ó\AppData\Local\GitHubDesktop\bin;D:\Programms\Mongoshell\;.
+03.27 14.21.14  INFO	ru.sfedu.pantsworkshop.TestingClient:78 - User Home Directory: C:\Users\ƒÓ·Ó
+03.27 14.21.14  INFO	ru.sfedu.pantsworkshop.TestingClient:79 - User Working Directory: D:\Programms\Javaprogramms\pantsworkshop
+03.27 14.21.14  WARN	ru.sfedu.pantsworkshop.TestingClient:80 - Test INFO logging.
+03.27 14.21.15  INFO	ru.sfedu.pantsworkshop.TestingClient:61 - xml = {, container=[Components{id=1, numberOfComponents=105, ÒomponentName='denim', price=12}, Components{id=2, numberOfComponents=106, ÒomponentName='jean', price=11}, Components{id=3, numberOfComponents=123, ÒomponentName='stretch', price=37}, Components{id=4, numberOfComponents=136, ÒomponentName='serge', price=78}, Components{id=5, numberOfComponents=86, ÒomponentName='teal', price=42}, Components{id=6, numberOfComponents=96, ÒomponentName='indigo', price=32}, Components{id=7, numberOfComponents=89, ÒomponentName='blue', price=14}, Components{id=8, numberOfComponents=79, ÒomponentName='black', price=36}]}
+03.27 14.21.15  INFO	ru.sfedu.pantsworkshop.TestingClient:68 - loaded = [Components{id=1, numberOfComponents=105, ÒomponentName='denim', price=12}, Components{id=2, numberOfComponents=106, ÒomponentName='jean', price=11}, Components{id=3, numberOfComponents=123, ÒomponentName='stretch', price=37}, Components{id=4, numberOfComponents=136, ÒomponentName='serge', price=78}, Components{id=5, numberOfComponents=86, ÒomponentName='teal', price=42}, Components{id=6, numberOfComponents=96, ÒomponentName='indigo', price=32}, Components{id=7, numberOfComponents=89, ÒomponentName='blue', price=14}, Components{id=8, numberOfComponents=79, ÒomponentName='black', price=36}]
+03.27 14.21.15  INFO	ru.sfedu.pantsworkshop.TestingClient:88 - SUCCESS
+03.27 14.21.15  INFO	ru.sfedu.pantsworkshop.TestingClient:89 - information about all current goods in the warehouse is read
+03.27 14.22.07  INFO	ru.sfedu.pantsworkshop.TestingClient:69 - Launching the application...
+03.27 14.22.07  INFO	ru.sfedu.pantsworkshop.TestingClient:70 - Operating System: Windows 8.1 6.3
+03.27 14.22.07  INFO	ru.sfedu.pantsworkshop.TestingClient:74 - JRE: 17.0.6
+03.27 14.22.07  INFO	ru.sfedu.pantsworkshop.TestingClient:75 - Java Launched From: C:\Program Files\Java\jdk-17
+03.27 14.22.07  INFO	ru.sfedu.pantsworkshop.TestingClient:76 - Class Path: target/pantsworkshop-1.0-SNAPSHOT-jar-with-dependencies.jar
+03.27 14.22.07  INFO	ru.sfedu.pantsworkshop.TestingClient:77 - Library Path: C:\Program Files\Java\jdk-17\bin;C:\Windows\Sun\Java\bin;C:\Windows\system32;C:\Windows;C:\Program Files\Common Files\Oracle\Java\javapath;C:\Program Files (x86)\Common Files\Oracle\Java\javapath;C:\ProgramData\Oracle\Java\javapath;C:\Windows\system32;C:\Windows;C:\Windows\System32\Wbem;C:\Windows\System32\WindowsPowerShell\v1.0\;C:\Program Files\Intel\WiFi\bin\;C:\Program Files\Common Files\Intel\WirelessCommon\;C:\Program Files\Microsoft SQL Server\130\Tools\Binn\;C:\Program Files\Intel\WiFi\bin\;C:\Program Files\Common Files\Intel\WirelessCommon\;D:\Programms\IntelliJ IDEA Community Edition 2021.2.3\bin;;D:\Programms\PyCharm Community Edition 2021.2.3\bin;;C:\Users\ƒÓ·Ó\AppData\Local\GitHubDesktop\bin;D:\Programms\Mongoshell\;.
+03.27 14.22.07  INFO	ru.sfedu.pantsworkshop.TestingClient:78 - User Home Directory: C:\Users\ƒÓ·Ó
+03.27 14.22.07  INFO	ru.sfedu.pantsworkshop.TestingClient:79 - User Working Directory: D:\Programms\Javaprogramms\pantsworkshop
+03.27 14.22.07  WARN	ru.sfedu.pantsworkshop.TestingClient:80 - Test INFO logging.
+03.27 14.22.07 DEBUG	ru.sfedu.pantsworkshop.TestingClient:69 - ./src/main/resources/csv/
+03.27 14.22.07  INFO	ru.sfedu.pantsworkshop.TestingClient:104 - SUCCESS
+03.27 14.22.07  INFO	ru.sfedu.pantsworkshop.TestingClient:105 - jeans price
+03.27 14.22.07  INFO	ru.sfedu.pantsworkshop.TestingClient:106 - 950
+03.27 14.22.59  INFO	ru.sfedu.pantsworkshop.TestingClient:69 - Launching the application...
+03.27 14.22.59  INFO	ru.sfedu.pantsworkshop.TestingClient:70 - Operating System: Windows 8.1 6.3
+03.27 14.22.59  INFO	ru.sfedu.pantsworkshop.TestingClient:74 - JRE: 17.0.6
+03.27 14.22.59  INFO	ru.sfedu.pantsworkshop.TestingClient:75 - Java Launched From: C:\Program Files\Java\jdk-17
+03.27 14.22.59  INFO	ru.sfedu.pantsworkshop.TestingClient:76 - Class Path: target/pantsworkshop-1.0-SNAPSHOT-jar-with-dependencies.jar
+03.27 14.22.59  INFO	ru.sfedu.pantsworkshop.TestingClient:77 - Library Path: C:\Program Files\Java\jdk-17\bin;C:\Windows\Sun\Java\bin;C:\Windows\system32;C:\Windows;C:\Program Files\Common Files\Oracle\Java\javapath;C:\Program Files (x86)\Common Files\Oracle\Java\javapath;C:\ProgramData\Oracle\Java\javapath;C:\Windows\system32;C:\Windows;C:\Windows\System32\Wbem;C:\Windows\System32\WindowsPowerShell\v1.0\;C:\Program Files\Intel\WiFi\bin\;C:\Program Files\Common Files\Intel\WirelessCommon\;C:\Program Files\Microsoft SQL Server\130\Tools\Binn\;C:\Program Files\Intel\WiFi\bin\;C:\Program Files\Common Files\Intel\WirelessCommon\;D:\Programms\IntelliJ IDEA Community Edition 2021.2.3\bin;;D:\Programms\PyCharm Community Edition 2021.2.3\bin;;C:\Users\ƒÓ·Ó\AppData\Local\GitHubDesktop\bin;D:\Programms\Mongoshell\;.
+03.27 14.22.59  INFO	ru.sfedu.pantsworkshop.TestingClient:78 - User Home Directory: C:\Users\ƒÓ·Ó
+03.27 14.22.59  INFO	ru.sfedu.pantsworkshop.TestingClient:79 - User Working Directory: D:\Programms\Javaprogramms\pantsworkshop
+03.27 14.22.59  WARN	ru.sfedu.pantsworkshop.TestingClient:80 - Test INFO logging.
+03.27 14.22.59  INFO	ru.sfedu.pantsworkshop.TestingClient:125 - SUCCESS
+03.27 14.22.59  INFO	ru.sfedu.pantsworkshop.TestingClient:126 - time to make jeans
+03.27 14.22.59  INFO	ru.sfedu.pantsworkshop.TestingClient:127 - 8
+03.27 14.23.32  INFO	ru.sfedu.pantsworkshop.TestingClient:69 - Launching the application...
+03.27 14.23.32  INFO	ru.sfedu.pantsworkshop.TestingClient:70 - Operating System: Windows 8.1 6.3
+03.27 14.23.32  INFO	ru.sfedu.pantsworkshop.TestingClient:74 - JRE: 17.0.6
+03.27 14.23.32  INFO	ru.sfedu.pantsworkshop.TestingClient:75 - Java Launched From: C:\Program Files\Java\jdk-17
+03.27 14.23.32  INFO	ru.sfedu.pantsworkshop.TestingClient:76 - Class Path: target/pantsworkshop-1.0-SNAPSHOT-jar-with-dependencies.jar
+03.27 14.23.32  INFO	ru.sfedu.pantsworkshop.TestingClient:77 - Library Path: C:\Program Files\Java\jdk-17\bin;C:\Windows\Sun\Java\bin;C:\Windows\system32;C:\Windows;C:\Program Files\Common Files\Oracle\Java\javapath;C:\Program Files (x86)\Common Files\Oracle\Java\javapath;C:\ProgramData\Oracle\Java\javapath;C:\Windows\system32;C:\Windows;C:\Windows\System32\Wbem;C:\Windows\System32\WindowsPowerShell\v1.0\;C:\Program Files\Intel\WiFi\bin\;C:\Program Files\Common Files\Intel\WirelessCommon\;C:\Program Files\Microsoft SQL Server\130\Tools\Binn\;C:\Program Files\Intel\WiFi\bin\;C:\Program Files\Common Files\Intel\WirelessCommon\;D:\Programms\IntelliJ IDEA Community Edition 2021.2.3\bin;;D:\Programms\PyCharm Community Edition 2021.2.3\bin;;C:\Users\ƒÓ·Ó\AppData\Local\GitHubDesktop\bin;D:\Programms\Mongoshell\;.
+03.27 14.23.32  INFO	ru.sfedu.pantsworkshop.TestingClient:78 - User Home Directory: C:\Users\ƒÓ·Ó
+03.27 14.23.32  INFO	ru.sfedu.pantsworkshop.TestingClient:79 - User Working Directory: D:\Programms\Javaprogramms\pantsworkshop
+03.27 14.23.32  WARN	ru.sfedu.pantsworkshop.TestingClient:80 - Test INFO logging.
+03.27 14.23.32 ERROR	ru.sfedu.pantsworkshop.TestingClient:48 - Wrong data provider.
+03.27 14.25.51  INFO	ru.sfedu.pantsworkshop.TestingClient:69 - Launching the application...
+03.27 14.25.51  INFO	ru.sfedu.pantsworkshop.TestingClient:70 - Operating System: Windows 8.1 6.3
+03.27 14.25.51  INFO	ru.sfedu.pantsworkshop.TestingClient:74 - JRE: 17.0.6
+03.27 14.25.51  INFO	ru.sfedu.pantsworkshop.TestingClient:75 - Java Launched From: C:\Program Files\Java\jdk-17
+03.27 14.25.51  INFO	ru.sfedu.pantsworkshop.TestingClient:76 - Class Path: target/pantsworkshop-1.0-SNAPSHOT-jar-with-dependencies.jar
+03.27 14.25.51  INFO	ru.sfedu.pantsworkshop.TestingClient:77 - Library Path: C:\Program Files\Java\jdk-17\bin;C:\Windows\Sun\Java\bin;C:\Windows\system32;C:\Windows;C:\Program Files\Common Files\Oracle\Java\javapath;C:\Program Files (x86)\Common Files\Oracle\Java\javapath;C:\ProgramData\Oracle\Java\javapath;C:\Windows\system32;C:\Windows;C:\Windows\System32\Wbem;C:\Windows\System32\WindowsPowerShell\v1.0\;C:\Program Files\Intel\WiFi\bin\;C:\Program Files\Common Files\Intel\WirelessCommon\;C:\Program Files\Microsoft SQL Server\130\Tools\Binn\;C:\Program Files\Intel\WiFi\bin\;C:\Program Files\Common Files\Intel\WirelessCommon\;D:\Programms\IntelliJ IDEA Community Edition 2021.2.3\bin;;D:\Programms\PyCharm Community Edition 2021.2.3\bin;;C:\Users\ƒÓ·Ó\AppData\Local\GitHubDesktop\bin;D:\Programms\Mongoshell\;.
+03.27 14.25.51  INFO	ru.sfedu.pantsworkshop.TestingClient:78 - User Home Directory: C:\Users\ƒÓ·Ó
+03.27 14.25.51  INFO	ru.sfedu.pantsworkshop.TestingClient:79 - User Working Directory: D:\Programms\Javaprogramms\pantsworkshop
+03.27 14.25.51  WARN	ru.sfedu.pantsworkshop.TestingClient:80 - Test INFO logging.
+03.27 14.25.51 DEBUG	ru.sfedu.pantsworkshop.TestingClient:180 - sqlrequest = SELECT* FROM components
+03.27 14.25.53  INFO	ru.sfedu.pantsworkshop.TestingClient:137 - SUCCESS
+03.27 14.25.53  INFO	ru.sfedu.pantsworkshop.TestingClient:138 - the price of components in stock is calculated
+03.27 14.25.53  INFO	ru.sfedu.pantsworkshop.TestingClient:139 - 138
+03.27 14.26.26  INFO	ru.sfedu.pantsworkshop.TestingClient:69 - Launching the application...
+03.27 14.26.26  INFO	ru.sfedu.pantsworkshop.TestingClient:70 - Operating System: Windows 8.1 6.3
+03.27 14.26.26  INFO	ru.sfedu.pantsworkshop.TestingClient:74 - JRE: 17.0.6
+03.27 14.26.26  INFO	ru.sfedu.pantsworkshop.TestingClient:75 - Java Launched From: C:\Program Files\Java\jdk-17
+03.27 14.26.26  INFO	ru.sfedu.pantsworkshop.TestingClient:76 - Class Path: target/pantsworkshop-1.0-SNAPSHOT-jar-with-dependencies.jar
+03.27 14.26.26  INFO	ru.sfedu.pantsworkshop.TestingClient:77 - Library Path: C:\Program Files\Java\jdk-17\bin;C:\Windows\Sun\Java\bin;C:\Windows\system32;C:\Windows;C:\Program Files\Common Files\Oracle\Java\javapath;C:\Program Files (x86)\Common Files\Oracle\Java\javapath;C:\ProgramData\Oracle\Java\javapath;C:\Windows\system32;C:\Windows;C:\Windows\System32\Wbem;C:\Windows\System32\WindowsPowerShell\v1.0\;C:\Program Files\Intel\WiFi\bin\;C:\Program Files\Common Files\Intel\WirelessCommon\;C:\Program Files\Microsoft SQL Server\130\Tools\Binn\;C:\Program Files\Intel\WiFi\bin\;C:\Program Files\Common Files\Intel\WirelessCommon\;D:\Programms\IntelliJ IDEA Community Edition 2021.2.3\bin;;D:\Programms\PyCharm Community Edition 2021.2.3\bin;;C:\Users\ƒÓ·Ó\AppData\Local\GitHubDesktop\bin;D:\Programms\Mongoshell\;.
+03.27 14.26.26  INFO	ru.sfedu.pantsworkshop.TestingClient:78 - User Home Directory: C:\Users\ƒÓ·Ó
+03.27 14.26.26  INFO	ru.sfedu.pantsworkshop.TestingClient:79 - User Working Directory: D:\Programms\Javaprogramms\pantsworkshop
+03.27 14.26.26  WARN	ru.sfedu.pantsworkshop.TestingClient:80 - Test INFO logging.
+03.27 14.26.26 DEBUG	ru.sfedu.pantsworkshop.TestingClient:309 - sqlrequest = SELECT* FROM customofferjeans
+03.27 14.26.27  INFO	ru.sfedu.pantsworkshop.TestingClient:362 - select empty Error
+03.27 14.26.27 DEBUG	ru.sfedu.pantsworkshop.TestingClient:309 - sqlrequest = SELECT* FROM commonofferjeans
+03.27 14.26.27  INFO	ru.sfedu.pantsworkshop.TestingClient:362 - select empty Error
+03.27 14.26.27  INFO	ru.sfedu.pantsworkshop.TestingClient:270 -  price 0 work 0 cost 0
+03.27 14.26.27 DEBUG	ru.sfedu.pantsworkshop.TestingClient:180 - sqlrequest = SELECT* FROM components
+03.27 14.26.27  INFO	ru.sfedu.pantsworkshop.TestingClient:149 - SUCCESS
+03.27 14.26.27  INFO	ru.sfedu.pantsworkshop.TestingClient:150 - profit calculated
+03.27 14.26.27  INFO	ru.sfedu.pantsworkshop.TestingClient:151 - -138
+03.27 14.27.24  INFO	ru.sfedu.pantsworkshop.TestingClient:69 - Launching the application...
+03.27 14.27.24  INFO	ru.sfedu.pantsworkshop.TestingClient:70 - Operating System: Windows 8.1 6.3
+03.27 14.27.24  INFO	ru.sfedu.pantsworkshop.TestingClient:74 - JRE: 17.0.6
+03.27 14.27.24  INFO	ru.sfedu.pantsworkshop.TestingClient:75 - Java Launched From: C:\Program Files\Java\jdk-17
+03.27 14.27.24  INFO	ru.sfedu.pantsworkshop.TestingClient:76 - Class Path: target/pantsworkshop-1.0-SNAPSHOT-jar-with-dependencies.jar
+03.27 14.27.24  INFO	ru.sfedu.pantsworkshop.TestingClient:77 - Library Path: C:\Program Files\Java\jdk-17\bin;C:\Windows\Sun\Java\bin;C:\Windows\system32;C:\Windows;C:\Program Files\Common Files\Oracle\Java\javapath;C:\Program Files (x86)\Common Files\Oracle\Java\javapath;C:\ProgramData\Oracle\Java\javapath;C:\Windows\system32;C:\Windows;C:\Windows\System32\Wbem;C:\Windows\System32\WindowsPowerShell\v1.0\;C:\Program Files\Intel\WiFi\bin\;C:\Program Files\Common Files\Intel\WirelessCommon\;C:\Program Files\Microsoft SQL Server\130\Tools\Binn\;C:\Program Files\Intel\WiFi\bin\;C:\Program Files\Common Files\Intel\WirelessCommon\;D:\Programms\IntelliJ IDEA Community Edition 2021.2.3\bin;;D:\Programms\PyCharm Community Edition 2021.2.3\bin;;C:\Users\ƒÓ·Ó\AppData\Local\GitHubDesktop\bin;D:\Programms\Mongoshell\;.
+03.27 14.27.24  INFO	ru.sfedu.pantsworkshop.TestingClient:78 - User Home Directory: C:\Users\ƒÓ·Ó
+03.27 14.27.24  INFO	ru.sfedu.pantsworkshop.TestingClient:79 - User Working Directory: D:\Programms\Javaprogramms\pantsworkshop
+03.27 14.27.24  WARN	ru.sfedu.pantsworkshop.TestingClient:80 - Test INFO logging.
+03.27 14.27.24 DEBUG	ru.sfedu.pantsworkshop.TestingClient:69 - ./src/main/resources/csv/
+03.27 14.27.24 DEBUG	ru.sfedu.pantsworkshop.TestingClient:162 - x CustomOfferJeans{color=indigo, format='normal', stripe='none', Fabric=denim, sewingTime=8, size=40, id=1, price=303}
+03.27 14.27.24 DEBUG	ru.sfedu.pantsworkshop.TestingClient:162 - x CustomOfferJeans{color=teal, format='normal', stripe='none', Fabric=jean, sewingTime=7, size=38, id=2, price=363}
+03.27 14.27.24 DEBUG	ru.sfedu.pantsworkshop.TestingClient:168 - x CommonOfferJeans{modelName=blackCat, size=37, id=1, price=950}
+03.27 14.27.24 DEBUG	ru.sfedu.pantsworkshop.TestingClient:168 - x CommonOfferJeans{modelName=indigoEagle, size=33, id=2, price=900}
+03.27 14.27.24  INFO	ru.sfedu.pantsworkshop.TestingClient:174 -  price 9194 work 5100 cost 307
+03.27 14.27.24  INFO	ru.sfedu.pantsworkshop.TestingClient:149 - SUCCESS
+03.27 14.27.24  INFO	ru.sfedu.pantsworkshop.TestingClient:150 - profit calculated
+03.27 14.27.24  INFO	ru.sfedu.pantsworkshop.TestingClient:151 - 3525
+03.27 14.28.52  INFO	ru.sfedu.pantsworkshop.TestingClient:69 - Launching the application...
+03.27 14.28.52  INFO	ru.sfedu.pantsworkshop.TestingClient:70 - Operating System: Windows 8.1 6.3
+03.27 14.28.52  INFO	ru.sfedu.pantsworkshop.TestingClient:74 - JRE: 17.0.6
+03.27 14.28.52  INFO	ru.sfedu.pantsworkshop.TestingClient:75 - Java Launched From: C:\Program Files\Java\jdk-17
+03.27 14.28.52  INFO	ru.sfedu.pantsworkshop.TestingClient:76 - Class Path: target/pantsworkshop-1.0-SNAPSHOT-jar-with-dependencies.jar
+03.27 14.28.52  INFO	ru.sfedu.pantsworkshop.TestingClient:77 - Library Path: C:\Program Files\Java\jdk-17\bin;C:\Windows\Sun\Java\bin;C:\Windows\system32;C:\Windows;C:\Program Files\Common Files\Oracle\Java\javapath;C:\Program Files (x86)\Common Files\Oracle\Java\javapath;C:\ProgramData\Oracle\Java\javapath;C:\Windows\system32;C:\Windows;C:\Windows\System32\Wbem;C:\Windows\System32\WindowsPowerShell\v1.0\;C:\Program Files\Intel\WiFi\bin\;C:\Program Files\Common Files\Intel\WirelessCommon\;C:\Program Files\Microsoft SQL Server\130\Tools\Binn\;C:\Program Files\Intel\WiFi\bin\;C:\Program Files\Common Files\Intel\WirelessCommon\;D:\Programms\IntelliJ IDEA Community Edition 2021.2.3\bin;;D:\Programms\PyCharm Community Edition 2021.2.3\bin;;C:\Users\ƒÓ·Ó\AppData\Local\GitHubDesktop\bin;D:\Programms\Mongoshell\;.
+03.27 14.28.52  INFO	ru.sfedu.pantsworkshop.TestingClient:78 - User Home Directory: C:\Users\ƒÓ·Ó
+03.27 14.28.52  INFO	ru.sfedu.pantsworkshop.TestingClient:79 - User Working Directory: D:\Programms\Javaprogramms\pantsworkshop
+03.27 14.28.52  WARN	ru.sfedu.pantsworkshop.TestingClient:80 - Test INFO logging.
+03.27 14.28.52  INFO	ru.sfedu.pantsworkshop.TestingClient:104 - SUCCESS
+03.27 14.28.52  INFO	ru.sfedu.pantsworkshop.TestingClient:105 - jeans price
+03.27 14.28.52  INFO	ru.sfedu.pantsworkshop.TestingClient:106 - 950
+03.27 14.29.32  INFO	ru.sfedu.pantsworkshop.TestingClient:69 - Launching the application...
+03.27 14.29.32  INFO	ru.sfedu.pantsworkshop.TestingClient:70 - Operating System: Windows 8.1 6.3
+03.27 14.29.32  INFO	ru.sfedu.pantsworkshop.TestingClient:74 - JRE: 17.0.6
+03.27 14.29.32  INFO	ru.sfedu.pantsworkshop.TestingClient:75 - Java Launched From: C:\Program Files\Java\jdk-17
+03.27 14.29.32  INFO	ru.sfedu.pantsworkshop.TestingClient:76 - Class Path: target/pantsworkshop-1.0-SNAPSHOT-jar-with-dependencies.jar
+03.27 14.29.32  INFO	ru.sfedu.pantsworkshop.TestingClient:77 - Library Path: C:\Program Files\Java\jdk-17\bin;C:\Windows\Sun\Java\bin;C:\Windows\system32;C:\Windows;C:\Program Files\Common Files\Oracle\Java\javapath;C:\Program Files (x86)\Common Files\Oracle\Java\javapath;C:\ProgramData\Oracle\Java\javapath;C:\Windows\system32;C:\Windows;C:\Windows\System32\Wbem;C:\Windows\System32\WindowsPowerShell\v1.0\;C:\Program Files\Intel\WiFi\bin\;C:\Program Files\Common Files\Intel\WirelessCommon\;C:\Program Files\Microsoft SQL Server\130\Tools\Binn\;C:\Program Files\Intel\WiFi\bin\;C:\Program Files\Common Files\Intel\WirelessCommon\;D:\Programms\IntelliJ IDEA Community Edition 2021.2.3\bin;;D:\Programms\PyCharm Community Edition 2021.2.3\bin;;C:\Users\ƒÓ·Ó\AppData\Local\GitHubDesktop\bin;D:\Programms\Mongoshell\;.
+03.27 14.29.32  INFO	ru.sfedu.pantsworkshop.TestingClient:78 - User Home Directory: C:\Users\ƒÓ·Ó
+03.27 14.29.32  INFO	ru.sfedu.pantsworkshop.TestingClient:79 - User Working Directory: D:\Programms\Javaprogramms\pantsworkshop
+03.27 14.29.32  WARN	ru.sfedu.pantsworkshop.TestingClient:80 - Test INFO logging.
+03.27 14.29.32 DEBUG	ru.sfedu.pantsworkshop.TestingClient:69 - ./src/main/resources/csv/
+03.27 14.29.32  INFO	ru.sfedu.pantsworkshop.TestingClient:170 - SUCCESS
+03.27 14.29.32  INFO	ru.sfedu.pantsworkshop.TestingClient:171 - jeans price
+03.27 14.29.32  INFO	ru.sfedu.pantsworkshop.TestingClient:172 - 4888
+03.27 14.30.04  INFO	ru.sfedu.pantsworkshop.TestingClient:69 - Launching the application...
+03.27 14.30.04  INFO	ru.sfedu.pantsworkshop.TestingClient:70 - Operating System: Windows 8.1 6.3
+03.27 14.30.04  INFO	ru.sfedu.pantsworkshop.TestingClient:74 - JRE: 17.0.6
+03.27 14.30.04  INFO	ru.sfedu.pantsworkshop.TestingClient:75 - Java Launched From: C:\Program Files\Java\jdk-17
+03.27 14.30.04  INFO	ru.sfedu.pantsworkshop.TestingClient:76 - Class Path: target/pantsworkshop-1.0-SNAPSHOT-jar-with-dependencies.jar
+03.27 14.30.04  INFO	ru.sfedu.pantsworkshop.TestingClient:77 - Library Path: C:\Program Files\Java\jdk-17\bin;C:\Windows\Sun\Java\bin;C:\Windows\system32;C:\Windows;C:\Program Files\Common Files\Oracle\Java\javapath;C:\Program Files (x86)\Common Files\Oracle\Java\javapath;C:\ProgramData\Oracle\Java\javapath;C:\Windows\system32;C:\Windows;C:\Windows\System32\Wbem;C:\Windows\System32\WindowsPowerShell\v1.0\;C:\Program Files\Intel\WiFi\bin\;C:\Program Files\Common Files\Intel\WirelessCommon\;C:\Program Files\Microsoft SQL Server\130\Tools\Binn\;C:\Program Files\Intel\WiFi\bin\;C:\Program Files\Common Files\Intel\WirelessCommon\;D:\Programms\IntelliJ IDEA Community Edition 2021.2.3\bin;;D:\Programms\PyCharm Community Edition 2021.2.3\bin;;C:\Users\ƒÓ·Ó\AppData\Local\GitHubDesktop\bin;D:\Programms\Mongoshell\;.
+03.27 14.30.04  INFO	ru.sfedu.pantsworkshop.TestingClient:78 - User Home Directory: C:\Users\ƒÓ·Ó
+03.27 14.30.04  INFO	ru.sfedu.pantsworkshop.TestingClient:79 - User Working Directory: D:\Programms\Javaprogramms\pantsworkshop
+03.27 14.30.04  WARN	ru.sfedu.pantsworkshop.TestingClient:80 - Test INFO logging.
+03.27 14.30.04  INFO	ru.sfedu.pantsworkshop.TestingClient:61 - xml = {, container=[Components{id=1, numberOfComponents=105, ÒomponentName='denim', price=12}, Components{id=2, numberOfComponents=106, ÒomponentName='jean', price=11}, Components{id=3, numberOfComponents=123, ÒomponentName='stretch', price=37}, Components{id=4, numberOfComponents=136, ÒomponentName='serge', price=78}, Components{id=5, numberOfComponents=86, ÒomponentName='teal', price=42}, Components{id=6, numberOfComponents=96, ÒomponentName='indigo', price=32}, Components{id=7, numberOfComponents=89, ÒomponentName='blue', price=14}, Components{id=8, numberOfComponents=79, ÒomponentName='black', price=36}]}
+03.27 14.30.04  INFO	ru.sfedu.pantsworkshop.TestingClient:68 - loaded = [Components{id=1, numberOfComponents=105, ÒomponentName='denim', price=12}, Components{id=2, numberOfComponents=106, ÒomponentName='jean', price=11}, Components{id=3, numberOfComponents=123, ÒomponentName='stretch', price=37}, Components{id=4, numberOfComponents=136, ÒomponentName='serge', price=78}, Components{id=5, numberOfComponents=86, ÒomponentName='teal', price=42}, Components{id=6, numberOfComponents=96, ÒomponentName='indigo', price=32}, Components{id=7, numberOfComponents=89, ÒomponentName='blue', price=14}, Components{id=8, numberOfComponents=79, ÒomponentName='black', price=36}]
+03.27 14.30.04  INFO	ru.sfedu.pantsworkshop.TestingClient:191 - SUCCESS
+03.27 14.30.04  INFO	ru.sfedu.pantsworkshop.TestingClient:192 - the cost of all components for jeans
+03.27 14.30.04  INFO	ru.sfedu.pantsworkshop.TestingClient:193 - 44
+03.27 14.30.22  INFO	ru.sfedu.pantsworkshop.TestingClient:69 - Launching the application...
+03.27 14.30.22  INFO	ru.sfedu.pantsworkshop.TestingClient:70 - Operating System: Windows 8.1 6.3
+03.27 14.30.22  INFO	ru.sfedu.pantsworkshop.TestingClient:74 - JRE: 17.0.6
+03.27 14.30.22  INFO	ru.sfedu.pantsworkshop.TestingClient:75 - Java Launched From: C:\Program Files\Java\jdk-17
+03.27 14.30.22  INFO	ru.sfedu.pantsworkshop.TestingClient:76 - Class Path: target/pantsworkshop-1.0-SNAPSHOT-jar-with-dependencies.jar
+03.27 14.30.22  INFO	ru.sfedu.pantsworkshop.TestingClient:77 - Library Path: C:\Program Files\Java\jdk-17\bin;C:\Windows\Sun\Java\bin;C:\Windows\system32;C:\Windows;C:\Program Files\Common Files\Oracle\Java\javapath;C:\Program Files (x86)\Common Files\Oracle\Java\javapath;C:\ProgramData\Oracle\Java\javapath;C:\Windows\system32;C:\Windows;C:\Windows\System32\Wbem;C:\Windows\System32\WindowsPowerShell\v1.0\;C:\Program Files\Intel\WiFi\bin\;C:\Program Files\Common Files\Intel\WirelessCommon\;C:\Program Files\Microsoft SQL Server\130\Tools\Binn\;C:\Program Files\Intel\WiFi\bin\;C:\Program Files\Common Files\Intel\WirelessCommon\;D:\Programms\IntelliJ IDEA Community Edition 2021.2.3\bin;;D:\Programms\PyCharm Community Edition 2021.2.3\bin;;C:\Users\ƒÓ·Ó\AppData\Local\GitHubDesktop\bin;D:\Programms\Mongoshell\;.
+03.27 14.30.22  INFO	ru.sfedu.pantsworkshop.TestingClient:78 - User Home Directory: C:\Users\ƒÓ·Ó
+03.27 14.30.22  INFO	ru.sfedu.pantsworkshop.TestingClient:79 - User Working Directory: D:\Programms\Javaprogramms\pantsworkshop
+03.27 14.30.22  WARN	ru.sfedu.pantsworkshop.TestingClient:80 - Test INFO logging.
+03.27 14.30.22 DEBUG	ru.sfedu.pantsworkshop.TestingClient:69 - ./src/main/resources/csv/
+03.27 14.30.22 DEBUG	ru.sfedu.pantsworkshop.TestingClient:162 - x CustomOfferJeans{color=indigo, format='normal', stripe='none', Fabric=denim, sewingTime=8, size=40, id=1, price=303}
+03.27 14.30.22 DEBUG	ru.sfedu.pantsworkshop.TestingClient:162 - x CustomOfferJeans{color=teal, format='normal', stripe='none', Fabric=jean, sewingTime=7, size=38, id=2, price=363}
+03.27 14.30.22 DEBUG	ru.sfedu.pantsworkshop.TestingClient:168 - x CommonOfferJeans{modelName=blackCat, size=37, id=1, price=950}
+03.27 14.30.22 DEBUG	ru.sfedu.pantsworkshop.TestingClient:168 - x CommonOfferJeans{modelName=indigoEagle, size=33, id=2, price=900}
+03.27 14.30.22  INFO	ru.sfedu.pantsworkshop.TestingClient:174 -  price 9194 work 5100 cost 307
+03.27 14.30.22  INFO	ru.sfedu.pantsworkshop.TestingClient:203 - SUCCESS
+03.27 14.30.22  INFO	ru.sfedu.pantsworkshop.TestingClient:204 - Profit
+03.27 14.30.22  INFO	ru.sfedu.pantsworkshop.TestingClient:205 - 3787

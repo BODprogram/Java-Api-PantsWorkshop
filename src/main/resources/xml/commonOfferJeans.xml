@@ -1,0 +1,14 @@
+<Examples>
+   <object class="ru.sfedu.pantsworkshop.beans.CommonOfferJeans">
+      <size>37</size>
+      <id>1</id>
+      <price>950</price>
+      <modelName>blackCat</modelName>
+   </object>
+   <object class="ru.sfedu.pantsworkshop.beans.CommonOfferJeans">
+      <size>33</size>
+      <id>2</id>
+      <price>900</price>
+      <modelName>indigoEagle</modelName>
+   </object>
+</Examples>

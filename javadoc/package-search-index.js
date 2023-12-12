@@ -1,0 +1,1 @@
+packageSearchIndex = [{"l":"All Packages","u":"allpackages-index.html"},{"l":"ru.sfedu.pantsworkshop"},{"l":"ru.sfedu.pantsworkshop.api"},{"l":"ru.sfedu.pantsworkshop.beans"},{"l":"ru.sfedu.pantsworkshop.beans.enums"},{"l":"ru.sfedu.pantsworkshop.utils"}];updateSearchResults();

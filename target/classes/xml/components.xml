@@ -1,0 +1,50 @@
+<Examples>
+   <object class="ru.sfedu.pantsworkshop.beans.Components">
+      <id>1</id>
+      <numberOfComponents>105</numberOfComponents>
+      <ñomponentName>denim</ñomponentName>
+      <price>12</price>
+   </object>
+   <object class="ru.sfedu.pantsworkshop.beans.Components">
+      <id>2</id>
+      <numberOfComponents>106</numberOfComponents>
+      <ñomponentName>jean</ñomponentName>
+      <price>11</price>
+   </object>
+   <object class="ru.sfedu.pantsworkshop.beans.Components">
+      <id>3</id>
+      <numberOfComponents>123</numberOfComponents>
+      <ñomponentName>stretch</ñomponentName>
+      <price>37</price>
+   </object>
+   <object class="ru.sfedu.pantsworkshop.beans.Components">
+      <id>4</id>
+      <numberOfComponents>136</numberOfComponents>
+      <ñomponentName>serge</ñomponentName>
+      <price>78</price>
+   </object>
+   <object class="ru.sfedu.pantsworkshop.beans.Components">
+      <id>5</id>
+      <numberOfComponents>86</numberOfComponents>
+      <ñomponentName>teal</ñomponentName>
+      <price>42</price>
+   </object>
+   <object class="ru.sfedu.pantsworkshop.beans.Components">
+      <id>6</id>
+      <numberOfComponents>96</numberOfComponents>
+      <ñomponentName>indigo</ñomponentName>
+      <price>32</price>
+   </object>
+   <object class="ru.sfedu.pantsworkshop.beans.Components">
+      <id>7</id>
+      <numberOfComponents>89</numberOfComponents>
+      <ñomponentName>blue</ñomponentName>
+      <price>14</price>
+   </object>
+   <object class="ru.sfedu.pantsworkshop.beans.Components">
+      <id>8</id>
+      <numberOfComponents>79</numberOfComponents>
+      <ñomponentName>black</ñomponentName>
+      <price>36</price>
+   </object>
+</Examples>
